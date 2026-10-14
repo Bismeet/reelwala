@@ -1,0 +1,3 @@
+import {chromium} from 'file:///C:/Users/bisme/AppData/Local/npm-cache/_npx/e41f203b7505f1fb/node_modules/playwright/index.mjs';
+const b=await chromium.launch({channel:'chrome',headless:true});const p=await b.newPage({viewport:{width:900,height:800}});
+for(const [name,path]of [['kana','art-source/sketchfab/0cb49eca498e4ce1b44d271a98d07148.glb'],['table','public/scene-3d/models/reception/round_wooden_table_02.glb'],['chair','public/scene-3d/models/reception/dining_chair_02.glb']]){await p.goto('http://127.0.0.1:8787/output/asset-review.html?model=/'+path);await p.waitForFunction(()=>window.ready);console.log(name,await p.evaluate(()=>window.info));await p.screenshot({path:'output/'+name+'-review.png'});}await b.close();

@@ -1,0 +1,119 @@
+.sequence {
+  position: relative;
+  background: #071b20;
+}
+.sequence[data-enhanced="true"] {
+  height: auto;
+}
+.viewport {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100svh;
+  overflow: hidden;
+  background: #071b20;
+  color: var(--paper);
+}
+.canvas,
+.poster {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.poster img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.canvas {
+  opacity: 0;
+}
+.viewport[data-scene-ready="true"] .canvas {
+  opacity: 1;
+}
+.viewport[data-scene-ready="true"] .poster,
+.viewport[data-scene-ready="true"] .loading {
+  display: none;
+}
+.loading,
+.hint {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  text-align: center;
+  font-size: 10px;
+  letter-spacing: 1.6px;
+}
+.loading {
+  top: 24px;
+}
+.hint {
+  bottom: 32px;
+  text-shadow: 0 1px 12px #000;
+}
+.hint span {
+  margin-left: 12px;
+}
+.viewport[data-hero-phase="3"] .hint {
+  opacity: 0;
+}
+.introduction {
+  background: #071b20;
+  color: var(--paper);
+  padding: clamp(72px, 10vw, 144px) 24px;
+  text-align: center;
+}
+.introduction h1 {
+  font-size: clamp(40px, 6vw, 80px);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -0.055em;
+}
+.introduction h1 em {
+  font-family: var(--serif);
+  color: #f0bb70;
+}
+.introduction p {
+  margin: 24px auto 32px;
+  max-width: 440px;
+  color: #c5d0ce;
+  line-height: 1.8;
+  font-size: 14px;
+}
+.book {
+  display: inline-flex;
+  align-items: center;
+  gap: 28px;
+  padding: 17px 26px;
+  min-height: 52px;
+  background: var(--amber);
+  color: var(--ink);
+  font-size: 13px;
+}
+.book:hover {
+  background: #f9b635;
+}
+.book:focus-visible {
+  outline: 2px solid var(--paper);
+  outline-offset: 5px;
+}
+@media (max-aspect-ratio: 1/1) {
+  .poster img {
+    object-fit: contain;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sequence {
+    height: auto;
+  }
+  .viewport {
+    position: relative;
+  }
+  .hint,
+  .loading {
+    display: none;
+  }
+}

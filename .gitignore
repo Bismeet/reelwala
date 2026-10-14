@@ -1,0 +1,23 @@
+node_modules/
+.next/
+.data/
+.env*
+!.env.example
+.doc-review/
+test-results/
+*.tsbuildinfo
+output/
+
+# Logs
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local handoff archives
+Reel-Wala-Coding-Agent-Handoff.zip
+
+# OS files
+.DS_Store
+Thumbs.db

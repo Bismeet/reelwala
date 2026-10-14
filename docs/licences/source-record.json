@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://reactbits.dev/r/TiltedCard-TS-CSS.json",
+    "sha256": "8ade16ba0530958420b57a8cdfdca772b084f42a78e22f9a208962fc8ba2819d",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "url": "https://ui.aceternity.com/registry/container-scroll-animation.json",
+    "sha256": "222df8f0821d2cf27e7e8a0c3675018254ccf014ca6f7a632e40ce81c1e6d2bc",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "url": "https://ui.shadcn.com/r/styles/new-york/accordion.json",
+    "sha256": "af2a6c966d4077ae002eb95b6b4513e86c53bfd02cabb7b3a5700ed0d7191bc1",
+    "retrieved": "2026-10-10"
+  },
+  {
+    "url": "https://reactbits.dev/r/SplitText-TS-CSS.json",
+    "sha256": "aa2888af45feb9dbd9723e284b460635185ba03d246e664af7dbc095877e2613",
+    "retrieved": "2026-10-10"
+  }
+]

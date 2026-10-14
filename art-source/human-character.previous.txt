@@ -1,0 +1,394 @@
+import * as T from "three";
+import assets from "./data/human-meshes.json";
+
+type MeshData = {
+  position: number[];
+  index: number[];
+  skinIndex: number[];
+  skinWeight: number[];
+  region?: number[];
+};
+type BoneData = {
+  name: string;
+  parent: number;
+  head: number[];
+  tail: number[];
+};
+type CharacterPalette = {
+  skin: T.Material;
+  hair: T.Material;
+  cloth: T.Material;
+  trousers: T.Material;
+  shoes: T.Material;
+  gold: T.Material;
+  silk: T.Material;
+  eyes: T.Material;
+  iris: T.Material;
+  sleeves?: T.Material;
+};
+export type CharacterRole = "seated" | "toast" | "creator";
+
+const vector = (p: number[]) => new T.Vector3(p[0], p[1], p[2]);
+
+// Artist-authored anatomical topology and garment meshes, with a genuine shared rig.
+// Source assets: MakeHuman system assets, CC0. See public/models/ATTRIBUTION.md.
+export function createHumanCharacter(
+  parent: T.Group,
+  female: boolean,
+  role: CharacterRole,
+  palette: CharacterPalette,
+) {
+  const data = female ? assets.characters.female : assets.characters.male;
+  const root = new T.Group();
+  root.name = `human-${role}-${female ? "female" : "male"}`;
+  parent.add(root);
+  const scale = role === "creator" ? 0.21 : 0.23;
+  const origin = role === "creator" ? -0.365 : role === "toast" ? -0.55 : -0.74;
+  const point = (p: number[]) =>
+    vector(p)
+      .multiplyScalar(scale)
+      .add(new T.Vector3(0, origin, 0));
+  const boneData = data.bones as BoneData[];
+  const bones = boneData.map((b) => {
+    const bone = new T.Bone();
+    bone.name = b.name;
+    return bone;
+  });
+  const rest = boneData.map((b) => point(b.head));
+  const lookup = new Map(bones.map((b, i) => [b.name, i]));
+  for (let i = 0; i < bones.length; i++) {
+    const index = boneData[i].parent;
+    bones[i].position.copy(rest[i]);
+    if (index >= 0) {
+      bones[i].position.sub(rest[index]);
+      bones[index].add(bones[i]);
+    } else root.add(bones[i]);
+  }
+  root.updateMatrixWorld(true);
+  const skeleton = new T.Skeleton(bones);
+  skeleton.calculateInverses();
+  const meshes: T.SkinnedMesh[] = [];
+  const skin = (
+    raw: MeshData,
+    materials: T.Material | T.Material[],
+    splitOutfit = false,
+  ) => {
+    const geometry = new T.BufferGeometry();
+    const positions = raw.position.slice();
+    for (let i = 0; i < positions.length; i += 3) {
+      positions[i] *= scale;
+      positions[i + 1] = positions[i + 1] * scale + origin;
+      positions[i + 2] *= scale;
+    }
+    geometry.setAttribute(
+      "position",
+      new T.Float32BufferAttribute(positions, 3),
+    );
+    geometry.setAttribute(
+      "skinIndex",
+      new T.Uint16BufferAttribute(raw.skinIndex, 4),
+    );
+    geometry.setAttribute(
+      "skinWeight",
+      new T.Float32BufferAttribute(raw.skinWeight, 4),
+    );
+    geometry.setIndex(raw.index);
+    geometry.computeVertexNormals();
+    if (splitOutfit) {
+      // Author-built folds/collar retain their shape; materials identify shirt, sleeves and trousers.
+      const byMaterial: number[][] = [[], [], []];
+      for (let i = 0; i < raw.index.length; i += 3) {
+        const triangle = raw.index.slice(i, i + 3);
+        const y =
+          triangle.reduce((sum, id) => sum + raw.position[id * 3 + 1], 0) / 3;
+        const region = raw.region?.[i / 3] ?? (y < 0.7 ? 1 : 0);
+        const material = region === 1 ? 1 : 0;
+        byMaterial[material].push(...triangle);
+      }
+      const grouped: number[] = [];
+      byMaterial.forEach((indices, material) => {
+        if (indices.length)
+          geometry.addGroup(grouped.length, indices.length, material);
+        grouped.push(...indices);
+      });
+      geometry.setIndex(grouped);
+    } else if (Array.isArray(materials)) {
+      geometry.addGroup(0, raw.index.length, 0);
+    }
+    const mesh = new T.SkinnedMesh(geometry, materials);
+    mesh.castShadow = mesh.receiveShadow = true;
+    mesh.frustumCulled = false;
+    root.add(mesh);
+    root.updateMatrixWorld(true);
+    mesh.bind(skeleton);
+    mesh.normalizeSkinWeights();
+    meshes.push(mesh);
+    return mesh;
+  };
+  skin(data.meshes.skin, palette.skin).name = "anatomical-skin";
+  const outfit = skin(
+    data.meshes.outfit,
+    [palette.cloth, palette.trousers, palette.sleeves ?? palette.cloth],
+    !female,
+  );
+  outfit.name = "tailored-garment";
+  skin(data.meshes.hair, palette.hair).name = "modelled-hairstyle";
+  skin(data.meshes.shoes, palette.shoes);
+  skin(data.meshes.eyes, palette.eyes);
+  const head = bones[lookup.get("head")!];
+
+  const localPosition = (name: string) => {
+    root.updateMatrixWorld(true);
+    const world = bones[lookup.get(name)!].getWorldPosition(new T.Vector3());
+    return root.worldToLocal(world);
+  };
+  const aim = (name: string, referenceEnd: string, target: T.Vector3) => {
+    const index = lookup.get(name)!,
+      end = lookup.get(referenceEnd)!;
+    const direction = target.clone().sub(localPosition(name)).normalize();
+    const desired = new T.Quaternion().setFromUnitVectors(
+      rest[end].clone().sub(rest[index]).normalize(),
+      direction,
+    );
+    const parentIndex = boneData[index].parent;
+    if (parentIndex >= 0) {
+      const parentWorld = bones[parentIndex].getWorldQuaternion(
+        new T.Quaternion(),
+      );
+      const rootWorld = root.getWorldQuaternion(new T.Quaternion());
+      const parentLocal = rootWorld.invert().multiply(parentWorld);
+      bones[index].quaternion.copy(parentLocal.invert().multiply(desired));
+    } else bones[index].quaternion.copy(desired);
+    root.updateMatrixWorld(true);
+  };
+  const arm = (
+    side: "L" | "R",
+    elbow: T.Vector3,
+    wrist: T.Vector3,
+    fingers: T.Vector3,
+  ) => {
+    aim(`upperarm01.${side}`, `lowerarm01.${side}`, elbow);
+    aim(`lowerarm01.${side}`, `wrist.${side}`, wrist);
+    aim(
+      `wrist.${side}`,
+      `finger3-1.${side}`,
+      localPosition(`wrist.${side}`).add(fingers),
+    );
+  };
+  const v = (x: number, y: number, z: number) => new T.Vector3(x, y, z);
+  const grip = (side: "L" | "R", amount: number) => {
+    for (const finger of [2, 3, 4, 5]) {
+      for (const segment of [1, 2, 3]) {
+        const bone = bones[lookup.get(`finger${finger}-${segment}.${side}`)!];
+        bone.quaternion.setFromAxisAngle(
+          new T.Vector3(1, 0, 0),
+          amount * (segment === 3 ? 0.7 : 1),
+        );
+      }
+    }
+  };
+  if (role === "seated") {
+    for (const [side, sign] of [
+      ["L", 1],
+      ["R", -1],
+    ] as const) {
+      aim(
+        `upperleg01.${side}`,
+        `lowerleg01.${side}`,
+        v(sign * 0.32, -0.68, 1.02),
+      );
+      aim(`lowerleg01.${side}`, `foot.${side}`, v(sign * 0.32, -1.6, 1.0));
+      aim(`foot.${side}`, `toe1-1.${side}`, v(sign * 0.32, -1.65, 1.24));
+      arm(
+        side,
+        v(sign * 0.5, 0.03, 0.25),
+        v(sign * 0.3, 0.16, 0.72),
+        v(0, 0, 0.2),
+      );
+    }
+  } else if (role === "creator") {
+    for (const [side, sign] of [
+      ["L", 1],
+      ["R", -1],
+    ] as const) {
+      arm(
+        side,
+        v(sign * 0.5, -0.05, 0.08),
+        v(sign * 0.24, 0.64, 0.57),
+        v(-sign * 0.06, 0.18, 0),
+      );
+      grip(side, 0.65);
+    }
+  } else {
+    arm("L", v(0.43, -0.12, 0), v(0.42, -0.67, 0.06), v(0, -0.16, 0.02));
+  }
+
+  // Real eyes sit inside modelled lids. The iris is geometry, with no image texture.
+  for (const side of ["L", "R"] as const) {
+    const bone = bones[lookup.get(`eye.${side}`)!];
+    const index = lookup.get(`eye.${side}`)!;
+    const center = rest[index];
+    const eyePositions = data.meshes.eyes.position;
+    let front = -Infinity;
+    for (let i = 0; i < eyePositions.length; i += 3) {
+      if (Math.sign(eyePositions[i]) === (side === "L" ? 1 : -1))
+        front = Math.max(front, eyePositions[i + 2] * scale);
+    }
+    const iris = new T.Mesh(new T.CircleGeometry(0.017, 32), palette.iris);
+    iris.position.set(0, 0, front - center.z + 0.001);
+    bone.add(iris);
+    const pupil = new T.Mesh(new T.CircleGeometry(0.008, 24), palette.hair);
+    pupil.position.copy(iris.position);
+    pupil.position.z += 0.0008;
+    bone.add(pupil);
+  }
+
+  root.updateMatrixWorld(true);
+  skeleton.update();
+  if (female) addSari(root, outfit, palette);
+  if (role === "creator") root.rotation.y = Math.PI;
+
+  const animateToast = (progress: number) => {
+    arm(
+      "R",
+      v(-0.7, 0.63 + progress * 0.16, 0.12),
+      v(-0.78, 0.98 + progress * 0.26, 0.28),
+      v(0, 0.12, 0.01),
+    );
+    const wrist = bones[lookup.get("wrist.R")!];
+    grip("R", 1.25);
+    root.updateMatrixWorld(true);
+    return wrist;
+  };
+  if (role === "toast") animateToast(0);
+  return {
+    group: root,
+    head,
+    skeleton,
+    meshes,
+    animateToast,
+    localPosition,
+    dispose: () => skeleton.dispose(),
+  };
+}
+
+function addSari(
+  root: T.Group,
+  outfit: T.SkinnedMesh,
+  palette: CharacterPalette,
+) {
+  const profile = new T.CatmullRomCurve3([
+    new T.Vector3(0.48, -1.68, 0.3),
+    new T.Vector3(0.43, -1.44, 0.28),
+    new T.Vector3(0.34, -1.04, 0.25),
+    new T.Vector3(0.35, -0.78, 0.4),
+    new T.Vector3(0.34, -0.65, 0.51),
+    new T.Vector3(0.28, -0.47, 0.25),
+  ]);
+  const verts: number[] = [],
+    indices: number[] = [];
+  for (let row = 0; row <= 64; row++) {
+    const t = row / 64,
+      p = profile.getPoint(t),
+      center = T.MathUtils.lerp(0.76, 0.08, T.MathUtils.smoothstep(t, 0.35, 1));
+    for (let col = 0; col <= 96; col++) {
+      const a = (col / 96) * Math.PI * 2;
+      const folds = 1 + (0.018 + 0.025 * (1 - t)) * Math.sin(a * 18 + t * 0.3);
+      verts.push(
+        Math.cos(a) * p.x * folds,
+        p.y,
+        center + Math.sin(a) * p.z * folds,
+      );
+    }
+  }
+  for (let row = 0; row < 64; row++)
+    for (let col = 0; col < 96; col++) {
+      const i = row * 97 + col;
+      indices.push(i, i + 97, i + 1, i + 1, i + 97, i + 98);
+    }
+  const geometry = new T.BufferGeometry();
+  geometry.setAttribute("position", new T.Float32BufferAttribute(verts, 3));
+  geometry.setIndex(indices);
+  geometry.computeVertexNormals();
+  geometry.addGroup(0, 3 * 96 * 6, 1);
+  geometry.addGroup(3 * 96 * 6, 61 * 96 * 6, 0);
+  const skirt = new T.Mesh(geometry, [palette.cloth, palette.silk]);
+  skirt.castShadow = skirt.receiveShadow = true;
+  root.add(skirt);
+
+  const surface: T.Vector3[] = [];
+  for (let i = 0; i < outfit.geometry.attributes.position.count; i++) {
+    // Fit the drape to the torso, excluding the sleeves and forward-reaching arms.
+    if (Math.abs(outfit.geometry.attributes.position.getX(i)) < 0.39) {
+      const p = outfit.getVertexPosition(i, new T.Vector3());
+      if (p.z > 0.04) surface.push(p);
+    }
+  }
+  const path = new T.CatmullRomCurve3([
+    new T.Vector3(-0.25, 0.48, 0.18),
+    new T.Vector3(-0.1, 0.27, 0.25),
+    new T.Vector3(0.12, -0.05, 0.25),
+    new T.Vector3(0.27, -0.45, 0.28),
+  ]);
+  const drape: number[] = [],
+    faces: number[] = [];
+  for (let row = 0; row <= 40; row++) {
+    const p = path.getPoint(row / 40);
+    for (let col = 0; col <= 20; col++) {
+      const u = col / 20 - 0.5,
+        width = 0.24 + 0.09 * Math.sin((row / 40) * Math.PI),
+        x = p.x + u * width;
+      const nearest = surface
+        .map((v) => ({
+          z: v.z,
+          d: (v.x - x) ** 2 + (v.y - p.y) ** 2,
+        }))
+        .sort((a, b) => a.d - b.d)
+        .slice(0, 12);
+      const total = nearest.reduce((sum, v) => sum + 1 / (v.d + 0.001), 0);
+      const z =
+        nearest.reduce((sum, v) => sum + v.z / (v.d + 0.001), 0) / total +
+        0.032;
+      drape.push(x, p.y, z + Math.sin((col / 20) * Math.PI * 6) * 0.004);
+    }
+  }
+  for (let row = 0; row < 40; row++)
+    for (let col = 0; col < 20; col++) {
+      const i = row * 21 + col;
+      faces.push(i, i + 21, i + 1, i + 1, i + 21, i + 22);
+    }
+  // Smooth the measured silhouette without flattening the small fabric folds.
+  for (let pass = 0; pass < 3; pass++) {
+    const previous = drape.slice();
+    for (let row = 1; row < 40; row++)
+      for (let col = 1; col < 20; col++) {
+        const i = (row * 21 + col) * 3 + 2;
+        drape[i] =
+          (previous[i] * 4 +
+            previous[i - 3] +
+            previous[i + 3] +
+            previous[i - 63] +
+            previous[i + 63]) /
+          8;
+      }
+  }
+  const pallu = new T.BufferGeometry();
+  pallu.setAttribute("position", new T.Float32BufferAttribute(drape, 3));
+  const interior: number[] = [],
+    border: number[] = [];
+  for (let row = 0; row < 40; row++)
+    for (let col = 0; col < 20; col++) {
+      const indices = faces.slice(
+        (row * 20 + col) * 6,
+        (row * 20 + col) * 6 + 6,
+      );
+      (col === 0 || col === 19 ? border : interior).push(...indices);
+    }
+  pallu.setIndex([...interior, ...border]);
+  pallu.computeVertexNormals();
+  pallu.addGroup(0, interior.length, 0);
+  pallu.addGroup(interior.length, border.length, 1);
+  const cloth = new T.Mesh(pallu, [palette.silk, palette.gold]);
+  cloth.castShadow = cloth.receiveShadow = true;
+  root.add(cloth);
+}

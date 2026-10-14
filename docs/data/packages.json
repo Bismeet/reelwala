@@ -1,0 +1,367 @@
+{
+  "schemaVersion": 1,
+  "currency": "INR",
+  "status": "planning-data-not-production-config",
+  "publicationRule": "Publish only fields approved for the relevant production offering. Source-backed values with an unresolved interpretation can still be release-gated. Reference values must not become defaults.",
+  "packages": [
+    {
+      "id": "standard",
+      "sourceParagraphs": [
+        "P045",
+        "P046",
+        "P047",
+        "P048",
+        "P049"
+      ],
+      "offeringApprovedForPublication": false,
+      "name": {
+        "value": "Standard package",
+        "status": "SOURCE",
+        "source": [
+          "P045"
+        ],
+        "publishable": true
+      },
+      "tagline": {
+        "value": "Quick, focused content for when you need a high-quality reel without the wait.",
+        "status": "SOURCE",
+        "source": [
+          "P047"
+        ],
+        "publishable": true
+      },
+      "priceMinor": {
+        "value": 199900,
+        "status": "REFERENCE",
+        "source": [
+          "image7.png"
+        ],
+        "publishable": false,
+        "decision": "DEC-01"
+      },
+      "taxTreatment": {
+        "value": "excluded-in-reference",
+        "status": "REFERENCE",
+        "source": [
+          "image7.png"
+        ],
+        "publishable": false,
+        "decision": "DEC-01"
+      },
+      "durationMinutes": {
+        "value": 60,
+        "status": "REFERENCE",
+        "source": [
+          "image7.png"
+        ],
+        "publishable": false,
+        "decision": "DEC-02"
+      },
+      "reelCount": {
+        "value": 1,
+        "status": "REFERENCE",
+        "source": [
+          "image7.png"
+        ],
+        "publishable": false,
+        "decision": "DEC-02"
+      },
+      "maxReelSeconds": {
+        "value": 60,
+        "status": "REFERENCE",
+        "source": [
+          "image7.png"
+        ],
+        "publishable": false,
+        "decision": "DEC-02"
+      },
+      "photoCount": {
+        "value": 4,
+        "status": "SOURCE",
+        "source": [
+          "P048"
+        ],
+        "publishable": true
+      },
+      "photoTreatment": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "source": [
+          "P048"
+        ],
+        "publishable": false,
+        "decision": "DEC-11"
+      },
+      "photoTreatmentSourceText": "4 COMPLEMENTARY COLOR GRADIANT PICTURE",
+      "deliveryText": {
+        "value": "Within 24 hours reel delivery",
+        "status": "SOURCE",
+        "source": [
+          "P049"
+        ],
+        "publishable": false,
+        "decision": "DEC-04"
+      },
+      "deliveryStartsAt": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "source": [
+          "P049"
+        ],
+        "publishable": false,
+        "decision": "DEC-04"
+      },
+      "referenceClaims": [
+        "Trained and Certified Reel Maker",
+        "Shot on Latest iPhones"
+      ],
+      "supersededReferenceValues": {
+        "name": "Hourly Plan",
+        "photoCount": 5
+      }
+    },
+    {
+      "id": "extended-session",
+      "sourceParagraphs": [
+        "P052",
+        "P053",
+        "P054",
+        "P055",
+        "P056"
+      ],
+      "offeringApprovedForPublication": false,
+      "name": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "source": [
+          "P052"
+        ],
+        "publishable": false,
+        "decision": "DEC-02"
+      },
+      "previewLabel": "Longer shoot package",
+      "referenceName": "Half Day Plan",
+      "tagline": {
+        "value": "Ideal for longer shoots, events, and creating multiple high-quality reels in one session.",
+        "status": "SOURCE",
+        "source": [
+          "P053"
+        ],
+        "publishable": true
+      },
+      "priceMinor": {
+        "value": 499900,
+        "status": "REFERENCE",
+        "source": [
+          "image5.png"
+        ],
+        "publishable": false,
+        "decision": "DEC-01"
+      },
+      "taxTreatment": {
+        "value": "excluded-in-reference",
+        "status": "REFERENCE",
+        "source": [
+          "image5.png"
+        ],
+        "publishable": false,
+        "decision": "DEC-01"
+      },
+      "durationMinutes": {
+        "value": 240,
+        "status": "SOURCE",
+        "source": [
+          "P054"
+        ],
+        "publishable": true
+      },
+      "reelCount": {
+        "value": 2,
+        "status": "REFERENCE",
+        "source": [
+          "image5.png"
+        ],
+        "publishable": false,
+        "decision": "DEC-02"
+      },
+      "maxReelSeconds": {
+        "value": 60,
+        "status": "REFERENCE",
+        "source": [
+          "image5.png"
+        ],
+        "publishable": false,
+        "decision": "DEC-02"
+      },
+      "photoCount": {
+        "value": 7,
+        "status": "SOURCE",
+        "source": [
+          "P055"
+        ],
+        "publishable": true
+      },
+      "photoTreatment": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "source": [
+          "P055"
+        ],
+        "publishable": false,
+        "decision": "DEC-11"
+      },
+      "photoTreatmentSourceText": "7 COMPLEMENTARY COLOR GRADIANT PICTURE",
+      "deliveryText": {
+        "value": "Within 24 hours reel delivery",
+        "status": "SOURCE",
+        "source": [
+          "P056"
+        ],
+        "publishable": false,
+        "decision": "DEC-04"
+      },
+      "deliveryStartsAt": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "source": [
+          "P056"
+        ],
+        "publishable": false,
+        "decision": "DEC-04"
+      },
+      "rawFootageAccess": {
+        "value": true,
+        "status": "REFERENCE",
+        "source": [
+          "image5.png"
+        ],
+        "publishable": false,
+        "decision": "DEC-02"
+      },
+      "referenceClaims": [
+        "Trained and Certified Reel Maker",
+        "Shot on latest iPhones"
+      ],
+      "supersededReferenceValues": {
+        "durationMinutes": 180
+      }
+    },
+    {
+      "id": "premium",
+      "sourceParagraphs": [
+        "P066"
+      ],
+      "offeringApprovedForPublication": false,
+      "name": {
+        "value": "Premium package",
+        "status": "SOURCE",
+        "source": [
+          "P066"
+        ],
+        "publishable": true
+      },
+      "priceMinor": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "source": [
+          "P066"
+        ],
+        "publishable": false,
+        "decision": "DEC-03"
+      },
+      "durationMinutes": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "source": [
+          "P066"
+        ],
+        "publishable": false,
+        "decision": "DEC-03"
+      },
+      "reelCount": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "source": [
+          "P066"
+        ],
+        "publishable": false,
+        "decision": "DEC-03"
+      },
+      "photoCount": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "source": [
+          "P066"
+        ],
+        "publishable": false,
+        "decision": "DEC-03"
+      },
+      "inclusions": [],
+      "note": "Do not assume the second reference card is Premium."
+    }
+  ],
+  "addons": [
+    {
+      "id": "extended-hour",
+      "offeringApprovedForPublication": false,
+      "name": {
+        "value": "Extended hour",
+        "status": "SOURCE",
+        "source": [
+          "P059"
+        ],
+        "publishable": true
+      },
+      "priceMinor": {
+        "value": 100000,
+        "status": "SOURCE",
+        "source": [
+          "P060"
+        ],
+        "publishable": true
+      },
+      "extraShootMinutes": {
+        "value": 60,
+        "status": "SOURCE",
+        "source": [
+          "P059"
+        ],
+        "publishable": false,
+        "decision": "DEC-05"
+      },
+      "extraReels": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "source": [
+          "P059"
+        ],
+        "publishable": false,
+        "decision": "DEC-05"
+      },
+      "taxTreatment": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "source": [
+          "P060"
+        ],
+        "publishable": false,
+        "decision": "DEC-05"
+      },
+      "eligiblePackageIds": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "source": [
+          "P059",
+          "P060"
+        ],
+        "publishable": false,
+        "decision": "DEC-05"
+      },
+      "supersededReferenceValues": {
+        "priceMinor": 125000,
+        "scope": "1 extra reel OR 1 hour extra shoot",
+        "taxTreatment": "plus GST"
+      }
+    }
+  ]
+}

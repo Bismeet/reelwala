@@ -1,0 +1,13 @@
+<!doctype html><html><head><script type="importmap">{"imports":{"three":"/node_modules/three/build/three.module.js","three/addons/":"/node_modules/three/examples/jsm/"}}</script></head><body><script type="module">
+import * as T from 'three';import{FBXLoader}from'three/addons/loaders/FBXLoader.js';import{TGALoader}from'three/addons/loaders/TGALoader.js';import{GLTFExporter}from'three/addons/exporters/GLTFExporter.js';
+const params=new URLSearchParams(location.search),name=params.get('name'),prefix=name.includes('Female')?'f014':'m020';
+const base='/art-source/rocketbox/Assets/Avatars/Professions/'+name+'/';
+const manager=new T.LoadingManager();manager.addHandler(/\.tga$/i,new TGALoader(manager));
+manager.setURLModifier(url=>url.toLowerCase().endsWith('.tga')?base+'Textures/'+url.split(/[\\/]/).pop().replace(/^[mf]\d+_/,prefix+'_').replace(/_(normal|specular)\.tga$/,'_color.tga'):url);
+const loaded=new Promise(resolve=>manager.onLoad=resolve);const loader=new FBXLoader(manager);const object=await loader.loadAsync(base+'Export/'+name+'.fbx');await loaded;
+const anim=await new FBXLoader(manager).loadAsync('/art-source/rocketbox/animations/'+(params.get('animation')||'m_cheer_01.max.fbx'));
+window.details={bones:[],tracks:anim.animations[0].tracks.map(t=>t.name),materials:[]};
+object.traverse(o=>{if(o.isBone)window.details.bones.push(o.name);if(o.isMesh){window.details.materials.push([o.name,...(Array.isArray(o.material)?o.material:[o.material]).map(m=>[m.name,m.map?.name])]);o.material=(Array.isArray(o.material)?o.material:[o.material]).map(m=>{let map=m.map;if(map?.image?.data){const canvas=document.createElement('canvas');canvas.width=map.image.width;canvas.height=map.image.height;canvas.getContext('2d').putImageData(new ImageData(new Uint8ClampedArray(map.image.data),canvas.width,canvas.height),0,0);const tex=new T.CanvasTexture(canvas);tex.flipY=map.flipY;tex.colorSpace=map.colorSpace;map=tex;}return new T.MeshStandardMaterial({map,roughness:.85,metalness:0,side:T.DoubleSide,alphaTest:m.transparent?.35:0});});}});
+const mixer=new T.AnimationMixer(object);const clip=anim.animations[0].clone();clip.tracks=clip.tracks.filter(t=>object.getObjectByName(t.name.split('.')[0]));mixer.clipAction(clip).play();mixer.setTime(1.5);object.updateMatrixWorld(true);
+const data=await new GLTFExporter().parseAsync(object,{binary:true,maxTextureSize:2048,animations:[clip]});window.result=await new Promise(resolve=>{const r=new FileReader();r.onload=()=>resolve(r.result.split(',')[1]);r.readAsDataURL(new Blob([data]));});
+</script></body></html>

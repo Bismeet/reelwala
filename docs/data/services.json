@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "note": "All 24 source entries retained, including overlaps. Display labels are initially verbatim except surrounding whitespace. Apply only approved copy normalizations.",
+  "categories": [
+    {
+      "id": "private",
+      "label": "Private Events",
+      "items": [
+        {
+          "id": "private-010",
+          "sourceParagraph": "P010",
+          "sourceText": "Weddings & Receptions ",
+          "displayLabel": "Weddings & Receptions",
+          "publicationStatus": "source-backed"
+        },
+        {
+          "id": "private-011",
+          "sourceParagraph": "P011",
+          "sourceText": "Mehendi, Sangeet, Haldi, Make-Up Shoots",
+          "displayLabel": "Mehendi, Sangeet, Haldi, Make-Up Shoots",
+          "publicationStatus": "source-backed"
+        },
+        {
+          "id": "private-012",
+          "sourceParagraph": "P012",
+          "sourceText": "Birthdays & Anniversaries ",
+          "displayLabel": "Birthdays & Anniversaries",
+          "publicationStatus": "source-backed"
+        },
+        {
+          "id": "private-013",
+          "sourceParagraph": "P013",
+          "sourceText": "NEW CAR DELIVERY ",
+          "displayLabel": "NEW CAR DELIVERY",
+          "publicationStatus": "source-backed"
+        },
+        {
+          "id": "private-014",
+          "sourceParagraph": "P014",
+          "sourceText": "Baby Showers, Naming Ceremonies & Annaprashan ",
+          "displayLabel": "Baby Showers, Naming Ceremonies & Annaprashan",
+          "publicationStatus": "source-backed"
+        },
+        {
+          "id": "private-015",
+          "sourceParagraph": "P015",
+          "sourceText": " Birthday Parties & Graduation Days ",
+          "displayLabel": "Birthday Parties & Graduation Days",
+          "publicationStatus": "source-backed"
+        },
+        {
+          "id": "private-016",
+          "sourceParagraph": "P016",
+          "sourceText": " Proposal & Pre-Wedding Shoots",
+          "displayLabel": "Proposal & Pre-Wedding Shoots",
+          "publicationStatus": "source-backed"
+        },
+        {
+          "id": "private-017",
+          "sourceParagraph": "P017",
+          "sourceText": " PET SHOOTS",
+          "displayLabel": "PET SHOOTS",
+          "publicationStatus": "source-backed"
+        },
+        {
+          "id": "private-018",
+          "sourceParagraph": "P018",
+          "sourceText": "Housewarming ",
+          "displayLabel": "Housewarming",
+          "publicationStatus": "source-backed"
+        },
+        {
+          "id": "private-019",
+          "sourceParagraph": "P019",
+          "sourceText": "Family Gatherings & Home Tours",
+          "displayLabel": "Family Gatherings & Home Tours",
+          "publicationStatus": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "corporate",
+      "label": "Corporate Events",
+      "items": [
+        {
+          "id": "corporate-023",
+          "sourceParagraph": "P023",
+          "sourceText": "Team outing, Team lunch / Dinner",
+          "displayLabel": "Team outing, Team lunch / Dinner",
+          "publicationStatus": "source-backed"
+        },
+        {
+          "id": "corporate-024",
+          "sourceParagraph": "P024",
+          "sourceText": "Corporate Parties",
+          "displayLabel": "Corporate Parties",
+          "publicationStatus": "source-backed"
+        },
+        {
+          "id": "corporate-025",
+          "sourceParagraph": "P025",
+          "sourceText": "Annual & Quarterly Meetups",
+          "displayLabel": "Annual & Quarterly Meetups",
+          "publicationStatus": "source-backed"
+        },
+        {
+          "id": "corporate-026",
+          "sourceParagraph": "P026",
+          "sourceText": "Office Celebrations",
+          "displayLabel": "Office Celebrations",
+          "publicationStatus": "source-backed"
+        },
+        {
+          "id": "corporate-027",
+          "sourceParagraph": "P027",
+          "sourceText": "Company Anniversaries ",
+          "displayLabel": "Company Anniversaries",
+          "publicationStatus": "source-backed"
+        },
+        {
+          "id": "corporate-028",
+          "sourceParagraph": "P028",
+          "sourceText": "Product Launches ",
+          "displayLabel": "Product Launches",
+          "publicationStatus": "source-backed"
+        },
+        {
+          "id": "corporate-029",
+          "sourceParagraph": "P029",
+          "sourceText": "Sports & Corporate Tournaments ",
+          "displayLabel": "Sports & Corporate Tournaments",
+          "publicationStatus": "source-backed"
+        },
+        {
+          "id": "corporate-030",
+          "sourceParagraph": "P030",
+          "sourceText": "Store / Product launches",
+          "displayLabel": "Store / Product launches",
+          "publicationStatus": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "social-cultural",
+      "label": "Social / Cultural Events",
+      "items": [
+        {
+          "id": "social-cultural-034",
+          "sourceParagraph": "P034",
+          "sourceText": "Cultural Fests & Carnivals",
+          "displayLabel": "Cultural Fests & Carnivals",
+          "publicationStatus": "source-backed"
+        },
+        {
+          "id": "social-cultural-035",
+          "sourceParagraph": "P035",
+          "sourceText": "Festivals : Diwali, Holi, Eid, Christmas, Gudi Padwa & more",
+          "displayLabel": "Festivals : Diwali, Holi, Eid, Christmas, Gudi Padwa & more",
+          "publicationStatus": "source-backed"
+        },
+        {
+          "id": "social-cultural-036",
+          "sourceParagraph": "P036",
+          "sourceText": "Community / society events",
+          "displayLabel": "Community / society events",
+          "publicationStatus": "source-backed"
+        },
+        {
+          "id": "social-cultural-037",
+          "sourceParagraph": "P037",
+          "sourceText": "Music Festivals & Concerts ",
+          "displayLabel": "Music Festivals & Concerts",
+          "publicationStatus": "source-backed"
+        },
+        {
+          "id": "social-cultural-038",
+          "sourceParagraph": "P038",
+          "sourceText": "Stand-Up Comedy Shows",
+          "displayLabel": "Stand-Up Comedy Shows",
+          "publicationStatus": "source-backed"
+        },
+        {
+          "id": "social-cultural-039",
+          "sourceParagraph": "P039",
+          "sourceText": "Fashion Shows / Food Festivals",
+          "displayLabel": "Fashion Shows / Food Festivals",
+          "publicationStatus": "source-backed"
+        }
+      ]
+    }
+  ]
+}

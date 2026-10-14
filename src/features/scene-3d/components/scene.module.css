@@ -1,0 +1,44 @@
+.scene {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  isolation: isolate;
+}
+.scene canvas,
+.poster,
+.orbit {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.scene[data-scene-kind="hero"] .orbit {
+  display: none;
+}
+.scene canvas {
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.poster {
+  z-index: 1;
+  transition: opacity 0.5s;
+}
+.scene[data-scene-ready="true"] canvas {
+  opacity: 1;
+}
+.scene[data-scene-ready="true"] .poster {
+  opacity: 0;
+}
+.orbit {
+  z-index: 0;
+  opacity: 0.27;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .scene canvas,
+  .poster {
+    transition: none;
+  }
+}

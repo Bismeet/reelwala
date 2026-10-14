@@ -1,0 +1,6 @@
+Aceternity UI Container Scroll Animation
+Author: Manu Arora
+Source: https://ui.aceternity.com/components/container-scroll-animation
+Licence: https://ui.aceternity.com/licence
+Retrieved 2026-10-10. Used and modified as part of The Reel Wala website only.
+The Aceternity License permits creating/modifying end products. It prohibits resale or redistribution of the Item as stock source, component products, or marketplace templates.

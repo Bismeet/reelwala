@@ -1,0 +1,9 @@
+GSAP / ScrollSmoother / ScrollTrigger 3.15.0
+Copyright 2008-2026, GreenSock. All rights reserved.
+Author: Jack Doyle
+Source: npm package gsap@3.15.0, exact version and integrity in package-lock.json
+Licence: https://gsap.com/standard-license
+Documentation: https://gsap.com/docs/v3/Plugins/ScrollSmoother/
+Recorded 2026-10-10.
+
+Original licence notices are preserved in installed source. Used as a dependency within The Reel Wala website.

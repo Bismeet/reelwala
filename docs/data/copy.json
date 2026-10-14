@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "brand": {
+    "source": "THE REEL WALA",
+    "proposedDisplay": "The Reel Wala",
+    "bookingTitleSource": "Book Your Shoot with TheReelWala"
+  },
+  "bookingLeftColumn": {
+    "status": "SOURCE",
+    "paragraphs": [
+      "P089",
+      "P090",
+      "P091",
+      "P092"
+    ],
+    "title": "Book Your Shoot with TheReelWala",
+    "headline": "Your Events, Captured in Reels!",
+    "body": [
+      "From corporate gatherings to weddings and creative events, we turn your special moments into engaging, scroll-stopping reels.",
+      "Fill out the form to book your session. Let’s create content that captures the vibe of your event and makes every moment worth sharing."
+    ],
+    "normalization": "Broken apostrophe in Let’s repaired; remaining wording preserved."
+  },
+  "customerWorkflow": [
+    {
+      "id": "booking",
+      "title": "Booking",
+      "body": "Tell us where, what & when.",
+      "status": "SOURCE",
+      "source": [
+        "P074"
+      ]
+    },
+    {
+      "id": "reeler-assigned",
+      "title": "Reeler Assigned",
+      "body": "A professional reel creator will be assigned to your event, and their details will be shared with you.",
+      "status": "SOURCE",
+      "source": [
+        "P079"
+      ]
+    },
+    {
+      "id": "delivery",
+      "sourceTitle": "Same day Delivery",
+      "previewTitle": "Delivery",
+      "sourceBody": "Reel and Pics will be shared within 24 hours via secure Download link",
+      "previewBody": "Reels and pictures will be shared within 24 hours via a secure download link.",
+      "status": "UNRESOLVED",
+      "source": [
+        "P081",
+        "P083"
+      ],
+      "decision": "DEC-04",
+      "publishable": false
+    }
+  ],
+  "creatorWorkflow": {
+    "source": [
+      "P103",
+      "P104"
+    ],
+    "steps": [
+      "Register",
+      "Attend the Workshop",
+      "Receive Shoots",
+      "Get Paid After Shoots"
+    ],
+    "status": "SOURCE-meaning-normalized"
+  },
+  "creatorFields": {
+    "locality": {
+      "label": "Locality",
+      "placeholder": "Type Your Area Like “Viman Nagar”",
+      "source": [
+        "P099"
+      ],
+      "required": null,
+      "previewRequired": true,
+      "decision": "DEC-08"
+    },
+    "videos": {
+      "label": "Upload any two videos edited by you",
+      "required": false,
+      "source": [
+        "P100"
+      ],
+      "maxCount": 2,
+      "proposedMinWhenProvided": 1,
+      "decision": "DEC-07"
+    },
+    "photos": {
+      "label": "Upload Best 5 pics clicked by you",
+      "required": null,
+      "source": [
+        "P101"
+      ],
+      "previewMaxCount": 5,
+      "previewMinCount": 0,
+      "decision": "DEC-07"
+    },
+    "device": {
+      "label": "iPhone You Shoot With",
+      "source": [
+        "P098",
+        "image4.png"
+      ],
+      "eligibleModels": [],
+      "eligibilityBoundary": null,
+      "decision": "DEC-06"
+    }
+  },
+  "proposedMarketing": {
+    "status": "PROPOSED",
+    "centralStory": "A moment happens once. You get to feel it again.",
+    "heroHeadline": "Some moments deserve a replay.",
+    "heroDescription": "Reel shoots for your private celebrations, corporate events, and cultural gatherings.",
+    "presenceHeadline": "Be in the moment.",
+    "replayHeadline": "Feel it all over again.",
+    "closingHeadline": "What are we capturing next?",
+    "creatorHeadline": "Have an eye for the moment?"
+  },
+  "proposedInteractionCopy": {
+    "status": "PROPOSED",
+    "primaryCTA": "Book a Shoot",
+    "creatorCTA": "Become a Creator",
+    "submitEnquiry": "Send Shoot Enquiry",
+    "enquiryHelper": "Submitting this form sends an enquiry. Your shoot is confirmed separately by our team.",
+    "enquirySuccess": "Your enquiry has been received. Our team will contact you about your shoot.",
+    "applicationSuccess": "Your application has been received. Our team will review your details and contact you about the next steps.",
+    "enquiryFailure": "We couldn’t save your enquiry. Please try again.",
+    "enquiryUnknown": "We couldn’t confirm whether your enquiry was received. Please retry."
+  }
+}

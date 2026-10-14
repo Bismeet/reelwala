@@ -1,0 +1,1295 @@
+.hero {
+  padding: 32px max(32px, calc((100vw - 1344px) / 2)) 24px;
+  background: var(--paper);
+  overflow: clip;
+  color: var(--forest);
+}
+.heroEyebrow,
+.sectionTop {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.heroTitle {
+  font-size: clamp(90px, 13.7vw, 204px);
+  line-height: 1.04;
+  font-weight: 500;
+  letter-spacing: -0.065em;
+  text-align: center;
+  margin: 20px 0 0;
+  position: relative;
+  z-index: 2;
+}
+.heroComposition {
+  height: 450px;
+  max-width: 1200px;
+  margin: -8px auto 0;
+  position: relative;
+}
+.heroArt {
+  width: 760px;
+  max-width: 75%;
+  position: absolute;
+  left: 50%;
+  top: -72px;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+.heroArt svg {
+  display: block;
+  width: 100%;
+  overflow: visible;
+}
+.heroNote {
+  position: absolute;
+  left: 2%;
+  top: 118px;
+  z-index: 3;
+}
+.noteNumber {
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+.heroNote p {
+  font-size: 17px;
+  line-height: 1.65;
+  margin-top: 19px;
+}
+.noteRule {
+  display: block;
+  height: 1px;
+  width: 44px;
+  background: var(--forest);
+  margin-top: 22px;
+}
+.heroSignature {
+  position: absolute;
+  right: 0;
+  top: 18px;
+  transform: rotate(-9deg);
+  color: #b76908;
+  z-index: 3;
+  width: 290px;
+  pointer-events: none;
+}
+.heroSignature span {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 82px;
+  letter-spacing: -5px;
+  white-space: nowrap;
+}
+.heroSignature svg {
+  display: block;
+  width: 100%;
+  margin-top: -19px;
+}
+.heroStamp {
+  position: absolute;
+  right: 7%;
+  bottom: 47px;
+  width: 105px;
+  height: 105px;
+  border: 1px solid #af8c5166;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(10deg);
+}
+.heroStamp span {
+  font-size: 8px;
+  letter-spacing: 1.3px;
+  text-align: center;
+  line-height: 1.5;
+}
+.artCredit {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 8px;
+  letter-spacing: 1.8px;
+  color: #60695b;
+}
+.heroBottom {
+  border-top: 1px solid #102b2729;
+  padding-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.heroBottom p {
+  font-size: 13px;
+  line-height: 1.6;
+  max-width: 300px;
+}
+.primaryButton {
+  min-height: 54px;
+  padding: 16px 22px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  background: var(--forest);
+  color: var(--paper);
+  font-size: 12px;
+  transition:
+    background 0.2s,
+    transform 0.2s;
+}
+.primaryButton:hover {
+  background: var(--deep-teal);
+  transform: translateY(-2px);
+}
+.scrollLink {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 9px;
+  letter-spacing: 1px;
+  min-height: 44px;
+}
+.captureSection,
+.editSection {
+  padding: 45px max(32px, calc((100vw - 1280px) / 2)) 40px;
+  background: var(--forest);
+  color: var(--paper);
+  overflow: clip;
+}
+.sectionTop {
+  padding-bottom: 28px;
+  border-bottom: 1px solid currentColor;
+  border-color: #ffffff29;
+}
+.captureHeading,
+.editHeading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 40px;
+  margin: 65px 0 0;
+}
+.captureHeading h2,
+.editHeading h2 {
+  font-size: clamp(48px, 5.4vw, 80px);
+  line-height: 1.02;
+  letter-spacing: -0.06em;
+  font-weight: 500;
+}
+.captureHeading em,
+.editHeading em {
+  font-family: var(--serif);
+  font-weight: 400;
+  color: #e4be76;
+}
+.captureHeading p,
+.editHeading p {
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 8px;
+  color: #c6d4c8;
+}
+.captureStage {
+  position: relative;
+  height: 510px;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+.captureArt {
+  position: absolute;
+  width: 770px;
+  max-width: 90%;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  opacity: 0.9;
+}
+.captureArt svg {
+  width: 100%;
+}
+.focusFrame {
+  width: 240px;
+  height: 340px;
+  position: absolute;
+  left: calc(50% - 120px);
+  top: 105px;
+  color: var(--turquoise);
+  z-index: 4;
+  pointer-events: none;
+}
+.focusFrame i {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border: 2px solid var(--turquoise);
+}
+.focusFrame i:nth-of-type(1) {
+  top: 0;
+  left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+.focusFrame i:nth-of-type(2) {
+  top: 0;
+  right: 0;
+  border-left: 0;
+  border-bottom: 0;
+}
+.focusFrame i:nth-of-type(3) {
+  bottom: 0;
+  left: 0;
+  border-right: 0;
+  border-top: 0;
+}
+.focusFrame i:nth-of-type(4) {
+  bottom: 0;
+  right: 0;
+  border-left: 0;
+  border-top: 0;
+}
+.focusFrame > span {
+  position: absolute;
+  top: -24px;
+  font-size: 8px;
+  letter-spacing: 2px;
+  width: 100%;
+  text-align: center;
+}
+.focusFrame small {
+  position: absolute;
+  bottom: -22px;
+  width: 100%;
+  text-align: center;
+  font-size: 7px;
+  letter-spacing: 1px;
+}
+.captureCard {
+  position: absolute;
+  width: 170px;
+  height: 235px;
+  background: #e4c995;
+  padding: 9px;
+  box-shadow: 0 16px 40px #0003;
+  top: 165px;
+}
+.captureCard svg {
+  background: #c3cbb0;
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+.captureCard span {
+  display: block;
+  font-size: 7px;
+  letter-spacing: 1.5px;
+  color: var(--forest);
+  margin-top: 10px;
+}
+.captureCardLeft {
+  left: 0;
+  transform: rotate(-12deg);
+}
+.captureCardRight {
+  right: 0;
+  transform: rotate(9deg);
+  top: 120px;
+  background: #b0d8c8;
+}
+.captureFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  border-top: 1px solid #ffffff29;
+  padding-top: 24px;
+}
+.captureFooter p {
+  font-size: 13px;
+  color: #c6d4c8;
+}
+.captureFooter a {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 12px;
+  min-height: 44px;
+}
+.services {
+  background: var(--paper);
+  padding: 80px 0 0;
+}
+.servicesIntro {
+  width: min(1280px, calc(100% - 96px));
+  margin: auto;
+}
+.servicesIntro .sectionTop {
+  border-color: #102b2729;
+}
+.servicesIntro h2 {
+  font-size: clamp(48px, 5.5vw, 82px);
+  letter-spacing: -0.06em;
+  line-height: 1.05;
+  font-weight: 500;
+  margin: 50px 0 65px;
+}
+.servicesIntro em {
+  font-family: var(--serif);
+  font-weight: 400;
+}
+.serviceChapter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid #102b2729;
+  min-height: 600px;
+}
+.serviceArt {
+  background: #eadfc9;
+  padding: 35px 45px 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+.serviceArt > span {
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  display: flex;
+  justify-content: space-between;
+}
+.serviceArt > svg {
+  width: 100%;
+  max-width: 670px;
+  margin: auto;
+}
+.serviceArt > p {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 44px;
+  line-height: 1.1;
+  text-align: center;
+  position: relative;
+  margin-top: -30px;
+  padding-bottom: 20px;
+}
+.serviceCorporate .serviceArt {
+  background: #c8ded2;
+}
+.serviceCultural .serviceArt {
+  background: #f3c369;
+}
+.serviceCorporate .serviceArt {
+  order: 2;
+}
+.serviceContent {
+  padding: 55px clamp(28px, 4vw, 64px);
+  align-self: center;
+}
+.serviceContent h3 {
+  font-size: clamp(32px, 3.3vw, 48px);
+  font-weight: 500;
+  letter-spacing: -0.05em;
+}
+.serviceContent > p {
+  font-size: 14px;
+  color: var(--muted);
+  margin: 14px 0 24px;
+  max-width: 410px;
+}
+.serviceList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 28px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+.serviceList li {
+  border-top: 1px solid #102b2724;
+}
+.serviceList a {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  line-height: 1.5;
+  min-height: 60px;
+  padding: 12px 0;
+  transition: color 0.2s;
+}
+.serviceList a:hover {
+  color: var(--deep-teal);
+}
+.serviceList svg {
+  width: 13px;
+  height: 13px;
+  flex-shrink: 0;
+}
+.editSection {
+  padding-top: 45px;
+  padding-bottom: 55px;
+  background: #102b27;
+  overflow: visible;
+}
+.editHeading {
+  margin-bottom: 35px;
+}
+.editStage {
+  padding: 20px 0 15px;
+  position: relative;
+}
+.editStageTop {
+  display: flex;
+  justify-content: space-between;
+  font-size: 8px;
+  letter-spacing: 1.5px;
+  color: #c6d4c8;
+  gap: 15px;
+}
+.editStageTop span:first-child {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.editStageTop i {
+  width: 5px;
+  height: 5px;
+  background: var(--turquoise);
+  border-radius: 50%;
+}
+.editCards {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  padding: 36px 0 20px;
+  position: relative;
+}
+.editCard {
+  width: 220px;
+  aspect-ratio: 9/16;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  color: var(--forest);
+  padding: 17px;
+  border: 1px solid #ffffff26;
+  box-shadow: 0 15px 45px #0002;
+}
+.editCard:nth-child(1) {
+  transform: rotate(-7deg);
+}
+.editCard:nth-child(2) {
+  transform: rotate(2deg);
+  z-index: 3;
+}
+.editCard:nth-child(3) {
+  transform: rotate(8deg);
+}
+.editAmber {
+  background: #f3b950;
+}
+.editTeal {
+  background: #c4dbc8;
+}
+.editCream {
+  background: #e9dfc9;
+}
+.editCard > svg {
+  position: absolute;
+  width: 125%;
+  left: -12.5%;
+  bottom: 30px;
+  height: 80%;
+}
+.editCardMeta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 7px;
+  letter-spacing: 1px;
+}
+.editCardTitle {
+  position: absolute;
+  top: 44px;
+  left: 17px;
+  font-size: 36px;
+  letter-spacing: -2px;
+  font-family: var(--serif);
+  font-style: italic;
+  z-index: 1;
+}
+.editCardBottom {
+  position: absolute;
+  bottom: 15px;
+  left: 17px;
+  font-size: 6px;
+  letter-spacing: 1px;
+}
+.editTimeline {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 0;
+  font-size: 9px;
+  color: #b6c3b7;
+  letter-spacing: 1px;
+}
+.editTimeline > div {
+  flex: 1;
+  display: flex;
+  gap: 5px;
+  height: 28px;
+  position: relative;
+}
+.editTimeline b {
+  flex: 1;
+  background: repeating-linear-gradient(
+    90deg,
+    #ce9659 0px,
+    #ce9659 2px,
+    #9f7139 2px,
+    #9f7139 8px
+  );
+  border-radius: 2px;
+  opacity: 0.7;
+}
+.editTimeline b:nth-child(2) {
+  background: repeating-linear-gradient(
+    90deg,
+    #96c7b1 0px,
+    #96c7b1 2px,
+    #497965 2px,
+    #497965 8px
+  );
+}
+.editTimeline b:nth-child(3) {
+  background: repeating-linear-gradient(
+    90deg,
+    #dad3ae 0px,
+    #dad3ae 2px,
+    #a9986a 2px,
+    #a9986a 8px
+  );
+}
+.editTimeline i {
+  position: absolute;
+  left: 0;
+  width: 2px;
+  background: var(--turquoise);
+  height: 44px;
+  top: -8px;
+}
+.editTimeline i::before {
+  content: "";
+  width: 9px;
+  height: 9px;
+  background: var(--turquoise);
+  position: absolute;
+  left: -3.5px;
+  top: -2px;
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 50% 100%, 0 50%);
+}
+.editFinished {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  font-size: 21px;
+}
+.editFinished em {
+  font-family: var(--serif);
+  color: #e4be76;
+  font-size: 28px;
+}
+.editFooter {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #ffffff29;
+  padding-top: 25px;
+  gap: 30px;
+  margin-top: 40px;
+}
+.editFooter > span {
+  font-size: 8px;
+  letter-spacing: 1.7px;
+  padding-top: 7px;
+}
+.editFooter p {
+  font-size: 12px;
+  max-width: 420px;
+  color: #c6d4c8;
+}
+.invitation {
+  text-align: center;
+  position: relative;
+  padding: 75px 24px 50px;
+  background: #f0e8d8;
+  overflow: hidden;
+}
+.invitation > span {
+  font-size: 9px;
+  letter-spacing: 2px;
+}
+.invitation p {
+  font-size: clamp(54px, 7.5vw, 105px);
+  letter-spacing: -0.06em;
+  line-height: 0.98;
+  color: var(--forest);
+  margin-top: 35px;
+}
+.invitation em {
+  font-family: var(--serif);
+  font-weight: 400;
+}
+.invitation svg {
+  display: block;
+  width: min(570px, 72%);
+  color: var(--amber);
+  margin: 10px auto 0;
+}
+.creatorMotif {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 35px 0;
+  margin-top: 45px;
+  color: var(--forest);
+}
+.creatorMotif > span {
+  font-size: 10px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+.creatorMotif em {
+  font-family: var(--serif);
+  font-size: 37px;
+  letter-spacing: -1px;
+}
+
+@media (min-width: 1600px) {
+  .heroComposition {
+    height: 470px;
+  }
+  .heroArt {
+    width: 840px;
+    top: -90px;
+  }
+}
+@media (max-width: 1100px) {
+  .heroComposition {
+    height: 420px;
+  }
+  .heroSignature {
+    width: 230px;
+    right: 0;
+    top: 28px;
+  }
+  .heroSignature span {
+    font-size: 66px;
+  }
+  .heroNote {
+    left: 0;
+  }
+  .heroArt {
+    top: -20px;
+  }
+  .heroStamp {
+    right: 2%;
+    bottom: 35px;
+    width: 86px;
+    height: 86px;
+  }
+  .heroBottom p {
+    font-size: 11px;
+  }
+  .scrollLink {
+    font-size: 8px;
+    gap: 8px;
+  }
+  .serviceArt {
+    padding: 30px 25px;
+  }
+  .serviceContent {
+    padding: 40px 30px;
+  }
+  .serviceList {
+    grid-template-columns: 1fr;
+  }
+  .serviceList a {
+    min-height: 44px;
+    padding: 9px 0;
+  }
+  .serviceChapter {
+    min-height: 600px;
+  }
+  .serviceArt > p {
+    font-size: 34px;
+    margin-top: 0;
+  }
+}
+@media (max-width: 900px) {
+  .hero {
+    padding: 25px 28px;
+  }
+  .heroTitle {
+    font-size: 15vw;
+    margin-top: 30px;
+  }
+  .heroComposition {
+    height: 415px;
+  }
+  .heroArt {
+    width: 620px;
+    max-width: 88%;
+    top: -10px;
+  }
+  .heroSignature {
+    top: 5px;
+    width: 210px;
+  }
+  .heroSignature span {
+    font-size: 58px;
+  }
+  .heroNote {
+    top: 130px;
+  }
+  .heroNote p {
+    font-size: 13px;
+  }
+  .noteNumber {
+    font-size: 7px;
+    letter-spacing: 0.5px;
+  }
+  .heroStamp {
+    display: none;
+  }
+  .heroBottom {
+    flex-wrap: wrap;
+  }
+  .heroBottom p {
+    font-size: 12px;
+  }
+  .scrollLink {
+    font-size: 8px;
+  }
+  .captureSection,
+  .editSection {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+  .captureHeading,
+  .editHeading {
+    gap: 25px;
+  }
+  .captureHeading p,
+  .editHeading p {
+    font-size: 13px;
+  }
+  .captureStage {
+    height: 430px;
+  }
+  .captureArt {
+    top: 0;
+  }
+  .focusFrame {
+    height: 260px;
+    width: 180px;
+    left: calc(50% - 90px);
+    top: 90px;
+  }
+  .captureCard {
+    width: 125px;
+    height: 175px;
+    padding: 7px;
+  }
+  .captureCard svg {
+    height: 137px;
+  }
+  .captureCard span {
+    font-size: 6px;
+    letter-spacing: 0.5px;
+  }
+  .captureCardLeft {
+    top: 180px;
+  }
+  .captureCardRight {
+    top: 110px;
+  }
+  .servicesIntro {
+    width: calc(100% - 56px);
+  }
+  .editCard {
+    width: 28%;
+    max-width: 210px;
+  }
+  .editCardTitle {
+    font-size: 31px;
+  }
+  .editCards {
+    gap: 18px;
+  }
+  .editFinished {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 650px) {
+  .hero {
+    padding: 24px 20px 30px;
+  }
+  .heroEyebrow {
+    font-size: 7px;
+    letter-spacing: 1px;
+    gap: 12px;
+  }
+  .heroTitle {
+    font-size: 17.7vw;
+    margin: 32px -6px 0;
+    letter-spacing: -0.06em;
+  }
+  .heroComposition {
+    height: 320px;
+    margin-top: 0;
+  }
+  .heroArt {
+    max-width: none;
+    width: 470px;
+    top: -9px;
+  }
+  .heroSignature {
+    width: 155px;
+    top: 0;
+    right: 0;
+  }
+  .heroSignature span {
+    font-size: 49px;
+    letter-spacing: -3px;
+  }
+  .heroSignature svg {
+    margin-top: -13px;
+  }
+  .heroNote {
+    display: none;
+  }
+  .heroNote p {
+    font-size: 10px;
+    line-height: 1.5;
+    margin-top: 8px;
+  }
+  .noteNumber,
+  .noteRule {
+    display: none;
+  }
+  .artCredit {
+    bottom: 7px;
+    font-size: 6px;
+    letter-spacing: 1px;
+    left: auto;
+    right: 0;
+    transform: none;
+  }
+  .heroBottom {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 22px;
+  }
+  .heroBottom p {
+    font-size: 13px;
+    max-width: none;
+  }
+  .primaryButton {
+    width: 100%;
+    font-size: 12px;
+  }
+  .scrollLink {
+    justify-content: center;
+    font-size: 8px;
+    gap: 12px;
+  }
+  .captureSection,
+  .editSection {
+    padding: 28px 20px 32px;
+  }
+  .sectionTop {
+    font-size: 7px;
+    letter-spacing: 1px;
+    padding-bottom: 22px;
+  }
+  .captureHeading,
+  .editHeading {
+    display: block;
+    margin-top: 38px;
+  }
+  .captureHeading h2,
+  .editHeading h2 {
+    font-size: clamp(42px, 10.7vw, 66px);
+  }
+  .captureHeading p,
+  .editHeading p {
+    font-size: 13px;
+    margin-top: 24px;
+  }
+  .captureStage {
+    height: 350px;
+    margin: 10px -20px 0;
+    overflow: hidden;
+  }
+  .captureArt {
+    width: 480px;
+    max-width: none;
+    top: 0;
+  }
+  .focusFrame {
+    width: 150px;
+    height: 228px;
+    left: calc(50% - 75px);
+    top: 75px;
+  }
+  .focusFrame > span {
+    font-size: 6px;
+    letter-spacing: 1px;
+    top: -20px;
+  }
+  .focusFrame small {
+    font-size: 5px;
+    letter-spacing: 0.5px;
+  }
+  .captureCard {
+    width: 95px;
+    height: 138px;
+    padding: 5px;
+  }
+  .captureCard svg {
+    height: 108px;
+  }
+  .captureCard span {
+    margin-top: 7px;
+    font-size: 5px;
+  }
+  .captureCardLeft {
+    left: -20px;
+    top: 167px;
+  }
+  .captureCardRight {
+    right: -20px;
+    top: 110px;
+  }
+  .captureFooter {
+    display: block;
+  }
+  .captureFooter p {
+    font-size: 12px;
+  }
+  .captureFooter a {
+    margin-top: 12px;
+    justify-content: space-between;
+  }
+  .services {
+    padding-top: 40px;
+  }
+  .servicesIntro {
+    width: calc(100% - 40px);
+  }
+  .servicesIntro h2 {
+    font-size: 44px;
+    margin: 35px 0 40px;
+  }
+  .serviceChapter {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+  .serviceArt,
+  .serviceCorporate .serviceArt {
+    order: 0;
+    padding: 22px 20px;
+  }
+  .serviceArt > svg {
+    max-width: 420px;
+    margin: -15px auto -20px;
+  }
+  .serviceArt > p {
+    font-size: 36px;
+    padding: 0;
+    margin-top: 0;
+  }
+  .serviceArt > span {
+    font-size: 8px;
+  }
+  .serviceContent {
+    padding: 32px 20px 42px;
+    width: 100%;
+  }
+  .serviceContent h3 {
+    font-size: 34px;
+  }
+  .serviceContent > p {
+    font-size: 13px;
+  }
+  .serviceList {
+    grid-template-columns: 1fr;
+  }
+  .serviceList a {
+    font-size: 12px;
+    min-height: 48px;
+  }
+  .editHeading {
+    margin-bottom: 24px;
+  }
+  .editStageTop {
+    font-size: 6px;
+    letter-spacing: 0.5px;
+  }
+  .editStageTop > span:nth-child(2) {
+    display: none;
+  }
+  .editCards {
+    gap: 8px;
+    padding: 28px 0 16px;
+  }
+  .editCard {
+    width: 31%;
+    padding: 8px;
+  }
+  .editCardMeta {
+    font-size: 5px;
+    letter-spacing: 0;
+  }
+  .editCardTitle {
+    font-size: 20px;
+    letter-spacing: -0.8px;
+    top: 25px;
+    left: 8px;
+  }
+  .editCardBottom {
+    font-size: 4px;
+    left: 8px;
+    bottom: 8px;
+    letter-spacing: 0.2px;
+    max-width: 65px;
+  }
+  .editCard > svg {
+    bottom: 18px;
+  }
+  .editTimeline {
+    font-size: 7px;
+    gap: 8px;
+  }
+  .editTimeline > div {
+    height: 18px;
+  }
+  .editTimeline i {
+    height: 32px;
+  }
+  .editFinished {
+    font-size: 14px;
+    gap: 5px;
+  }
+  .editFinished em {
+    font-size: 20px;
+  }
+  .editFinished svg {
+    width: 14px;
+  }
+  .editFooter {
+    display: block;
+    margin-top: 28px;
+  }
+  .editFooter p {
+    margin-top: 12px;
+    font-size: 12px;
+  }
+  .invitation {
+    padding: 55px 20px 35px;
+  }
+  .invitation p {
+    font-size: 55px;
+  }
+  .invitation > span {
+    font-size: 8px;
+    letter-spacing: 1.5px;
+  }
+  .creatorMotif {
+    gap: 20px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .heroArt,
+  .heroSignature,
+  .editCard {
+    transform: none;
+  }
+  .heroArt {
+    transform: translateX(-50%);
+  }
+}
+
+/* The sculptural chapters retain fixed dimensions while WebGL loads. */
+.heroArt {
+  pointer-events: auto;
+  width: 800px;
+  max-width: 80%;
+  height: 490px;
+  top: -25px;
+}
+.heroComposition {
+  height: 465px;
+}
+.heroSignature {
+  top: 38px;
+}
+.captureArt {
+  width: 900px;
+  max-width: 100%;
+  height: 510px;
+  opacity: 1;
+}
+.focusFrame {
+  width: 400px;
+  height: 355px;
+  left: calc(50% - 200px);
+  top: 80px;
+  opacity: 0.7;
+}
+.captureAnnotation,
+.captureAnnotationRight {
+  position: absolute;
+  top: 48%;
+  left: 0;
+  font-size: 9px;
+  letter-spacing: 1.4px;
+  color: #e4be76;
+}
+.captureAnnotationRight {
+  left: auto;
+  right: 0;
+  top: 64%;
+}
+.serviceWorld {
+  height: 445px;
+  width: 100%;
+  margin: auto;
+}
+.serviceArt > p {
+  margin: 0;
+  padding: 0 0 15px;
+}
+.serviceArt {
+  background: #f1e6d1;
+}
+.serviceCorporate .serviceArt {
+  background: #c2ded3;
+}
+.serviceCultural .serviceArt {
+  background: #efbc70;
+}
+.editWorld {
+  height: 450px;
+  width: 100%;
+}
+@media (min-width: 1600px) {
+  .heroArt {
+    height: 510px;
+    top: -30px;
+  }
+}
+@media (max-width: 1100px) {
+  .heroArt {
+    height: 445px;
+    top: 0;
+  }
+  .heroComposition {
+    height: 450px;
+  }
+  .serviceWorld {
+    height: 410px;
+  }
+  .captureAnnotation,
+  .captureAnnotationRight {
+    font-size: 7px;
+  }
+}
+@media (max-width: 900px) {
+  .heroArt {
+    max-width: 90%;
+    height: 415px;
+  }
+  .heroComposition {
+    height: 425px;
+  }
+  .captureArt {
+    height: 430px;
+  }
+  .focusFrame {
+    width: 310px;
+    height: 300px;
+    left: calc(50% - 155px);
+    top: 65px;
+  }
+  .captureAnnotation,
+  .captureAnnotationRight {
+    display: none;
+  }
+  .editWorld {
+    height: 390px;
+  }
+}
+@media (max-width: 650px) {
+  .heroComposition {
+    height: 345px;
+    margin-top: 12px;
+  }
+  .heroArt {
+    width: 100%;
+    max-width: 100%;
+    height: 330px;
+    top: 8px;
+  }
+  .heroSignature {
+    width: 130px;
+    top: -8px;
+    right: -3px;
+  }
+  .heroSignature span {
+    font-size: 42px;
+  }
+  .captureArt {
+    width: 100%;
+    max-width: 100%;
+    height: 350px;
+  }
+  .focusFrame {
+    width: 230px;
+    height: 245px;
+    left: calc(50% - 115px);
+    top: 55px;
+  }
+  .serviceWorld {
+    height: 340px;
+    margin: 0 auto;
+  }
+  .serviceArt > p {
+    font-size: 34px;
+  }
+  .editWorld {
+    height: 320px;
+    margin: 0 -15px;
+    width: calc(100% + 30px);
+  }
+  .artCredit {
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 0;
+  }
+}

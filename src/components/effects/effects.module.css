@@ -1,0 +1,214 @@
+.scrollContainer {
+  perspective: 1200px;
+  width: 100%;
+  margin: 45px 0 0;
+  overflow: clip;
+}
+.scrollCard {
+  transform-origin: 50% 70%;
+  width: 100%;
+  border-top: 1px solid #ffffff38;
+  border-bottom: 1px solid #ffffff38;
+  background: #0b211f;
+}
+.film {
+  position: relative;
+  height: 410px;
+  overflow: hidden;
+  background: #0b211f;
+}
+.filmFallback {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  height: 100%;
+  padding: 35px 40px;
+  transform: rotate(-2deg);
+  transition: opacity 0.3s;
+}
+.frame {
+  padding: 8px 8px 28px;
+  background: #c3a86f;
+  position: relative;
+  box-shadow: 0 12px 30px #0003;
+  height: 100%;
+  min-width: 0;
+}
+.frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.frame span {
+  position: absolute;
+  bottom: 9px;
+  left: 12px;
+  color: #162f29;
+  font-size: 9px;
+  letter-spacing: 1px;
+}
+.frame:first-child {
+  transform: translateY(13px) rotate(-3deg);
+}
+.frame:last-child {
+  transform: translateY(13px) rotate(3deg);
+}
+.canvasHost {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+.canvasHost canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.film[data-ready="true"] .canvasHost {
+  opacity: 1;
+}
+.film[data-ready="true"] .filmFallback {
+  opacity: 0;
+}
+.filmFooter {
+  padding: 18px 25px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  border-top: 1px solid #ffffff25;
+  color: #c8d5c8;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.filmFooter span:last-child {
+  color: var(--turquoise);
+}
+.faq {
+  max-width: 760px;
+}
+.faqItem {
+  border-bottom: 1px solid var(--line);
+}
+.faqHeader {
+  margin: 0;
+}
+.faqTrigger {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  text-align: left;
+  padding: 24px 0;
+  border: 0;
+  background: transparent;
+  font-size: 17px;
+  color: var(--ink);
+  font-weight: 500;
+  min-height: 60px;
+}
+.faqTrigger:hover {
+  color: var(--deep-teal);
+}
+.faqTrigger svg {
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+.faqTrigger[data-state="open"] svg {
+  transform: rotate(180deg);
+}
+.faqContent {
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.8;
+}
+.faqContent > div {
+  padding: 0 38px 24px 0;
+}
+.faqContent[data-state="open"] {
+  animation: expand 0.2s ease-out;
+}
+.faqContent[data-state="closed"] {
+  animation: collapse 0.2s ease-out;
+}
+@keyframes expand {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+@keyframes collapse {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
+}
+@media (max-width: 900px) {
+  .film {
+    height: 330px;
+  }
+  .filmFallback {
+    padding: 30px 25px;
+    gap: 16px;
+  }
+  .filmFooter {
+    font-size: 9px;
+    padding: 15px 20px;
+  }
+}
+@media (max-width: 650px) {
+  .scrollContainer {
+    margin-top: 28px;
+    perspective: none;
+  }
+  .scrollCard {
+    transform: none !important;
+  }
+  .film {
+    height: 285px;
+  }
+  .filmFallback {
+    padding: 30px 18px;
+    gap: 12px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .frame:last-child {
+    display: none;
+  }
+  .frame span {
+    font-size: 7px;
+  }
+  .filmFooter {
+    font-size: 8px;
+    line-height: 1.6;
+    display: block;
+  }
+  .filmFooter span {
+    display: block;
+  }
+  .filmFooter span + span {
+    margin-top: 7px;
+  }
+  .faqTrigger {
+    font-size: 15px;
+    padding: 21px 0;
+  }
+  .faqContent {
+    font-size: 14px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .filmFallback,
+  .canvasHost {
+    transition: none;
+  }
+  .scrollCard {
+    transform: none !important;
+  }
+}

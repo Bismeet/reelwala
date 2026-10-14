@@ -1,0 +1,172 @@
+@import "@fontsource/manrope/400.css";
+@import "@fontsource/manrope/500.css";
+@import "@fontsource/manrope/600.css";
+@import "@fontsource/cormorant-garamond/400-italic.css";
+@import "@fontsource/cormorant-garamond/400.css";
+
+:root {
+  --amber: #f59e0b;
+  --turquoise: #0bf5e2;
+  --brown: #af8c51;
+  --teal: #07ac9f;
+  --deep-teal: #075e57;
+  --ink: #151916;
+  --forest: #102b27;
+  --paper: #fff9ef;
+  --muted: #5a625c;
+  --line: #d9ddcf;
+  --sans: "Manrope", "Segoe UI", sans-serif;
+  --serif: "Cormorant Garamond", Georgia, serif;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+#smooth-content {
+  display: flow-root;
+}
+html[data-smooth-scroll="true"] {
+  scroll-behavior: auto;
+}
+html[data-smooth-scroll="true"] [data-site-header] {
+  position: fixed;
+  inset: 0 0 auto;
+}
+html[data-smooth-scroll="true"] #smooth-content {
+  padding-top: var(--scroll-header-height);
+}
+body:has([data-hero-stage]) [data-site-header] {
+  position: fixed;
+  inset: 0 0 auto;
+  transition:
+    transform 0.45s ease,
+    opacity 0.35s ease,
+    visibility 0.35s;
+}
+html body:has([data-hero-stage]) #smooth-content {
+  padding-top: 0;
+}
+@media (prefers-reduced-motion: no-preference) {
+  body:has([data-hero-stage]:not([data-hero-phase="3"])):not(
+      :has([data-hero-stage] [data-scene-ready="fallback"])
+    ):not(
+      :has([data-hero-stage][data-scene-ready="fallback"])
+    )
+    [data-site-header] {
+    transform: translateY(-110%);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+button,
+a,
+input,
+select,
+textarea {
+  touch-action: manipulation;
+}
+button {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: wait;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+::selection {
+  background: var(--amber);
+  color: var(--ink);
+}
+:focus-visible {
+  outline: 3px solid var(--deep-teal);
+  outline-offset: 5px;
+  box-shadow: 0 0 0 2px var(--paper);
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+p {
+  line-height: 1.65;
+}
+main {
+  min-height: 70vh;
+}
+section[id] {
+  /* The document's scroll-padding accounts for the header; do not add it twice. */
+  scroll-margin-top: 0;
+}
+.skip-link {
+  position: fixed;
+  left: 16px;
+  top: -100px;
+  z-index: 200;
+  background: var(--amber);
+  padding: 12px 20px;
+  color: var(--ink);
+}
+.skip-link:focus {
+  top: 12px;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+button svg,
+a svg {
+  flex-shrink: 0;
+}
+dialog::backdrop {
+  background: #071612b3;
+}
+dialog {
+  color: var(--paper);
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

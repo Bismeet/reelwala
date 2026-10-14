@@ -1,0 +1,9 @@
+import fs from 'node:fs/promises';import https from'node:https';
+const root='art-source/rocketbox';const tree=JSON.parse(await fs.readFile('art-source/rocketbox-tree.json','utf8')).tree;
+const items=tree.filter(a=>a.path.startsWith('Assets/Avatars/Professions/')&&['Business_Male_03','Business_Female_01'].some(n=>a.path.includes('/'+n+'/'))&&a.path.endsWith('_color.tga'));
+const agent=new https.Agent({keepAlive:true,maxSockets:12});const step=262144,jobs=items.flatMap(a=>Array.from({length:Math.ceil(a.size/step)},(_,i)=>({a,start:i*step,end:Math.min(a.size,(i+1)*step)-1})));
+let next=0,done=0;async function fetchPart(job){const{a,start,end}=job,path=`${root}/chunks/${a.sha}-${start}`,len=end-start+1;try{if((await fs.stat(path)).size===len)return;}catch{}
+for(let attempt=0;attempt<5;attempt++){try{const data=await new Promise((resolve,reject)=>{const req=https.get('https://cdn.jsdelivr.net/gh/microsoft/Microsoft-Rocketbox@master/'+a.path,{agent,headers:{Range:`bytes=${start}-${end}`}},res=>{if(res.statusCode!==206||res.headers['content-range']!==`bytes ${start}-${end}/${a.size}`){res.resume();reject(new Error('Invalid range '+res.statusCode+' '+res.headers['content-range']));return;}const buffers=[];res.on('data',d=>buffers.push(d));res.on('end',()=>resolve(Buffer.concat(buffers)));res.on('error',reject);});req.setTimeout(18000,()=>req.destroy(new Error('timeout')));req.on('error',reject);});if(data.length!==len)throw Error('Incomplete');await fs.writeFile(path,data);return;}catch(e){if(attempt===4)throw e;}}}
+await Promise.all(Array.from({length:12},async()=>{while(next<jobs.length){const job=jobs[next++];await fetchPart(job);if(++done%25===0)console.log('Downloaded chunks',done,'/',jobs.length);}}));
+for(const a of items){const bufs=[];for(let i=0;i<a.size;i+=step)bufs.push(await fs.readFile(`${root}/chunks/${a.sha}-${i}`));await fs.writeFile(root+'/'+a.path,Buffer.concat(bufs));console.log('Complete',a.path);}
+agent.destroy();

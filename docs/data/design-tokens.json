@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "status": "proposed-design-spec",
+  "colors": {
+    "amber": "#F59E0B",
+    "turquoise": "#0BF5E2",
+    "goldBrown": "#AF8C51",
+    "teal": "#07AC9F",
+    "ink": "#151916",
+    "paper": "#FFF9EF",
+    "white": "#FFFFFF",
+    "deepTeal": "#075E57",
+    "mutedText": "#5A625C"
+  },
+  "spacingPx": [
+    4,
+    8,
+    12,
+    16,
+    24,
+    32,
+    48,
+    64,
+    96,
+    128
+  ],
+  "radiusPx": {
+    "control": 8,
+    "card": 16,
+    "media": 20
+  },
+  "maxContentWidthPx": 1280,
+  "motionMs": {
+    "feedback": 160,
+    "reveal": 400,
+    "scene": 700
+  },
+  "contrastChecks": [
+    {
+      "foreground": "ink",
+      "background": "amber",
+      "ratio": 8.27,
+      "normalTextAA": true,
+      "largeTextAA": true
+    },
+    {
+      "foreground": "white",
+      "background": "amber",
+      "ratio": 2.15,
+      "normalTextAA": false,
+      "largeTextAA": false
+    },
+    {
+      "foreground": "ink",
+      "background": "turquoise",
+      "ratio": 12.83,
+      "normalTextAA": true,
+      "largeTextAA": true
+    },
+    {
+      "foreground": "white",
+      "background": "turquoise",
+      "ratio": 1.38,
+      "normalTextAA": false,
+      "largeTextAA": false
+    },
+    {
+      "foreground": "ink",
+      "background": "teal",
+      "ratio": 6.27,
+      "normalTextAA": true,
+      "largeTextAA": true
+    },
+    {
+      "foreground": "white",
+      "background": "teal",
+      "ratio": 2.83,
+      "normalTextAA": false,
+      "largeTextAA": false
+    },
+    {
+      "foreground": "goldBrown",
+      "background": "paper",
+      "ratio": 3.0,
+      "normalTextAA": false,
+      "largeTextAA": false
+    },
+    {
+      "foreground": "deepTeal",
+      "background": "paper",
+      "ratio": 7.3,
+      "normalTextAA": true,
+      "largeTextAA": true
+    },
+    {
+      "foreground": "white",
+      "background": "deepTeal",
+      "ratio": 7.64,
+      "normalTextAA": true,
+      "largeTextAA": true
+    },
+    {
+      "foreground": "ink",
+      "background": "paper",
+      "ratio": 16.95,
+      "normalTextAA": true,
+      "largeTextAA": true
+    },
+    {
+      "foreground": "mutedText",
+      "background": "paper",
+      "ratio": 6.01,
+      "normalTextAA": true,
+      "largeTextAA": true
+    }
+  ]
+}
