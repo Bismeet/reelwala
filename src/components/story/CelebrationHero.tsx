@@ -10,7 +10,11 @@ export function StoryHero() {
   if (heroMode === "3d") return <ThreeDHero />;
   return (
     <section id="home" aria-labelledby="hero-title">
-      <ScrollImageSequence frames={sequence.frames} />
+      <ScrollImageSequence
+        frames={sequence.frames}
+        width={sequence.width}
+        height={sequence.height}
+      />
       <div id="hero-story" className={s.introduction}>
         <div data-reveal>
           <h1 id="hero-title">

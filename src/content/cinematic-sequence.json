@@ -1,1806 +1,1704 @@
 {
-  "width": 1920,
-  "height": 1080,
+  "width": 3840,
+  "height": 2160,
   "frames": [
     {
-      "source": "ezgif-frame-001.jpg",
-      "desktop": "/frames/original/frame-0001.jpg",
-      "mobile": "/frames/mobile/frame-0001.webp",
-      "original": "/frames/original/frame-0001.jpg"
+      "source": "ezgif-frame-001.png",
+      "desktop": "/frames/camera/desktop/frame-0001.webp",
+      "mobile": "/frames/camera/mobile/frame-0001.webp",
+      "original": "/frames/camera/original/frame-0001.png"
     },
     {
-      "source": "ezgif-frame-002.jpg",
-      "desktop": "/frames/original/frame-0002.jpg",
-      "mobile": "/frames/mobile/frame-0002.webp",
-      "original": "/frames/original/frame-0002.jpg"
+      "source": "ezgif-frame-002.png",
+      "desktop": "/frames/camera/desktop/frame-0002.webp",
+      "mobile": "/frames/camera/mobile/frame-0002.webp",
+      "original": "/frames/camera/original/frame-0002.png"
     },
     {
-      "source": "ezgif-frame-003.jpg",
-      "desktop": "/frames/desktop/frame-0003.webp",
-      "mobile": "/frames/mobile/frame-0003.webp",
-      "original": "/frames/original/frame-0003.jpg"
+      "source": "ezgif-frame-003.png",
+      "desktop": "/frames/camera/desktop/frame-0003.webp",
+      "mobile": "/frames/camera/mobile/frame-0003.webp",
+      "original": "/frames/camera/original/frame-0003.png"
     },
     {
-      "source": "ezgif-frame-004.jpg",
-      "desktop": "/frames/original/frame-0004.jpg",
-      "mobile": "/frames/mobile/frame-0004.webp",
-      "original": "/frames/original/frame-0004.jpg"
+      "source": "ezgif-frame-004.png",
+      "desktop": "/frames/camera/desktop/frame-0004.webp",
+      "mobile": "/frames/camera/mobile/frame-0004.webp",
+      "original": "/frames/camera/original/frame-0004.png"
     },
     {
-      "source": "ezgif-frame-005.jpg",
-      "desktop": "/frames/original/frame-0005.jpg",
-      "mobile": "/frames/mobile/frame-0005.webp",
-      "original": "/frames/original/frame-0005.jpg"
+      "source": "ezgif-frame-005.png",
+      "desktop": "/frames/camera/desktop/frame-0005.webp",
+      "mobile": "/frames/camera/mobile/frame-0005.webp",
+      "original": "/frames/camera/original/frame-0005.png"
     },
     {
-      "source": "ezgif-frame-006.jpg",
-      "desktop": "/frames/original/frame-0006.jpg",
-      "mobile": "/frames/mobile/frame-0006.webp",
-      "original": "/frames/original/frame-0006.jpg"
+      "source": "ezgif-frame-006.png",
+      "desktop": "/frames/camera/desktop/frame-0006.webp",
+      "mobile": "/frames/camera/mobile/frame-0006.webp",
+      "original": "/frames/camera/original/frame-0006.png"
     },
     {
-      "source": "ezgif-frame-007.jpg",
-      "desktop": "/frames/original/frame-0007.jpg",
-      "mobile": "/frames/mobile/frame-0007.webp",
-      "original": "/frames/original/frame-0007.jpg"
+      "source": "ezgif-frame-007.png",
+      "desktop": "/frames/camera/desktop/frame-0007.webp",
+      "mobile": "/frames/camera/mobile/frame-0007.webp",
+      "original": "/frames/camera/original/frame-0007.png"
     },
     {
-      "source": "ezgif-frame-008.jpg",
-      "desktop": "/frames/original/frame-0008.jpg",
-      "mobile": "/frames/mobile/frame-0008.webp",
-      "original": "/frames/original/frame-0008.jpg"
+      "source": "ezgif-frame-008.png",
+      "desktop": "/frames/camera/desktop/frame-0008.webp",
+      "mobile": "/frames/camera/mobile/frame-0008.webp",
+      "original": "/frames/camera/original/frame-0008.png"
     },
     {
-      "source": "ezgif-frame-009.jpg",
-      "desktop": "/frames/original/frame-0009.jpg",
-      "mobile": "/frames/mobile/frame-0009.webp",
-      "original": "/frames/original/frame-0009.jpg"
+      "source": "ezgif-frame-009.png",
+      "desktop": "/frames/camera/desktop/frame-0009.webp",
+      "mobile": "/frames/camera/mobile/frame-0009.webp",
+      "original": "/frames/camera/original/frame-0009.png"
     },
     {
-      "source": "ezgif-frame-010.jpg",
-      "desktop": "/frames/original/frame-0010.jpg",
-      "mobile": "/frames/mobile/frame-0010.webp",
-      "original": "/frames/original/frame-0010.jpg"
+      "source": "ezgif-frame-010.png",
+      "desktop": "/frames/camera/desktop/frame-0010.webp",
+      "mobile": "/frames/camera/mobile/frame-0010.webp",
+      "original": "/frames/camera/original/frame-0010.png"
     },
     {
-      "source": "ezgif-frame-011.jpg",
-      "desktop": "/frames/original/frame-0011.jpg",
-      "mobile": "/frames/mobile/frame-0011.webp",
-      "original": "/frames/original/frame-0011.jpg"
+      "source": "ezgif-frame-011.png",
+      "desktop": "/frames/camera/desktop/frame-0011.webp",
+      "mobile": "/frames/camera/mobile/frame-0011.webp",
+      "original": "/frames/camera/original/frame-0011.png"
     },
     {
-      "source": "ezgif-frame-012.jpg",
-      "desktop": "/frames/original/frame-0012.jpg",
-      "mobile": "/frames/mobile/frame-0012.webp",
-      "original": "/frames/original/frame-0012.jpg"
+      "source": "ezgif-frame-012.png",
+      "desktop": "/frames/camera/desktop/frame-0012.webp",
+      "mobile": "/frames/camera/mobile/frame-0012.webp",
+      "original": "/frames/camera/original/frame-0012.png"
     },
     {
-      "source": "ezgif-frame-013.jpg",
-      "desktop": "/frames/original/frame-0013.jpg",
-      "mobile": "/frames/mobile/frame-0013.webp",
-      "original": "/frames/original/frame-0013.jpg"
+      "source": "ezgif-frame-013.png",
+      "desktop": "/frames/camera/desktop/frame-0013.webp",
+      "mobile": "/frames/camera/mobile/frame-0013.webp",
+      "original": "/frames/camera/original/frame-0013.png"
     },
     {
-      "source": "ezgif-frame-014.jpg",
-      "desktop": "/frames/original/frame-0014.jpg",
-      "mobile": "/frames/mobile/frame-0014.webp",
-      "original": "/frames/original/frame-0014.jpg"
+      "source": "ezgif-frame-014.png",
+      "desktop": "/frames/camera/desktop/frame-0014.webp",
+      "mobile": "/frames/camera/mobile/frame-0014.webp",
+      "original": "/frames/camera/original/frame-0014.png"
     },
     {
-      "source": "ezgif-frame-015.jpg",
-      "desktop": "/frames/original/frame-0015.jpg",
-      "mobile": "/frames/mobile/frame-0015.webp",
-      "original": "/frames/original/frame-0015.jpg"
+      "source": "ezgif-frame-015.png",
+      "desktop": "/frames/camera/desktop/frame-0015.webp",
+      "mobile": "/frames/camera/mobile/frame-0015.webp",
+      "original": "/frames/camera/original/frame-0015.png"
     },
     {
-      "source": "ezgif-frame-016.jpg",
-      "desktop": "/frames/original/frame-0016.jpg",
-      "mobile": "/frames/mobile/frame-0016.webp",
-      "original": "/frames/original/frame-0016.jpg"
+      "source": "ezgif-frame-016.png",
+      "desktop": "/frames/camera/desktop/frame-0016.webp",
+      "mobile": "/frames/camera/mobile/frame-0016.webp",
+      "original": "/frames/camera/original/frame-0016.png"
     },
     {
-      "source": "ezgif-frame-017.jpg",
-      "desktop": "/frames/original/frame-0017.jpg",
-      "mobile": "/frames/mobile/frame-0017.webp",
-      "original": "/frames/original/frame-0017.jpg"
+      "source": "ezgif-frame-017.png",
+      "desktop": "/frames/camera/desktop/frame-0017.webp",
+      "mobile": "/frames/camera/mobile/frame-0017.webp",
+      "original": "/frames/camera/original/frame-0017.png"
     },
     {
-      "source": "ezgif-frame-018.jpg",
-      "desktop": "/frames/original/frame-0018.jpg",
-      "mobile": "/frames/mobile/frame-0018.webp",
-      "original": "/frames/original/frame-0018.jpg"
+      "source": "ezgif-frame-018.png",
+      "desktop": "/frames/camera/desktop/frame-0018.webp",
+      "mobile": "/frames/camera/mobile/frame-0018.webp",
+      "original": "/frames/camera/original/frame-0018.png"
     },
     {
-      "source": "ezgif-frame-019.jpg",
-      "desktop": "/frames/original/frame-0019.jpg",
-      "mobile": "/frames/mobile/frame-0019.webp",
-      "original": "/frames/original/frame-0019.jpg"
+      "source": "ezgif-frame-019.png",
+      "desktop": "/frames/camera/desktop/frame-0019.webp",
+      "mobile": "/frames/camera/mobile/frame-0019.webp",
+      "original": "/frames/camera/original/frame-0019.png"
     },
     {
-      "source": "ezgif-frame-020.jpg",
-      "desktop": "/frames/original/frame-0020.jpg",
-      "mobile": "/frames/mobile/frame-0020.webp",
-      "original": "/frames/original/frame-0020.jpg"
+      "source": "ezgif-frame-020.png",
+      "desktop": "/frames/camera/desktop/frame-0020.webp",
+      "mobile": "/frames/camera/mobile/frame-0020.webp",
+      "original": "/frames/camera/original/frame-0020.png"
     },
     {
-      "source": "ezgif-frame-021.jpg",
-      "desktop": "/frames/original/frame-0021.jpg",
-      "mobile": "/frames/mobile/frame-0021.webp",
-      "original": "/frames/original/frame-0021.jpg"
+      "source": "ezgif-frame-021.png",
+      "desktop": "/frames/camera/desktop/frame-0021.webp",
+      "mobile": "/frames/camera/mobile/frame-0021.webp",
+      "original": "/frames/camera/original/frame-0021.png"
     },
     {
-      "source": "ezgif-frame-022.jpg",
-      "desktop": "/frames/original/frame-0022.jpg",
-      "mobile": "/frames/mobile/frame-0022.webp",
-      "original": "/frames/original/frame-0022.jpg"
+      "source": "ezgif-frame-022.png",
+      "desktop": "/frames/camera/desktop/frame-0022.webp",
+      "mobile": "/frames/camera/mobile/frame-0022.webp",
+      "original": "/frames/camera/original/frame-0022.png"
     },
     {
-      "source": "ezgif-frame-023.jpg",
-      "desktop": "/frames/original/frame-0023.jpg",
-      "mobile": "/frames/mobile/frame-0023.webp",
-      "original": "/frames/original/frame-0023.jpg"
+      "source": "ezgif-frame-023.png",
+      "desktop": "/frames/camera/desktop/frame-0023.webp",
+      "mobile": "/frames/camera/mobile/frame-0023.webp",
+      "original": "/frames/camera/original/frame-0023.png"
     },
     {
-      "source": "ezgif-frame-024.jpg",
-      "desktop": "/frames/original/frame-0024.jpg",
-      "mobile": "/frames/mobile/frame-0024.webp",
-      "original": "/frames/original/frame-0024.jpg"
+      "source": "ezgif-frame-024.png",
+      "desktop": "/frames/camera/desktop/frame-0024.webp",
+      "mobile": "/frames/camera/mobile/frame-0024.webp",
+      "original": "/frames/camera/original/frame-0024.png"
     },
     {
-      "source": "ezgif-frame-025.jpg",
-      "desktop": "/frames/original/frame-0025.jpg",
-      "mobile": "/frames/mobile/frame-0025.webp",
-      "original": "/frames/original/frame-0025.jpg"
+      "source": "ezgif-frame-025.png",
+      "desktop": "/frames/camera/desktop/frame-0025.webp",
+      "mobile": "/frames/camera/mobile/frame-0025.webp",
+      "original": "/frames/camera/original/frame-0025.png"
     },
     {
-      "source": "ezgif-frame-026.jpg",
-      "desktop": "/frames/original/frame-0026.jpg",
-      "mobile": "/frames/mobile/frame-0026.webp",
-      "original": "/frames/original/frame-0026.jpg"
+      "source": "ezgif-frame-026.png",
+      "desktop": "/frames/camera/desktop/frame-0026.webp",
+      "mobile": "/frames/camera/mobile/frame-0026.webp",
+      "original": "/frames/camera/original/frame-0026.png"
     },
     {
-      "source": "ezgif-frame-027.jpg",
-      "desktop": "/frames/original/frame-0027.jpg",
-      "mobile": "/frames/mobile/frame-0027.webp",
-      "original": "/frames/original/frame-0027.jpg"
+      "source": "ezgif-frame-027.png",
+      "desktop": "/frames/camera/desktop/frame-0027.webp",
+      "mobile": "/frames/camera/mobile/frame-0027.webp",
+      "original": "/frames/camera/original/frame-0027.png"
     },
     {
-      "source": "ezgif-frame-028.jpg",
-      "desktop": "/frames/original/frame-0028.jpg",
-      "mobile": "/frames/mobile/frame-0028.webp",
-      "original": "/frames/original/frame-0028.jpg"
+      "source": "ezgif-frame-028.png",
+      "desktop": "/frames/camera/desktop/frame-0028.webp",
+      "mobile": "/frames/camera/mobile/frame-0028.webp",
+      "original": "/frames/camera/original/frame-0028.png"
     },
     {
-      "source": "ezgif-frame-029.jpg",
-      "desktop": "/frames/original/frame-0029.jpg",
-      "mobile": "/frames/mobile/frame-0029.webp",
-      "original": "/frames/original/frame-0029.jpg"
+      "source": "ezgif-frame-029.png",
+      "desktop": "/frames/camera/desktop/frame-0029.webp",
+      "mobile": "/frames/camera/mobile/frame-0029.webp",
+      "original": "/frames/camera/original/frame-0029.png"
     },
     {
-      "source": "ezgif-frame-030.jpg",
-      "desktop": "/frames/original/frame-0030.jpg",
-      "mobile": "/frames/mobile/frame-0030.webp",
-      "original": "/frames/original/frame-0030.jpg"
+      "source": "ezgif-frame-030.png",
+      "desktop": "/frames/camera/desktop/frame-0030.webp",
+      "mobile": "/frames/camera/mobile/frame-0030.webp",
+      "original": "/frames/camera/original/frame-0030.png"
     },
     {
-      "source": "ezgif-frame-031.jpg",
-      "desktop": "/frames/original/frame-0031.jpg",
-      "mobile": "/frames/mobile/frame-0031.webp",
-      "original": "/frames/original/frame-0031.jpg"
+      "source": "ezgif-frame-031.png",
+      "desktop": "/frames/camera/desktop/frame-0031.webp",
+      "mobile": "/frames/camera/mobile/frame-0031.webp",
+      "original": "/frames/camera/original/frame-0031.png"
     },
     {
-      "source": "ezgif-frame-032.jpg",
-      "desktop": "/frames/original/frame-0032.jpg",
-      "mobile": "/frames/mobile/frame-0032.webp",
-      "original": "/frames/original/frame-0032.jpg"
+      "source": "ezgif-frame-032.png",
+      "desktop": "/frames/camera/desktop/frame-0032.webp",
+      "mobile": "/frames/camera/mobile/frame-0032.webp",
+      "original": "/frames/camera/original/frame-0032.png"
     },
     {
-      "source": "ezgif-frame-033.jpg",
-      "desktop": "/frames/original/frame-0033.jpg",
-      "mobile": "/frames/mobile/frame-0033.webp",
-      "original": "/frames/original/frame-0033.jpg"
+      "source": "ezgif-frame-033.png",
+      "desktop": "/frames/camera/desktop/frame-0033.webp",
+      "mobile": "/frames/camera/mobile/frame-0033.webp",
+      "original": "/frames/camera/original/frame-0033.png"
     },
     {
-      "source": "ezgif-frame-034.jpg",
-      "desktop": "/frames/original/frame-0034.jpg",
-      "mobile": "/frames/mobile/frame-0034.webp",
-      "original": "/frames/original/frame-0034.jpg"
+      "source": "ezgif-frame-034.png",
+      "desktop": "/frames/camera/desktop/frame-0034.webp",
+      "mobile": "/frames/camera/mobile/frame-0034.webp",
+      "original": "/frames/camera/original/frame-0034.png"
     },
     {
-      "source": "ezgif-frame-035.jpg",
-      "desktop": "/frames/original/frame-0035.jpg",
-      "mobile": "/frames/mobile/frame-0035.webp",
-      "original": "/frames/original/frame-0035.jpg"
+      "source": "ezgif-frame-035.png",
+      "desktop": "/frames/camera/desktop/frame-0035.webp",
+      "mobile": "/frames/camera/mobile/frame-0035.webp",
+      "original": "/frames/camera/original/frame-0035.png"
     },
     {
-      "source": "ezgif-frame-036.jpg",
-      "desktop": "/frames/original/frame-0036.jpg",
-      "mobile": "/frames/mobile/frame-0036.webp",
-      "original": "/frames/original/frame-0036.jpg"
+      "source": "ezgif-frame-036.png",
+      "desktop": "/frames/camera/desktop/frame-0036.webp",
+      "mobile": "/frames/camera/mobile/frame-0036.webp",
+      "original": "/frames/camera/original/frame-0036.png"
     },
     {
-      "source": "ezgif-frame-037.jpg",
-      "desktop": "/frames/original/frame-0037.jpg",
-      "mobile": "/frames/mobile/frame-0037.webp",
-      "original": "/frames/original/frame-0037.jpg"
+      "source": "ezgif-frame-037.png",
+      "desktop": "/frames/camera/desktop/frame-0037.webp",
+      "mobile": "/frames/camera/mobile/frame-0037.webp",
+      "original": "/frames/camera/original/frame-0037.png"
     },
     {
-      "source": "ezgif-frame-038.jpg",
-      "desktop": "/frames/original/frame-0038.jpg",
-      "mobile": "/frames/mobile/frame-0038.webp",
-      "original": "/frames/original/frame-0038.jpg"
+      "source": "ezgif-frame-038.png",
+      "desktop": "/frames/camera/desktop/frame-0038.webp",
+      "mobile": "/frames/camera/mobile/frame-0038.webp",
+      "original": "/frames/camera/original/frame-0038.png"
     },
     {
-      "source": "ezgif-frame-039.jpg",
-      "desktop": "/frames/original/frame-0039.jpg",
-      "mobile": "/frames/mobile/frame-0039.webp",
-      "original": "/frames/original/frame-0039.jpg"
+      "source": "ezgif-frame-039.png",
+      "desktop": "/frames/camera/desktop/frame-0039.webp",
+      "mobile": "/frames/camera/mobile/frame-0039.webp",
+      "original": "/frames/camera/original/frame-0039.png"
     },
     {
-      "source": "ezgif-frame-040.jpg",
-      "desktop": "/frames/original/frame-0040.jpg",
-      "mobile": "/frames/mobile/frame-0040.webp",
-      "original": "/frames/original/frame-0040.jpg"
+      "source": "ezgif-frame-040.png",
+      "desktop": "/frames/camera/desktop/frame-0040.webp",
+      "mobile": "/frames/camera/mobile/frame-0040.webp",
+      "original": "/frames/camera/original/frame-0040.png"
     },
     {
-      "source": "ezgif-frame-041.jpg",
-      "desktop": "/frames/original/frame-0041.jpg",
-      "mobile": "/frames/mobile/frame-0041.webp",
-      "original": "/frames/original/frame-0041.jpg"
+      "source": "ezgif-frame-041.png",
+      "desktop": "/frames/camera/desktop/frame-0041.webp",
+      "mobile": "/frames/camera/mobile/frame-0041.webp",
+      "original": "/frames/camera/original/frame-0041.png"
     },
     {
-      "source": "ezgif-frame-042.jpg",
-      "desktop": "/frames/original/frame-0042.jpg",
-      "mobile": "/frames/mobile/frame-0042.webp",
-      "original": "/frames/original/frame-0042.jpg"
+      "source": "ezgif-frame-042.png",
+      "desktop": "/frames/camera/desktop/frame-0042.webp",
+      "mobile": "/frames/camera/mobile/frame-0042.webp",
+      "original": "/frames/camera/original/frame-0042.png"
     },
     {
-      "source": "ezgif-frame-043.jpg",
-      "desktop": "/frames/original/frame-0043.jpg",
-      "mobile": "/frames/mobile/frame-0043.webp",
-      "original": "/frames/original/frame-0043.jpg"
+      "source": "ezgif-frame-043.png",
+      "desktop": "/frames/camera/desktop/frame-0043.webp",
+      "mobile": "/frames/camera/mobile/frame-0043.webp",
+      "original": "/frames/camera/original/frame-0043.png"
     },
     {
-      "source": "ezgif-frame-044.jpg",
-      "desktop": "/frames/original/frame-0044.jpg",
-      "mobile": "/frames/mobile/frame-0044.webp",
-      "original": "/frames/original/frame-0044.jpg"
+      "source": "ezgif-frame-044.png",
+      "desktop": "/frames/camera/desktop/frame-0044.webp",
+      "mobile": "/frames/camera/mobile/frame-0044.webp",
+      "original": "/frames/camera/original/frame-0044.png"
     },
     {
-      "source": "ezgif-frame-045.jpg",
-      "desktop": "/frames/original/frame-0045.jpg",
-      "mobile": "/frames/mobile/frame-0045.webp",
-      "original": "/frames/original/frame-0045.jpg"
+      "source": "ezgif-frame-045.png",
+      "desktop": "/frames/camera/desktop/frame-0045.webp",
+      "mobile": "/frames/camera/mobile/frame-0045.webp",
+      "original": "/frames/camera/original/frame-0045.png"
     },
     {
-      "source": "ezgif-frame-046.jpg",
-      "desktop": "/frames/original/frame-0046.jpg",
-      "mobile": "/frames/mobile/frame-0046.webp",
-      "original": "/frames/original/frame-0046.jpg"
+      "source": "ezgif-frame-046.png",
+      "desktop": "/frames/camera/desktop/frame-0046.webp",
+      "mobile": "/frames/camera/mobile/frame-0046.webp",
+      "original": "/frames/camera/original/frame-0046.png"
     },
     {
-      "source": "ezgif-frame-047.jpg",
-      "desktop": "/frames/original/frame-0047.jpg",
-      "mobile": "/frames/mobile/frame-0047.webp",
-      "original": "/frames/original/frame-0047.jpg"
+      "source": "ezgif-frame-047.png",
+      "desktop": "/frames/camera/desktop/frame-0047.webp",
+      "mobile": "/frames/camera/mobile/frame-0047.webp",
+      "original": "/frames/camera/original/frame-0047.png"
     },
     {
-      "source": "ezgif-frame-048.jpg",
-      "desktop": "/frames/original/frame-0048.jpg",
-      "mobile": "/frames/mobile/frame-0048.webp",
-      "original": "/frames/original/frame-0048.jpg"
+      "source": "ezgif-frame-048.png",
+      "desktop": "/frames/camera/desktop/frame-0048.webp",
+      "mobile": "/frames/camera/mobile/frame-0048.webp",
+      "original": "/frames/camera/original/frame-0048.png"
     },
     {
-      "source": "ezgif-frame-049.jpg",
-      "desktop": "/frames/original/frame-0049.jpg",
-      "mobile": "/frames/mobile/frame-0049.webp",
-      "original": "/frames/original/frame-0049.jpg"
+      "source": "ezgif-frame-049.png",
+      "desktop": "/frames/camera/desktop/frame-0049.webp",
+      "mobile": "/frames/camera/mobile/frame-0049.webp",
+      "original": "/frames/camera/original/frame-0049.png"
     },
     {
-      "source": "ezgif-frame-050.jpg",
-      "desktop": "/frames/original/frame-0050.jpg",
-      "mobile": "/frames/mobile/frame-0050.webp",
-      "original": "/frames/original/frame-0050.jpg"
+      "source": "ezgif-frame-050.png",
+      "desktop": "/frames/camera/desktop/frame-0050.webp",
+      "mobile": "/frames/camera/mobile/frame-0050.webp",
+      "original": "/frames/camera/original/frame-0050.png"
     },
     {
-      "source": "ezgif-frame-051.jpg",
-      "desktop": "/frames/original/frame-0051.jpg",
-      "mobile": "/frames/mobile/frame-0051.webp",
-      "original": "/frames/original/frame-0051.jpg"
+      "source": "ezgif-frame-051.png",
+      "desktop": "/frames/camera/desktop/frame-0051.webp",
+      "mobile": "/frames/camera/mobile/frame-0051.webp",
+      "original": "/frames/camera/original/frame-0051.png"
     },
     {
-      "source": "ezgif-frame-052.jpg",
-      "desktop": "/frames/original/frame-0052.jpg",
-      "mobile": "/frames/mobile/frame-0052.webp",
-      "original": "/frames/original/frame-0052.jpg"
+      "source": "ezgif-frame-052.png",
+      "desktop": "/frames/camera/desktop/frame-0052.webp",
+      "mobile": "/frames/camera/mobile/frame-0052.webp",
+      "original": "/frames/camera/original/frame-0052.png"
     },
     {
-      "source": "ezgif-frame-053.jpg",
-      "desktop": "/frames/original/frame-0053.jpg",
-      "mobile": "/frames/mobile/frame-0053.webp",
-      "original": "/frames/original/frame-0053.jpg"
+      "source": "ezgif-frame-053.png",
+      "desktop": "/frames/camera/desktop/frame-0053.webp",
+      "mobile": "/frames/camera/mobile/frame-0053.webp",
+      "original": "/frames/camera/original/frame-0053.png"
     },
     {
-      "source": "ezgif-frame-054.jpg",
-      "desktop": "/frames/original/frame-0054.jpg",
-      "mobile": "/frames/mobile/frame-0054.webp",
-      "original": "/frames/original/frame-0054.jpg"
+      "source": "ezgif-frame-054.png",
+      "desktop": "/frames/camera/desktop/frame-0054.webp",
+      "mobile": "/frames/camera/mobile/frame-0054.webp",
+      "original": "/frames/camera/original/frame-0054.png"
     },
     {
-      "source": "ezgif-frame-055.jpg",
-      "desktop": "/frames/original/frame-0055.jpg",
-      "mobile": "/frames/mobile/frame-0055.webp",
-      "original": "/frames/original/frame-0055.jpg"
+      "source": "ezgif-frame-055.png",
+      "desktop": "/frames/camera/desktop/frame-0055.webp",
+      "mobile": "/frames/camera/mobile/frame-0055.webp",
+      "original": "/frames/camera/original/frame-0055.png"
     },
     {
-      "source": "ezgif-frame-056.jpg",
-      "desktop": "/frames/original/frame-0056.jpg",
-      "mobile": "/frames/mobile/frame-0056.webp",
-      "original": "/frames/original/frame-0056.jpg"
+      "source": "ezgif-frame-056.png",
+      "desktop": "/frames/camera/desktop/frame-0056.webp",
+      "mobile": "/frames/camera/mobile/frame-0056.webp",
+      "original": "/frames/camera/original/frame-0056.png"
     },
     {
-      "source": "ezgif-frame-057.jpg",
-      "desktop": "/frames/original/frame-0057.jpg",
-      "mobile": "/frames/mobile/frame-0057.webp",
-      "original": "/frames/original/frame-0057.jpg"
+      "source": "ezgif-frame-057.png",
+      "desktop": "/frames/camera/desktop/frame-0057.webp",
+      "mobile": "/frames/camera/mobile/frame-0057.webp",
+      "original": "/frames/camera/original/frame-0057.png"
     },
     {
-      "source": "ezgif-frame-058.jpg",
-      "desktop": "/frames/original/frame-0058.jpg",
-      "mobile": "/frames/mobile/frame-0058.webp",
-      "original": "/frames/original/frame-0058.jpg"
+      "source": "ezgif-frame-058.png",
+      "desktop": "/frames/camera/desktop/frame-0058.webp",
+      "mobile": "/frames/camera/mobile/frame-0058.webp",
+      "original": "/frames/camera/original/frame-0058.png"
     },
     {
-      "source": "ezgif-frame-059.jpg",
-      "desktop": "/frames/original/frame-0059.jpg",
-      "mobile": "/frames/mobile/frame-0059.webp",
-      "original": "/frames/original/frame-0059.jpg"
+      "source": "ezgif-frame-059.png",
+      "desktop": "/frames/camera/desktop/frame-0059.webp",
+      "mobile": "/frames/camera/mobile/frame-0059.webp",
+      "original": "/frames/camera/original/frame-0059.png"
     },
     {
-      "source": "ezgif-frame-060.jpg",
-      "desktop": "/frames/original/frame-0060.jpg",
-      "mobile": "/frames/mobile/frame-0060.webp",
-      "original": "/frames/original/frame-0060.jpg"
+      "source": "ezgif-frame-060.png",
+      "desktop": "/frames/camera/desktop/frame-0060.webp",
+      "mobile": "/frames/camera/mobile/frame-0060.webp",
+      "original": "/frames/camera/original/frame-0060.png"
     },
     {
-      "source": "ezgif-frame-061.jpg",
-      "desktop": "/frames/original/frame-0061.jpg",
-      "mobile": "/frames/mobile/frame-0061.webp",
-      "original": "/frames/original/frame-0061.jpg"
+      "source": "ezgif-frame-061.png",
+      "desktop": "/frames/camera/desktop/frame-0061.webp",
+      "mobile": "/frames/camera/mobile/frame-0061.webp",
+      "original": "/frames/camera/original/frame-0061.png"
     },
     {
-      "source": "ezgif-frame-062.jpg",
-      "desktop": "/frames/original/frame-0062.jpg",
-      "mobile": "/frames/mobile/frame-0062.webp",
-      "original": "/frames/original/frame-0062.jpg"
+      "source": "ezgif-frame-062.png",
+      "desktop": "/frames/camera/desktop/frame-0062.webp",
+      "mobile": "/frames/camera/mobile/frame-0062.webp",
+      "original": "/frames/camera/original/frame-0062.png"
     },
     {
-      "source": "ezgif-frame-063.jpg",
-      "desktop": "/frames/original/frame-0063.jpg",
-      "mobile": "/frames/mobile/frame-0063.webp",
-      "original": "/frames/original/frame-0063.jpg"
+      "source": "ezgif-frame-063.png",
+      "desktop": "/frames/camera/desktop/frame-0063.webp",
+      "mobile": "/frames/camera/mobile/frame-0063.webp",
+      "original": "/frames/camera/original/frame-0063.png"
     },
     {
-      "source": "ezgif-frame-064.jpg",
-      "desktop": "/frames/original/frame-0064.jpg",
-      "mobile": "/frames/mobile/frame-0064.webp",
-      "original": "/frames/original/frame-0064.jpg"
+      "source": "ezgif-frame-064.png",
+      "desktop": "/frames/camera/desktop/frame-0064.webp",
+      "mobile": "/frames/camera/mobile/frame-0064.webp",
+      "original": "/frames/camera/original/frame-0064.png"
     },
     {
-      "source": "ezgif-frame-065.jpg",
-      "desktop": "/frames/original/frame-0065.jpg",
-      "mobile": "/frames/mobile/frame-0065.webp",
-      "original": "/frames/original/frame-0065.jpg"
+      "source": "ezgif-frame-065.png",
+      "desktop": "/frames/camera/desktop/frame-0065.webp",
+      "mobile": "/frames/camera/mobile/frame-0065.webp",
+      "original": "/frames/camera/original/frame-0065.png"
     },
     {
-      "source": "ezgif-frame-066.jpg",
-      "desktop": "/frames/original/frame-0066.jpg",
-      "mobile": "/frames/mobile/frame-0066.webp",
-      "original": "/frames/original/frame-0066.jpg"
+      "source": "ezgif-frame-066.png",
+      "desktop": "/frames/camera/desktop/frame-0066.webp",
+      "mobile": "/frames/camera/mobile/frame-0066.webp",
+      "original": "/frames/camera/original/frame-0066.png"
     },
     {
-      "source": "ezgif-frame-067.jpg",
-      "desktop": "/frames/original/frame-0067.jpg",
-      "mobile": "/frames/mobile/frame-0067.webp",
-      "original": "/frames/original/frame-0067.jpg"
+      "source": "ezgif-frame-067.png",
+      "desktop": "/frames/camera/desktop/frame-0067.webp",
+      "mobile": "/frames/camera/mobile/frame-0067.webp",
+      "original": "/frames/camera/original/frame-0067.png"
     },
     {
-      "source": "ezgif-frame-068.jpg",
-      "desktop": "/frames/original/frame-0068.jpg",
-      "mobile": "/frames/mobile/frame-0068.webp",
-      "original": "/frames/original/frame-0068.jpg"
+      "source": "ezgif-frame-068.png",
+      "desktop": "/frames/camera/desktop/frame-0068.webp",
+      "mobile": "/frames/camera/mobile/frame-0068.webp",
+      "original": "/frames/camera/original/frame-0068.png"
     },
     {
-      "source": "ezgif-frame-069.jpg",
-      "desktop": "/frames/original/frame-0069.jpg",
-      "mobile": "/frames/mobile/frame-0069.webp",
-      "original": "/frames/original/frame-0069.jpg"
+      "source": "ezgif-frame-069.png",
+      "desktop": "/frames/camera/desktop/frame-0069.webp",
+      "mobile": "/frames/camera/mobile/frame-0069.webp",
+      "original": "/frames/camera/original/frame-0069.png"
     },
     {
-      "source": "ezgif-frame-070.jpg",
-      "desktop": "/frames/original/frame-0070.jpg",
-      "mobile": "/frames/mobile/frame-0070.webp",
-      "original": "/frames/original/frame-0070.jpg"
+      "source": "ezgif-frame-070.png",
+      "desktop": "/frames/camera/desktop/frame-0070.webp",
+      "mobile": "/frames/camera/mobile/frame-0070.webp",
+      "original": "/frames/camera/original/frame-0070.png"
     },
     {
-      "source": "ezgif-frame-071.jpg",
-      "desktop": "/frames/original/frame-0071.jpg",
-      "mobile": "/frames/mobile/frame-0071.webp",
-      "original": "/frames/original/frame-0071.jpg"
+      "source": "ezgif-frame-071.png",
+      "desktop": "/frames/camera/desktop/frame-0071.webp",
+      "mobile": "/frames/camera/mobile/frame-0071.webp",
+      "original": "/frames/camera/original/frame-0071.png"
     },
     {
-      "source": "ezgif-frame-072.jpg",
-      "desktop": "/frames/original/frame-0072.jpg",
-      "mobile": "/frames/mobile/frame-0072.webp",
-      "original": "/frames/original/frame-0072.jpg"
+      "source": "ezgif-frame-072.png",
+      "desktop": "/frames/camera/desktop/frame-0072.webp",
+      "mobile": "/frames/camera/mobile/frame-0072.webp",
+      "original": "/frames/camera/original/frame-0072.png"
     },
     {
-      "source": "ezgif-frame-073.jpg",
-      "desktop": "/frames/original/frame-0073.jpg",
-      "mobile": "/frames/mobile/frame-0073.webp",
-      "original": "/frames/original/frame-0073.jpg"
+      "source": "ezgif-frame-073.png",
+      "desktop": "/frames/camera/desktop/frame-0073.webp",
+      "mobile": "/frames/camera/mobile/frame-0073.webp",
+      "original": "/frames/camera/original/frame-0073.png"
     },
     {
-      "source": "ezgif-frame-074.jpg",
-      "desktop": "/frames/original/frame-0074.jpg",
-      "mobile": "/frames/mobile/frame-0074.webp",
-      "original": "/frames/original/frame-0074.jpg"
+      "source": "ezgif-frame-074.png",
+      "desktop": "/frames/camera/desktop/frame-0074.webp",
+      "mobile": "/frames/camera/mobile/frame-0074.webp",
+      "original": "/frames/camera/original/frame-0074.png"
     },
     {
-      "source": "ezgif-frame-075.jpg",
-      "desktop": "/frames/original/frame-0075.jpg",
-      "mobile": "/frames/mobile/frame-0075.webp",
-      "original": "/frames/original/frame-0075.jpg"
+      "source": "ezgif-frame-075.png",
+      "desktop": "/frames/camera/desktop/frame-0075.webp",
+      "mobile": "/frames/camera/mobile/frame-0075.webp",
+      "original": "/frames/camera/original/frame-0075.png"
     },
     {
-      "source": "ezgif-frame-076.jpg",
-      "desktop": "/frames/original/frame-0076.jpg",
-      "mobile": "/frames/mobile/frame-0076.webp",
-      "original": "/frames/original/frame-0076.jpg"
+      "source": "ezgif-frame-076.png",
+      "desktop": "/frames/camera/desktop/frame-0076.webp",
+      "mobile": "/frames/camera/mobile/frame-0076.webp",
+      "original": "/frames/camera/original/frame-0076.png"
     },
     {
-      "source": "ezgif-frame-077.jpg",
-      "desktop": "/frames/original/frame-0077.jpg",
-      "mobile": "/frames/mobile/frame-0077.webp",
-      "original": "/frames/original/frame-0077.jpg"
+      "source": "ezgif-frame-077.png",
+      "desktop": "/frames/camera/desktop/frame-0077.webp",
+      "mobile": "/frames/camera/mobile/frame-0077.webp",
+      "original": "/frames/camera/original/frame-0077.png"
     },
     {
-      "source": "ezgif-frame-078.jpg",
-      "desktop": "/frames/original/frame-0078.jpg",
-      "mobile": "/frames/mobile/frame-0078.webp",
-      "original": "/frames/original/frame-0078.jpg"
+      "source": "ezgif-frame-078.png",
+      "desktop": "/frames/camera/desktop/frame-0078.webp",
+      "mobile": "/frames/camera/mobile/frame-0078.webp",
+      "original": "/frames/camera/original/frame-0078.png"
     },
     {
-      "source": "ezgif-frame-079.jpg",
-      "desktop": "/frames/original/frame-0079.jpg",
-      "mobile": "/frames/mobile/frame-0079.webp",
-      "original": "/frames/original/frame-0079.jpg"
+      "source": "ezgif-frame-079.png",
+      "desktop": "/frames/camera/desktop/frame-0079.webp",
+      "mobile": "/frames/camera/mobile/frame-0079.webp",
+      "original": "/frames/camera/original/frame-0079.png"
     },
     {
-      "source": "ezgif-frame-080.jpg",
-      "desktop": "/frames/original/frame-0080.jpg",
-      "mobile": "/frames/mobile/frame-0080.webp",
-      "original": "/frames/original/frame-0080.jpg"
+      "source": "ezgif-frame-080.png",
+      "desktop": "/frames/camera/desktop/frame-0080.webp",
+      "mobile": "/frames/camera/mobile/frame-0080.webp",
+      "original": "/frames/camera/original/frame-0080.png"
     },
     {
-      "source": "ezgif-frame-081.jpg",
-      "desktop": "/frames/original/frame-0081.jpg",
-      "mobile": "/frames/mobile/frame-0081.webp",
-      "original": "/frames/original/frame-0081.jpg"
+      "source": "ezgif-frame-081.png",
+      "desktop": "/frames/camera/desktop/frame-0081.webp",
+      "mobile": "/frames/camera/mobile/frame-0081.webp",
+      "original": "/frames/camera/original/frame-0081.png"
     },
     {
-      "source": "ezgif-frame-082.jpg",
-      "desktop": "/frames/original/frame-0082.jpg",
-      "mobile": "/frames/mobile/frame-0082.webp",
-      "original": "/frames/original/frame-0082.jpg"
+      "source": "ezgif-frame-082.png",
+      "desktop": "/frames/camera/desktop/frame-0082.webp",
+      "mobile": "/frames/camera/mobile/frame-0082.webp",
+      "original": "/frames/camera/original/frame-0082.png"
     },
     {
-      "source": "ezgif-frame-083.jpg",
-      "desktop": "/frames/original/frame-0083.jpg",
-      "mobile": "/frames/mobile/frame-0083.webp",
-      "original": "/frames/original/frame-0083.jpg"
+      "source": "ezgif-frame-083.png",
+      "desktop": "/frames/camera/desktop/frame-0083.webp",
+      "mobile": "/frames/camera/mobile/frame-0083.webp",
+      "original": "/frames/camera/original/frame-0083.png"
     },
     {
-      "source": "ezgif-frame-084.jpg",
-      "desktop": "/frames/original/frame-0084.jpg",
-      "mobile": "/frames/mobile/frame-0084.webp",
-      "original": "/frames/original/frame-0084.jpg"
+      "source": "ezgif-frame-084.png",
+      "desktop": "/frames/camera/desktop/frame-0084.webp",
+      "mobile": "/frames/camera/mobile/frame-0084.webp",
+      "original": "/frames/camera/original/frame-0084.png"
     },
     {
-      "source": "ezgif-frame-085.jpg",
-      "desktop": "/frames/original/frame-0085.jpg",
-      "mobile": "/frames/mobile/frame-0085.webp",
-      "original": "/frames/original/frame-0085.jpg"
+      "source": "ezgif-frame-085.png",
+      "desktop": "/frames/camera/desktop/frame-0085.webp",
+      "mobile": "/frames/camera/mobile/frame-0085.webp",
+      "original": "/frames/camera/original/frame-0085.png"
     },
     {
-      "source": "ezgif-frame-086.jpg",
-      "desktop": "/frames/original/frame-0086.jpg",
-      "mobile": "/frames/mobile/frame-0086.webp",
-      "original": "/frames/original/frame-0086.jpg"
+      "source": "ezgif-frame-086.png",
+      "desktop": "/frames/camera/desktop/frame-0086.webp",
+      "mobile": "/frames/camera/mobile/frame-0086.webp",
+      "original": "/frames/camera/original/frame-0086.png"
     },
     {
-      "source": "ezgif-frame-087.jpg",
-      "desktop": "/frames/original/frame-0087.jpg",
-      "mobile": "/frames/mobile/frame-0087.webp",
-      "original": "/frames/original/frame-0087.jpg"
+      "source": "ezgif-frame-087.png",
+      "desktop": "/frames/camera/desktop/frame-0087.webp",
+      "mobile": "/frames/camera/mobile/frame-0087.webp",
+      "original": "/frames/camera/original/frame-0087.png"
     },
     {
-      "source": "ezgif-frame-088.jpg",
-      "desktop": "/frames/original/frame-0088.jpg",
-      "mobile": "/frames/mobile/frame-0088.webp",
-      "original": "/frames/original/frame-0088.jpg"
+      "source": "ezgif-frame-088.png",
+      "desktop": "/frames/camera/desktop/frame-0088.webp",
+      "mobile": "/frames/camera/mobile/frame-0088.webp",
+      "original": "/frames/camera/original/frame-0088.png"
     },
     {
-      "source": "ezgif-frame-089.jpg",
-      "desktop": "/frames/original/frame-0089.jpg",
-      "mobile": "/frames/mobile/frame-0089.webp",
-      "original": "/frames/original/frame-0089.jpg"
+      "source": "ezgif-frame-089.png",
+      "desktop": "/frames/camera/desktop/frame-0089.webp",
+      "mobile": "/frames/camera/mobile/frame-0089.webp",
+      "original": "/frames/camera/original/frame-0089.png"
     },
     {
-      "source": "ezgif-frame-090.jpg",
-      "desktop": "/frames/original/frame-0090.jpg",
-      "mobile": "/frames/mobile/frame-0090.webp",
-      "original": "/frames/original/frame-0090.jpg"
+      "source": "ezgif-frame-090.png",
+      "desktop": "/frames/camera/desktop/frame-0090.webp",
+      "mobile": "/frames/camera/mobile/frame-0090.webp",
+      "original": "/frames/camera/original/frame-0090.png"
     },
     {
-      "source": "ezgif-frame-091.jpg",
-      "desktop": "/frames/original/frame-0091.jpg",
-      "mobile": "/frames/mobile/frame-0091.webp",
-      "original": "/frames/original/frame-0091.jpg"
+      "source": "ezgif-frame-091.png",
+      "desktop": "/frames/camera/desktop/frame-0091.webp",
+      "mobile": "/frames/camera/mobile/frame-0091.webp",
+      "original": "/frames/camera/original/frame-0091.png"
     },
     {
-      "source": "ezgif-frame-092.jpg",
-      "desktop": "/frames/original/frame-0092.jpg",
-      "mobile": "/frames/mobile/frame-0092.webp",
-      "original": "/frames/original/frame-0092.jpg"
+      "source": "ezgif-frame-092.png",
+      "desktop": "/frames/camera/desktop/frame-0092.webp",
+      "mobile": "/frames/camera/mobile/frame-0092.webp",
+      "original": "/frames/camera/original/frame-0092.png"
     },
     {
-      "source": "ezgif-frame-093.jpg",
-      "desktop": "/frames/original/frame-0093.jpg",
-      "mobile": "/frames/mobile/frame-0093.webp",
-      "original": "/frames/original/frame-0093.jpg"
+      "source": "ezgif-frame-093.png",
+      "desktop": "/frames/camera/desktop/frame-0093.webp",
+      "mobile": "/frames/camera/mobile/frame-0093.webp",
+      "original": "/frames/camera/original/frame-0093.png"
     },
     {
-      "source": "ezgif-frame-094.jpg",
-      "desktop": "/frames/original/frame-0094.jpg",
-      "mobile": "/frames/mobile/frame-0094.webp",
-      "original": "/frames/original/frame-0094.jpg"
+      "source": "ezgif-frame-094.png",
+      "desktop": "/frames/camera/desktop/frame-0094.webp",
+      "mobile": "/frames/camera/mobile/frame-0094.webp",
+      "original": "/frames/camera/original/frame-0094.png"
     },
     {
-      "source": "ezgif-frame-095.jpg",
-      "desktop": "/frames/original/frame-0095.jpg",
-      "mobile": "/frames/mobile/frame-0095.webp",
-      "original": "/frames/original/frame-0095.jpg"
+      "source": "ezgif-frame-095.png",
+      "desktop": "/frames/camera/desktop/frame-0095.webp",
+      "mobile": "/frames/camera/mobile/frame-0095.webp",
+      "original": "/frames/camera/original/frame-0095.png"
     },
     {
-      "source": "ezgif-frame-096.jpg",
-      "desktop": "/frames/original/frame-0096.jpg",
-      "mobile": "/frames/mobile/frame-0096.webp",
-      "original": "/frames/original/frame-0096.jpg"
+      "source": "ezgif-frame-096.png",
+      "desktop": "/frames/camera/desktop/frame-0096.webp",
+      "mobile": "/frames/camera/mobile/frame-0096.webp",
+      "original": "/frames/camera/original/frame-0096.png"
     },
     {
-      "source": "ezgif-frame-097.jpg",
-      "desktop": "/frames/original/frame-0097.jpg",
-      "mobile": "/frames/mobile/frame-0097.webp",
-      "original": "/frames/original/frame-0097.jpg"
+      "source": "ezgif-frame-097.png",
+      "desktop": "/frames/camera/desktop/frame-0097.webp",
+      "mobile": "/frames/camera/mobile/frame-0097.webp",
+      "original": "/frames/camera/original/frame-0097.png"
     },
     {
-      "source": "ezgif-frame-098.jpg",
-      "desktop": "/frames/original/frame-0098.jpg",
-      "mobile": "/frames/mobile/frame-0098.webp",
-      "original": "/frames/original/frame-0098.jpg"
+      "source": "ezgif-frame-098.png",
+      "desktop": "/frames/camera/desktop/frame-0098.webp",
+      "mobile": "/frames/camera/mobile/frame-0098.webp",
+      "original": "/frames/camera/original/frame-0098.png"
     },
     {
-      "source": "ezgif-frame-099.jpg",
-      "desktop": "/frames/original/frame-0099.jpg",
-      "mobile": "/frames/mobile/frame-0099.webp",
-      "original": "/frames/original/frame-0099.jpg"
+      "source": "ezgif-frame-099.png",
+      "desktop": "/frames/camera/desktop/frame-0099.webp",
+      "mobile": "/frames/camera/mobile/frame-0099.webp",
+      "original": "/frames/camera/original/frame-0099.png"
     },
     {
-      "source": "ezgif-frame-100.jpg",
-      "desktop": "/frames/original/frame-0100.jpg",
-      "mobile": "/frames/mobile/frame-0100.webp",
-      "original": "/frames/original/frame-0100.jpg"
+      "source": "ezgif-frame-100.png",
+      "desktop": "/frames/camera/desktop/frame-0100.webp",
+      "mobile": "/frames/camera/mobile/frame-0100.webp",
+      "original": "/frames/camera/original/frame-0100.png"
     },
     {
-      "source": "ezgif-frame-101.jpg",
-      "desktop": "/frames/original/frame-0101.jpg",
-      "mobile": "/frames/mobile/frame-0101.webp",
-      "original": "/frames/original/frame-0101.jpg"
+      "source": "ezgif-frame-101.png",
+      "desktop": "/frames/camera/desktop/frame-0101.webp",
+      "mobile": "/frames/camera/mobile/frame-0101.webp",
+      "original": "/frames/camera/original/frame-0101.png"
     },
     {
-      "source": "ezgif-frame-102.jpg",
-      "desktop": "/frames/original/frame-0102.jpg",
-      "mobile": "/frames/mobile/frame-0102.webp",
-      "original": "/frames/original/frame-0102.jpg"
+      "source": "ezgif-frame-102.png",
+      "desktop": "/frames/camera/desktop/frame-0102.webp",
+      "mobile": "/frames/camera/mobile/frame-0102.webp",
+      "original": "/frames/camera/original/frame-0102.png"
     },
     {
-      "source": "ezgif-frame-103.jpg",
-      "desktop": "/frames/original/frame-0103.jpg",
-      "mobile": "/frames/mobile/frame-0103.webp",
-      "original": "/frames/original/frame-0103.jpg"
+      "source": "ezgif-frame-103.png",
+      "desktop": "/frames/camera/desktop/frame-0103.webp",
+      "mobile": "/frames/camera/mobile/frame-0103.webp",
+      "original": "/frames/camera/original/frame-0103.png"
     },
     {
-      "source": "ezgif-frame-104.jpg",
-      "desktop": "/frames/original/frame-0104.jpg",
-      "mobile": "/frames/mobile/frame-0104.webp",
-      "original": "/frames/original/frame-0104.jpg"
+      "source": "ezgif-frame-104.png",
+      "desktop": "/frames/camera/desktop/frame-0104.webp",
+      "mobile": "/frames/camera/mobile/frame-0104.webp",
+      "original": "/frames/camera/original/frame-0104.png"
     },
     {
-      "source": "ezgif-frame-105.jpg",
-      "desktop": "/frames/original/frame-0105.jpg",
-      "mobile": "/frames/mobile/frame-0105.webp",
-      "original": "/frames/original/frame-0105.jpg"
+      "source": "ezgif-frame-105.png",
+      "desktop": "/frames/camera/desktop/frame-0105.webp",
+      "mobile": "/frames/camera/mobile/frame-0105.webp",
+      "original": "/frames/camera/original/frame-0105.png"
     },
     {
-      "source": "ezgif-frame-106.jpg",
-      "desktop": "/frames/original/frame-0106.jpg",
-      "mobile": "/frames/mobile/frame-0106.webp",
-      "original": "/frames/original/frame-0106.jpg"
+      "source": "ezgif-frame-106.png",
+      "desktop": "/frames/camera/desktop/frame-0106.webp",
+      "mobile": "/frames/camera/mobile/frame-0106.webp",
+      "original": "/frames/camera/original/frame-0106.png"
     },
     {
-      "source": "ezgif-frame-107.jpg",
-      "desktop": "/frames/original/frame-0107.jpg",
-      "mobile": "/frames/mobile/frame-0107.webp",
-      "original": "/frames/original/frame-0107.jpg"
+      "source": "ezgif-frame-107.png",
+      "desktop": "/frames/camera/desktop/frame-0107.webp",
+      "mobile": "/frames/camera/mobile/frame-0107.webp",
+      "original": "/frames/camera/original/frame-0107.png"
     },
     {
-      "source": "ezgif-frame-108.jpg",
-      "desktop": "/frames/original/frame-0108.jpg",
-      "mobile": "/frames/mobile/frame-0108.webp",
-      "original": "/frames/original/frame-0108.jpg"
+      "source": "ezgif-frame-108.png",
+      "desktop": "/frames/camera/desktop/frame-0108.webp",
+      "mobile": "/frames/camera/mobile/frame-0108.webp",
+      "original": "/frames/camera/original/frame-0108.png"
     },
     {
-      "source": "ezgif-frame-109.jpg",
-      "desktop": "/frames/original/frame-0109.jpg",
-      "mobile": "/frames/mobile/frame-0109.webp",
-      "original": "/frames/original/frame-0109.jpg"
+      "source": "ezgif-frame-109.png",
+      "desktop": "/frames/camera/desktop/frame-0109.webp",
+      "mobile": "/frames/camera/mobile/frame-0109.webp",
+      "original": "/frames/camera/original/frame-0109.png"
     },
     {
-      "source": "ezgif-frame-110.jpg",
-      "desktop": "/frames/original/frame-0110.jpg",
-      "mobile": "/frames/mobile/frame-0110.webp",
-      "original": "/frames/original/frame-0110.jpg"
+      "source": "ezgif-frame-110.png",
+      "desktop": "/frames/camera/desktop/frame-0110.webp",
+      "mobile": "/frames/camera/mobile/frame-0110.webp",
+      "original": "/frames/camera/original/frame-0110.png"
     },
     {
-      "source": "ezgif-frame-111.jpg",
-      "desktop": "/frames/original/frame-0111.jpg",
-      "mobile": "/frames/mobile/frame-0111.webp",
-      "original": "/frames/original/frame-0111.jpg"
+      "source": "ezgif-frame-111.png",
+      "desktop": "/frames/camera/desktop/frame-0111.webp",
+      "mobile": "/frames/camera/mobile/frame-0111.webp",
+      "original": "/frames/camera/original/frame-0111.png"
     },
     {
-      "source": "ezgif-frame-112.jpg",
-      "desktop": "/frames/original/frame-0112.jpg",
-      "mobile": "/frames/mobile/frame-0112.webp",
-      "original": "/frames/original/frame-0112.jpg"
+      "source": "ezgif-frame-112.png",
+      "desktop": "/frames/camera/desktop/frame-0112.webp",
+      "mobile": "/frames/camera/mobile/frame-0112.webp",
+      "original": "/frames/camera/original/frame-0112.png"
     },
     {
-      "source": "ezgif-frame-113.jpg",
-      "desktop": "/frames/original/frame-0113.jpg",
-      "mobile": "/frames/mobile/frame-0113.webp",
-      "original": "/frames/original/frame-0113.jpg"
+      "source": "ezgif-frame-113.png",
+      "desktop": "/frames/camera/desktop/frame-0113.webp",
+      "mobile": "/frames/camera/mobile/frame-0113.webp",
+      "original": "/frames/camera/original/frame-0113.png"
     },
     {
-      "source": "ezgif-frame-114.jpg",
-      "desktop": "/frames/original/frame-0114.jpg",
-      "mobile": "/frames/mobile/frame-0114.webp",
-      "original": "/frames/original/frame-0114.jpg"
+      "source": "ezgif-frame-114.png",
+      "desktop": "/frames/camera/desktop/frame-0114.webp",
+      "mobile": "/frames/camera/mobile/frame-0114.webp",
+      "original": "/frames/camera/original/frame-0114.png"
     },
     {
-      "source": "ezgif-frame-115.jpg",
-      "desktop": "/frames/original/frame-0115.jpg",
-      "mobile": "/frames/mobile/frame-0115.webp",
-      "original": "/frames/original/frame-0115.jpg"
+      "source": "ezgif-frame-115.png",
+      "desktop": "/frames/camera/desktop/frame-0115.webp",
+      "mobile": "/frames/camera/mobile/frame-0115.webp",
+      "original": "/frames/camera/original/frame-0115.png"
     },
     {
-      "source": "ezgif-frame-116.jpg",
-      "desktop": "/frames/original/frame-0116.jpg",
-      "mobile": "/frames/mobile/frame-0116.webp",
-      "original": "/frames/original/frame-0116.jpg"
+      "source": "ezgif-frame-116.png",
+      "desktop": "/frames/camera/desktop/frame-0116.webp",
+      "mobile": "/frames/camera/mobile/frame-0116.webp",
+      "original": "/frames/camera/original/frame-0116.png"
     },
     {
-      "source": "ezgif-frame-117.jpg",
-      "desktop": "/frames/original/frame-0117.jpg",
-      "mobile": "/frames/mobile/frame-0117.webp",
-      "original": "/frames/original/frame-0117.jpg"
+      "source": "ezgif-frame-117.png",
+      "desktop": "/frames/camera/desktop/frame-0117.webp",
+      "mobile": "/frames/camera/mobile/frame-0117.webp",
+      "original": "/frames/camera/original/frame-0117.png"
     },
     {
-      "source": "ezgif-frame-118.jpg",
-      "desktop": "/frames/original/frame-0118.jpg",
-      "mobile": "/frames/mobile/frame-0118.webp",
-      "original": "/frames/original/frame-0118.jpg"
+      "source": "ezgif-frame-118.png",
+      "desktop": "/frames/camera/desktop/frame-0118.webp",
+      "mobile": "/frames/camera/mobile/frame-0118.webp",
+      "original": "/frames/camera/original/frame-0118.png"
     },
     {
-      "source": "ezgif-frame-119.jpg",
-      "desktop": "/frames/original/frame-0119.jpg",
-      "mobile": "/frames/mobile/frame-0119.webp",
-      "original": "/frames/original/frame-0119.jpg"
+      "source": "ezgif-frame-119.png",
+      "desktop": "/frames/camera/desktop/frame-0119.webp",
+      "mobile": "/frames/camera/mobile/frame-0119.webp",
+      "original": "/frames/camera/original/frame-0119.png"
     },
     {
-      "source": "ezgif-frame-120.jpg",
-      "desktop": "/frames/original/frame-0120.jpg",
-      "mobile": "/frames/mobile/frame-0120.webp",
-      "original": "/frames/original/frame-0120.jpg"
+      "source": "ezgif-frame-120.png",
+      "desktop": "/frames/camera/desktop/frame-0120.webp",
+      "mobile": "/frames/camera/mobile/frame-0120.webp",
+      "original": "/frames/camera/original/frame-0120.png"
     },
     {
-      "source": "ezgif-frame-121.jpg",
-      "desktop": "/frames/original/frame-0121.jpg",
-      "mobile": "/frames/mobile/frame-0121.webp",
-      "original": "/frames/original/frame-0121.jpg"
+      "source": "ezgif-frame-121.png",
+      "desktop": "/frames/camera/desktop/frame-0121.webp",
+      "mobile": "/frames/camera/mobile/frame-0121.webp",
+      "original": "/frames/camera/original/frame-0121.png"
     },
     {
-      "source": "ezgif-frame-122.jpg",
-      "desktop": "/frames/original/frame-0122.jpg",
-      "mobile": "/frames/mobile/frame-0122.webp",
-      "original": "/frames/original/frame-0122.jpg"
+      "source": "ezgif-frame-122.png",
+      "desktop": "/frames/camera/desktop/frame-0122.webp",
+      "mobile": "/frames/camera/mobile/frame-0122.webp",
+      "original": "/frames/camera/original/frame-0122.png"
     },
     {
-      "source": "ezgif-frame-123.jpg",
-      "desktop": "/frames/original/frame-0123.jpg",
-      "mobile": "/frames/mobile/frame-0123.webp",
-      "original": "/frames/original/frame-0123.jpg"
+      "source": "ezgif-frame-123.png",
+      "desktop": "/frames/camera/desktop/frame-0123.webp",
+      "mobile": "/frames/camera/mobile/frame-0123.webp",
+      "original": "/frames/camera/original/frame-0123.png"
     },
     {
-      "source": "ezgif-frame-124.jpg",
-      "desktop": "/frames/original/frame-0124.jpg",
-      "mobile": "/frames/mobile/frame-0124.webp",
-      "original": "/frames/original/frame-0124.jpg"
+      "source": "ezgif-frame-124.png",
+      "desktop": "/frames/camera/desktop/frame-0124.webp",
+      "mobile": "/frames/camera/mobile/frame-0124.webp",
+      "original": "/frames/camera/original/frame-0124.png"
     },
     {
-      "source": "ezgif-frame-125.jpg",
-      "desktop": "/frames/original/frame-0125.jpg",
-      "mobile": "/frames/mobile/frame-0125.webp",
-      "original": "/frames/original/frame-0125.jpg"
+      "source": "ezgif-frame-125.png",
+      "desktop": "/frames/camera/desktop/frame-0125.webp",
+      "mobile": "/frames/camera/mobile/frame-0125.webp",
+      "original": "/frames/camera/original/frame-0125.png"
     },
     {
-      "source": "ezgif-frame-126.jpg",
-      "desktop": "/frames/original/frame-0126.jpg",
-      "mobile": "/frames/mobile/frame-0126.webp",
-      "original": "/frames/original/frame-0126.jpg"
+      "source": "ezgif-frame-126.png",
+      "desktop": "/frames/camera/desktop/frame-0126.webp",
+      "mobile": "/frames/camera/mobile/frame-0126.webp",
+      "original": "/frames/camera/original/frame-0126.png"
     },
     {
-      "source": "ezgif-frame-127.jpg",
-      "desktop": "/frames/original/frame-0127.jpg",
-      "mobile": "/frames/mobile/frame-0127.webp",
-      "original": "/frames/original/frame-0127.jpg"
+      "source": "ezgif-frame-127.png",
+      "desktop": "/frames/camera/desktop/frame-0127.webp",
+      "mobile": "/frames/camera/mobile/frame-0127.webp",
+      "original": "/frames/camera/original/frame-0127.png"
     },
     {
-      "source": "ezgif-frame-128.jpg",
-      "desktop": "/frames/original/frame-0128.jpg",
-      "mobile": "/frames/mobile/frame-0128.webp",
-      "original": "/frames/original/frame-0128.jpg"
+      "source": "ezgif-frame-128.png",
+      "desktop": "/frames/camera/desktop/frame-0128.webp",
+      "mobile": "/frames/camera/mobile/frame-0128.webp",
+      "original": "/frames/camera/original/frame-0128.png"
     },
     {
-      "source": "ezgif-frame-129.jpg",
-      "desktop": "/frames/original/frame-0129.jpg",
-      "mobile": "/frames/mobile/frame-0129.webp",
-      "original": "/frames/original/frame-0129.jpg"
+      "source": "ezgif-frame-129.png",
+      "desktop": "/frames/camera/desktop/frame-0129.webp",
+      "mobile": "/frames/camera/mobile/frame-0129.webp",
+      "original": "/frames/camera/original/frame-0129.png"
     },
     {
-      "source": "ezgif-frame-130.jpg",
-      "desktop": "/frames/original/frame-0130.jpg",
-      "mobile": "/frames/mobile/frame-0130.webp",
-      "original": "/frames/original/frame-0130.jpg"
+      "source": "ezgif-frame-130.png",
+      "desktop": "/frames/camera/desktop/frame-0130.webp",
+      "mobile": "/frames/camera/mobile/frame-0130.webp",
+      "original": "/frames/camera/original/frame-0130.png"
     },
     {
-      "source": "ezgif-frame-131.jpg",
-      "desktop": "/frames/original/frame-0131.jpg",
-      "mobile": "/frames/mobile/frame-0131.webp",
-      "original": "/frames/original/frame-0131.jpg"
+      "source": "ezgif-frame-131.png",
+      "desktop": "/frames/camera/desktop/frame-0131.webp",
+      "mobile": "/frames/camera/mobile/frame-0131.webp",
+      "original": "/frames/camera/original/frame-0131.png"
     },
     {
-      "source": "ezgif-frame-132.jpg",
-      "desktop": "/frames/original/frame-0132.jpg",
-      "mobile": "/frames/mobile/frame-0132.webp",
-      "original": "/frames/original/frame-0132.jpg"
+      "source": "ezgif-frame-132.png",
+      "desktop": "/frames/camera/desktop/frame-0132.webp",
+      "mobile": "/frames/camera/mobile/frame-0132.webp",
+      "original": "/frames/camera/original/frame-0132.png"
     },
     {
-      "source": "ezgif-frame-133.jpg",
-      "desktop": "/frames/original/frame-0133.jpg",
-      "mobile": "/frames/mobile/frame-0133.webp",
-      "original": "/frames/original/frame-0133.jpg"
+      "source": "ezgif-frame-133.png",
+      "desktop": "/frames/camera/desktop/frame-0133.webp",
+      "mobile": "/frames/camera/mobile/frame-0133.webp",
+      "original": "/frames/camera/original/frame-0133.png"
     },
     {
-      "source": "ezgif-frame-134.jpg",
-      "desktop": "/frames/original/frame-0134.jpg",
-      "mobile": "/frames/mobile/frame-0134.webp",
-      "original": "/frames/original/frame-0134.jpg"
+      "source": "ezgif-frame-134.png",
+      "desktop": "/frames/camera/desktop/frame-0134.webp",
+      "mobile": "/frames/camera/mobile/frame-0134.webp",
+      "original": "/frames/camera/original/frame-0134.png"
     },
     {
-      "source": "ezgif-frame-135.jpg",
-      "desktop": "/frames/original/frame-0135.jpg",
-      "mobile": "/frames/mobile/frame-0135.webp",
-      "original": "/frames/original/frame-0135.jpg"
+      "source": "ezgif-frame-135.png",
+      "desktop": "/frames/camera/desktop/frame-0135.webp",
+      "mobile": "/frames/camera/mobile/frame-0135.webp",
+      "original": "/frames/camera/original/frame-0135.png"
     },
     {
-      "source": "ezgif-frame-136.jpg",
-      "desktop": "/frames/original/frame-0136.jpg",
-      "mobile": "/frames/mobile/frame-0136.webp",
-      "original": "/frames/original/frame-0136.jpg"
+      "source": "ezgif-frame-136.png",
+      "desktop": "/frames/camera/desktop/frame-0136.webp",
+      "mobile": "/frames/camera/mobile/frame-0136.webp",
+      "original": "/frames/camera/original/frame-0136.png"
     },
     {
-      "source": "ezgif-frame-137.jpg",
-      "desktop": "/frames/original/frame-0137.jpg",
-      "mobile": "/frames/mobile/frame-0137.webp",
-      "original": "/frames/original/frame-0137.jpg"
+      "source": "ezgif-frame-137.png",
+      "desktop": "/frames/camera/desktop/frame-0137.webp",
+      "mobile": "/frames/camera/mobile/frame-0137.webp",
+      "original": "/frames/camera/original/frame-0137.png"
     },
     {
-      "source": "ezgif-frame-138.jpg",
-      "desktop": "/frames/original/frame-0138.jpg",
-      "mobile": "/frames/mobile/frame-0138.webp",
-      "original": "/frames/original/frame-0138.jpg"
+      "source": "ezgif-frame-138.png",
+      "desktop": "/frames/camera/desktop/frame-0138.webp",
+      "mobile": "/frames/camera/mobile/frame-0138.webp",
+      "original": "/frames/camera/original/frame-0138.png"
     },
     {
-      "source": "ezgif-frame-139.jpg",
-      "desktop": "/frames/original/frame-0139.jpg",
-      "mobile": "/frames/mobile/frame-0139.webp",
-      "original": "/frames/original/frame-0139.jpg"
+      "source": "ezgif-frame-139.png",
+      "desktop": "/frames/camera/desktop/frame-0139.webp",
+      "mobile": "/frames/camera/mobile/frame-0139.webp",
+      "original": "/frames/camera/original/frame-0139.png"
     },
     {
-      "source": "ezgif-frame-140.jpg",
-      "desktop": "/frames/original/frame-0140.jpg",
-      "mobile": "/frames/mobile/frame-0140.webp",
-      "original": "/frames/original/frame-0140.jpg"
+      "source": "ezgif-frame-140.png",
+      "desktop": "/frames/camera/desktop/frame-0140.webp",
+      "mobile": "/frames/camera/mobile/frame-0140.webp",
+      "original": "/frames/camera/original/frame-0140.png"
     },
     {
-      "source": "ezgif-frame-141.jpg",
-      "desktop": "/frames/original/frame-0141.jpg",
-      "mobile": "/frames/mobile/frame-0141.webp",
-      "original": "/frames/original/frame-0141.jpg"
+      "source": "ezgif-frame-141.png",
+      "desktop": "/frames/camera/desktop/frame-0141.webp",
+      "mobile": "/frames/camera/mobile/frame-0141.webp",
+      "original": "/frames/camera/original/frame-0141.png"
     },
     {
-      "source": "ezgif-frame-142.jpg",
-      "desktop": "/frames/original/frame-0142.jpg",
-      "mobile": "/frames/mobile/frame-0142.webp",
-      "original": "/frames/original/frame-0142.jpg"
+      "source": "ezgif-frame-142.png",
+      "desktop": "/frames/camera/desktop/frame-0142.webp",
+      "mobile": "/frames/camera/mobile/frame-0142.webp",
+      "original": "/frames/camera/original/frame-0142.png"
     },
     {
-      "source": "ezgif-frame-143.jpg",
-      "desktop": "/frames/original/frame-0143.jpg",
-      "mobile": "/frames/mobile/frame-0143.webp",
-      "original": "/frames/original/frame-0143.jpg"
+      "source": "ezgif-frame-143.png",
+      "desktop": "/frames/camera/desktop/frame-0143.webp",
+      "mobile": "/frames/camera/mobile/frame-0143.webp",
+      "original": "/frames/camera/original/frame-0143.png"
     },
     {
-      "source": "ezgif-frame-144.jpg",
-      "desktop": "/frames/original/frame-0144.jpg",
-      "mobile": "/frames/mobile/frame-0144.webp",
-      "original": "/frames/original/frame-0144.jpg"
+      "source": "ezgif-frame-144.png",
+      "desktop": "/frames/camera/desktop/frame-0144.webp",
+      "mobile": "/frames/camera/mobile/frame-0144.webp",
+      "original": "/frames/camera/original/frame-0144.png"
     },
     {
-      "source": "ezgif-frame-145.jpg",
-      "desktop": "/frames/original/frame-0145.jpg",
-      "mobile": "/frames/mobile/frame-0145.webp",
-      "original": "/frames/original/frame-0145.jpg"
+      "source": "ezgif-frame-145.png",
+      "desktop": "/frames/camera/desktop/frame-0145.webp",
+      "mobile": "/frames/camera/mobile/frame-0145.webp",
+      "original": "/frames/camera/original/frame-0145.png"
     },
     {
-      "source": "ezgif-frame-146.jpg",
-      "desktop": "/frames/original/frame-0146.jpg",
-      "mobile": "/frames/mobile/frame-0146.webp",
-      "original": "/frames/original/frame-0146.jpg"
+      "source": "ezgif-frame-146.png",
+      "desktop": "/frames/camera/desktop/frame-0146.webp",
+      "mobile": "/frames/camera/mobile/frame-0146.webp",
+      "original": "/frames/camera/original/frame-0146.png"
     },
     {
-      "source": "ezgif-frame-147.jpg",
-      "desktop": "/frames/original/frame-0147.jpg",
-      "mobile": "/frames/mobile/frame-0147.webp",
-      "original": "/frames/original/frame-0147.jpg"
+      "source": "ezgif-frame-147.png",
+      "desktop": "/frames/camera/desktop/frame-0147.webp",
+      "mobile": "/frames/camera/mobile/frame-0147.webp",
+      "original": "/frames/camera/original/frame-0147.png"
     },
     {
-      "source": "ezgif-frame-148.jpg",
-      "desktop": "/frames/original/frame-0148.jpg",
-      "mobile": "/frames/mobile/frame-0148.webp",
-      "original": "/frames/original/frame-0148.jpg"
+      "source": "ezgif-frame-148.png",
+      "desktop": "/frames/camera/desktop/frame-0148.webp",
+      "mobile": "/frames/camera/mobile/frame-0148.webp",
+      "original": "/frames/camera/original/frame-0148.png"
     },
     {
-      "source": "ezgif-frame-149.jpg",
-      "desktop": "/frames/original/frame-0149.jpg",
-      "mobile": "/frames/mobile/frame-0149.webp",
-      "original": "/frames/original/frame-0149.jpg"
+      "source": "ezgif-frame-149.png",
+      "desktop": "/frames/camera/desktop/frame-0149.webp",
+      "mobile": "/frames/camera/mobile/frame-0149.webp",
+      "original": "/frames/camera/original/frame-0149.png"
     },
     {
-      "source": "ezgif-frame-150.jpg",
-      "desktop": "/frames/original/frame-0150.jpg",
-      "mobile": "/frames/mobile/frame-0150.webp",
-      "original": "/frames/original/frame-0150.jpg"
+      "source": "ezgif-frame-150.png",
+      "desktop": "/frames/camera/desktop/frame-0150.webp",
+      "mobile": "/frames/camera/mobile/frame-0150.webp",
+      "original": "/frames/camera/original/frame-0150.png"
     },
     {
-      "source": "ezgif-frame-151.jpg",
-      "desktop": "/frames/original/frame-0151.jpg",
-      "mobile": "/frames/mobile/frame-0151.webp",
-      "original": "/frames/original/frame-0151.jpg"
+      "source": "ezgif-frame-151.png",
+      "desktop": "/frames/camera/desktop/frame-0151.webp",
+      "mobile": "/frames/camera/mobile/frame-0151.webp",
+      "original": "/frames/camera/original/frame-0151.png"
     },
     {
-      "source": "ezgif-frame-152.jpg",
-      "desktop": "/frames/original/frame-0152.jpg",
-      "mobile": "/frames/mobile/frame-0152.webp",
-      "original": "/frames/original/frame-0152.jpg"
+      "source": "ezgif-frame-152.png",
+      "desktop": "/frames/camera/desktop/frame-0152.webp",
+      "mobile": "/frames/camera/mobile/frame-0152.webp",
+      "original": "/frames/camera/original/frame-0152.png"
     },
     {
-      "source": "ezgif-frame-153.jpg",
-      "desktop": "/frames/original/frame-0153.jpg",
-      "mobile": "/frames/mobile/frame-0153.webp",
-      "original": "/frames/original/frame-0153.jpg"
+      "source": "ezgif-frame-153.png",
+      "desktop": "/frames/camera/desktop/frame-0153.webp",
+      "mobile": "/frames/camera/mobile/frame-0153.webp",
+      "original": "/frames/camera/original/frame-0153.png"
     },
     {
-      "source": "ezgif-frame-154.jpg",
-      "desktop": "/frames/original/frame-0154.jpg",
-      "mobile": "/frames/mobile/frame-0154.webp",
-      "original": "/frames/original/frame-0154.jpg"
+      "source": "ezgif-frame-154.png",
+      "desktop": "/frames/camera/desktop/frame-0154.webp",
+      "mobile": "/frames/camera/mobile/frame-0154.webp",
+      "original": "/frames/camera/original/frame-0154.png"
     },
     {
-      "source": "ezgif-frame-155.jpg",
-      "desktop": "/frames/original/frame-0155.jpg",
-      "mobile": "/frames/mobile/frame-0155.webp",
-      "original": "/frames/original/frame-0155.jpg"
+      "source": "ezgif-frame-155.png",
+      "desktop": "/frames/camera/desktop/frame-0155.webp",
+      "mobile": "/frames/camera/mobile/frame-0155.webp",
+      "original": "/frames/camera/original/frame-0155.png"
     },
     {
-      "source": "ezgif-frame-156.jpg",
-      "desktop": "/frames/original/frame-0156.jpg",
-      "mobile": "/frames/mobile/frame-0156.webp",
-      "original": "/frames/original/frame-0156.jpg"
+      "source": "ezgif-frame-156.png",
+      "desktop": "/frames/camera/desktop/frame-0156.webp",
+      "mobile": "/frames/camera/mobile/frame-0156.webp",
+      "original": "/frames/camera/original/frame-0156.png"
     },
     {
-      "source": "ezgif-frame-157.jpg",
-      "desktop": "/frames/original/frame-0157.jpg",
-      "mobile": "/frames/mobile/frame-0157.webp",
-      "original": "/frames/original/frame-0157.jpg"
+      "source": "ezgif-frame-157.png",
+      "desktop": "/frames/camera/desktop/frame-0157.webp",
+      "mobile": "/frames/camera/mobile/frame-0157.webp",
+      "original": "/frames/camera/original/frame-0157.png"
     },
     {
-      "source": "ezgif-frame-158.jpg",
-      "desktop": "/frames/original/frame-0158.jpg",
-      "mobile": "/frames/mobile/frame-0158.webp",
-      "original": "/frames/original/frame-0158.jpg"
+      "source": "ezgif-frame-158.png",
+      "desktop": "/frames/camera/desktop/frame-0158.webp",
+      "mobile": "/frames/camera/mobile/frame-0158.webp",
+      "original": "/frames/camera/original/frame-0158.png"
     },
     {
-      "source": "ezgif-frame-159.jpg",
-      "desktop": "/frames/original/frame-0159.jpg",
-      "mobile": "/frames/mobile/frame-0159.webp",
-      "original": "/frames/original/frame-0159.jpg"
+      "source": "ezgif-frame-159.png",
+      "desktop": "/frames/camera/desktop/frame-0159.webp",
+      "mobile": "/frames/camera/mobile/frame-0159.webp",
+      "original": "/frames/camera/original/frame-0159.png"
     },
     {
-      "source": "ezgif-frame-160.jpg",
-      "desktop": "/frames/original/frame-0160.jpg",
-      "mobile": "/frames/mobile/frame-0160.webp",
-      "original": "/frames/original/frame-0160.jpg"
+      "source": "ezgif-frame-160.png",
+      "desktop": "/frames/camera/desktop/frame-0160.webp",
+      "mobile": "/frames/camera/mobile/frame-0160.webp",
+      "original": "/frames/camera/original/frame-0160.png"
     },
     {
-      "source": "ezgif-frame-161.jpg",
-      "desktop": "/frames/original/frame-0161.jpg",
-      "mobile": "/frames/mobile/frame-0161.webp",
-      "original": "/frames/original/frame-0161.jpg"
+      "source": "ezgif-frame-161.png",
+      "desktop": "/frames/camera/desktop/frame-0161.webp",
+      "mobile": "/frames/camera/mobile/frame-0161.webp",
+      "original": "/frames/camera/original/frame-0161.png"
     },
     {
-      "source": "ezgif-frame-162.jpg",
-      "desktop": "/frames/original/frame-0162.jpg",
-      "mobile": "/frames/mobile/frame-0162.webp",
-      "original": "/frames/original/frame-0162.jpg"
+      "source": "ezgif-frame-162.png",
+      "desktop": "/frames/camera/desktop/frame-0162.webp",
+      "mobile": "/frames/camera/mobile/frame-0162.webp",
+      "original": "/frames/camera/original/frame-0162.png"
     },
     {
-      "source": "ezgif-frame-163.jpg",
-      "desktop": "/frames/original/frame-0163.jpg",
-      "mobile": "/frames/mobile/frame-0163.webp",
-      "original": "/frames/original/frame-0163.jpg"
+      "source": "ezgif-frame-163.png",
+      "desktop": "/frames/camera/desktop/frame-0163.webp",
+      "mobile": "/frames/camera/mobile/frame-0163.webp",
+      "original": "/frames/camera/original/frame-0163.png"
     },
     {
-      "source": "ezgif-frame-164.jpg",
-      "desktop": "/frames/original/frame-0164.jpg",
-      "mobile": "/frames/mobile/frame-0164.webp",
-      "original": "/frames/original/frame-0164.jpg"
+      "source": "ezgif-frame-164.png",
+      "desktop": "/frames/camera/desktop/frame-0164.webp",
+      "mobile": "/frames/camera/mobile/frame-0164.webp",
+      "original": "/frames/camera/original/frame-0164.png"
     },
     {
-      "source": "ezgif-frame-165.jpg",
-      "desktop": "/frames/original/frame-0165.jpg",
-      "mobile": "/frames/mobile/frame-0165.webp",
-      "original": "/frames/original/frame-0165.jpg"
+      "source": "ezgif-frame-165.png",
+      "desktop": "/frames/camera/desktop/frame-0165.webp",
+      "mobile": "/frames/camera/mobile/frame-0165.webp",
+      "original": "/frames/camera/original/frame-0165.png"
     },
     {
-      "source": "ezgif-frame-166.jpg",
-      "desktop": "/frames/original/frame-0166.jpg",
-      "mobile": "/frames/mobile/frame-0166.webp",
-      "original": "/frames/original/frame-0166.jpg"
+      "source": "ezgif-frame-166.png",
+      "desktop": "/frames/camera/desktop/frame-0166.webp",
+      "mobile": "/frames/camera/mobile/frame-0166.webp",
+      "original": "/frames/camera/original/frame-0166.png"
     },
     {
-      "source": "ezgif-frame-167.jpg",
-      "desktop": "/frames/original/frame-0167.jpg",
-      "mobile": "/frames/mobile/frame-0167.webp",
-      "original": "/frames/original/frame-0167.jpg"
+      "source": "ezgif-frame-167.png",
+      "desktop": "/frames/camera/desktop/frame-0167.webp",
+      "mobile": "/frames/camera/mobile/frame-0167.webp",
+      "original": "/frames/camera/original/frame-0167.png"
     },
     {
-      "source": "ezgif-frame-168.jpg",
-      "desktop": "/frames/original/frame-0168.jpg",
-      "mobile": "/frames/mobile/frame-0168.webp",
-      "original": "/frames/original/frame-0168.jpg"
+      "source": "ezgif-frame-168.png",
+      "desktop": "/frames/camera/desktop/frame-0168.webp",
+      "mobile": "/frames/camera/mobile/frame-0168.webp",
+      "original": "/frames/camera/original/frame-0168.png"
     },
     {
-      "source": "ezgif-frame-169.jpg",
-      "desktop": "/frames/original/frame-0169.jpg",
-      "mobile": "/frames/mobile/frame-0169.webp",
-      "original": "/frames/original/frame-0169.jpg"
+      "source": "ezgif-frame-169.png",
+      "desktop": "/frames/camera/desktop/frame-0169.webp",
+      "mobile": "/frames/camera/mobile/frame-0169.webp",
+      "original": "/frames/camera/original/frame-0169.png"
     },
     {
-      "source": "ezgif-frame-170.jpg",
-      "desktop": "/frames/original/frame-0170.jpg",
-      "mobile": "/frames/mobile/frame-0170.webp",
-      "original": "/frames/original/frame-0170.jpg"
+      "source": "ezgif-frame-170.png",
+      "desktop": "/frames/camera/desktop/frame-0170.webp",
+      "mobile": "/frames/camera/mobile/frame-0170.webp",
+      "original": "/frames/camera/original/frame-0170.png"
     },
     {
-      "source": "ezgif-frame-171.jpg",
-      "desktop": "/frames/original/frame-0171.jpg",
-      "mobile": "/frames/mobile/frame-0171.webp",
-      "original": "/frames/original/frame-0171.jpg"
+      "source": "ezgif-frame-171.png",
+      "desktop": "/frames/camera/desktop/frame-0171.webp",
+      "mobile": "/frames/camera/mobile/frame-0171.webp",
+      "original": "/frames/camera/original/frame-0171.png"
     },
     {
-      "source": "ezgif-frame-172.jpg",
-      "desktop": "/frames/original/frame-0172.jpg",
-      "mobile": "/frames/mobile/frame-0172.webp",
-      "original": "/frames/original/frame-0172.jpg"
+      "source": "ezgif-frame-172.png",
+      "desktop": "/frames/camera/desktop/frame-0172.webp",
+      "mobile": "/frames/camera/mobile/frame-0172.webp",
+      "original": "/frames/camera/original/frame-0172.png"
     },
     {
-      "source": "ezgif-frame-173.jpg",
-      "desktop": "/frames/original/frame-0173.jpg",
-      "mobile": "/frames/mobile/frame-0173.webp",
-      "original": "/frames/original/frame-0173.jpg"
+      "source": "ezgif-frame-173.png",
+      "desktop": "/frames/camera/desktop/frame-0173.webp",
+      "mobile": "/frames/camera/mobile/frame-0173.webp",
+      "original": "/frames/camera/original/frame-0173.png"
     },
     {
-      "source": "ezgif-frame-174.jpg",
-      "desktop": "/frames/original/frame-0174.jpg",
-      "mobile": "/frames/mobile/frame-0174.webp",
-      "original": "/frames/original/frame-0174.jpg"
+      "source": "ezgif-frame-174.png",
+      "desktop": "/frames/camera/desktop/frame-0174.webp",
+      "mobile": "/frames/camera/mobile/frame-0174.webp",
+      "original": "/frames/camera/original/frame-0174.png"
     },
     {
-      "source": "ezgif-frame-175.jpg",
-      "desktop": "/frames/original/frame-0175.jpg",
-      "mobile": "/frames/mobile/frame-0175.webp",
-      "original": "/frames/original/frame-0175.jpg"
+      "source": "ezgif-frame-175.png",
+      "desktop": "/frames/camera/desktop/frame-0175.webp",
+      "mobile": "/frames/camera/mobile/frame-0175.webp",
+      "original": "/frames/camera/original/frame-0175.png"
     },
     {
-      "source": "ezgif-frame-176.jpg",
-      "desktop": "/frames/original/frame-0176.jpg",
-      "mobile": "/frames/mobile/frame-0176.webp",
-      "original": "/frames/original/frame-0176.jpg"
+      "source": "ezgif-frame-176.png",
+      "desktop": "/frames/camera/desktop/frame-0176.webp",
+      "mobile": "/frames/camera/mobile/frame-0176.webp",
+      "original": "/frames/camera/original/frame-0176.png"
     },
     {
-      "source": "ezgif-frame-177.jpg",
-      "desktop": "/frames/original/frame-0177.jpg",
-      "mobile": "/frames/mobile/frame-0177.webp",
-      "original": "/frames/original/frame-0177.jpg"
+      "source": "ezgif-frame-177.png",
+      "desktop": "/frames/camera/desktop/frame-0177.webp",
+      "mobile": "/frames/camera/mobile/frame-0177.webp",
+      "original": "/frames/camera/original/frame-0177.png"
     },
     {
-      "source": "ezgif-frame-178.jpg",
-      "desktop": "/frames/original/frame-0178.jpg",
-      "mobile": "/frames/mobile/frame-0178.webp",
-      "original": "/frames/original/frame-0178.jpg"
+      "source": "ezgif-frame-178.png",
+      "desktop": "/frames/camera/desktop/frame-0178.webp",
+      "mobile": "/frames/camera/mobile/frame-0178.webp",
+      "original": "/frames/camera/original/frame-0178.png"
     },
     {
-      "source": "ezgif-frame-179.jpg",
-      "desktop": "/frames/original/frame-0179.jpg",
-      "mobile": "/frames/mobile/frame-0179.webp",
-      "original": "/frames/original/frame-0179.jpg"
+      "source": "ezgif-frame-179.png",
+      "desktop": "/frames/camera/desktop/frame-0179.webp",
+      "mobile": "/frames/camera/mobile/frame-0179.webp",
+      "original": "/frames/camera/original/frame-0179.png"
     },
     {
-      "source": "ezgif-frame-180.jpg",
-      "desktop": "/frames/original/frame-0180.jpg",
-      "mobile": "/frames/mobile/frame-0180.webp",
-      "original": "/frames/original/frame-0180.jpg"
+      "source": "ezgif-frame-180.png",
+      "desktop": "/frames/camera/desktop/frame-0180.webp",
+      "mobile": "/frames/camera/mobile/frame-0180.webp",
+      "original": "/frames/camera/original/frame-0180.png"
     },
     {
-      "source": "ezgif-frame-181.jpg",
-      "desktop": "/frames/original/frame-0181.jpg",
-      "mobile": "/frames/mobile/frame-0181.webp",
-      "original": "/frames/original/frame-0181.jpg"
+      "source": "ezgif-frame-181.png",
+      "desktop": "/frames/camera/desktop/frame-0181.webp",
+      "mobile": "/frames/camera/mobile/frame-0181.webp",
+      "original": "/frames/camera/original/frame-0181.png"
     },
     {
-      "source": "ezgif-frame-182.jpg",
-      "desktop": "/frames/original/frame-0182.jpg",
-      "mobile": "/frames/mobile/frame-0182.webp",
-      "original": "/frames/original/frame-0182.jpg"
+      "source": "ezgif-frame-182.png",
+      "desktop": "/frames/camera/desktop/frame-0182.webp",
+      "mobile": "/frames/camera/mobile/frame-0182.webp",
+      "original": "/frames/camera/original/frame-0182.png"
     },
     {
-      "source": "ezgif-frame-183.jpg",
-      "desktop": "/frames/original/frame-0183.jpg",
-      "mobile": "/frames/mobile/frame-0183.webp",
-      "original": "/frames/original/frame-0183.jpg"
+      "source": "ezgif-frame-183.png",
+      "desktop": "/frames/camera/desktop/frame-0183.webp",
+      "mobile": "/frames/camera/mobile/frame-0183.webp",
+      "original": "/frames/camera/original/frame-0183.png"
     },
     {
-      "source": "ezgif-frame-184.jpg",
-      "desktop": "/frames/original/frame-0184.jpg",
-      "mobile": "/frames/mobile/frame-0184.webp",
-      "original": "/frames/original/frame-0184.jpg"
+      "source": "ezgif-frame-184.png",
+      "desktop": "/frames/camera/desktop/frame-0184.webp",
+      "mobile": "/frames/camera/mobile/frame-0184.webp",
+      "original": "/frames/camera/original/frame-0184.png"
     },
     {
-      "source": "ezgif-frame-185.jpg",
-      "desktop": "/frames/original/frame-0185.jpg",
-      "mobile": "/frames/mobile/frame-0185.webp",
-      "original": "/frames/original/frame-0185.jpg"
+      "source": "ezgif-frame-185.png",
+      "desktop": "/frames/camera/desktop/frame-0185.webp",
+      "mobile": "/frames/camera/mobile/frame-0185.webp",
+      "original": "/frames/camera/original/frame-0185.png"
     },
     {
-      "source": "ezgif-frame-186.jpg",
-      "desktop": "/frames/original/frame-0186.jpg",
-      "mobile": "/frames/mobile/frame-0186.webp",
-      "original": "/frames/original/frame-0186.jpg"
+      "source": "ezgif-frame-186.png",
+      "desktop": "/frames/camera/desktop/frame-0186.webp",
+      "mobile": "/frames/camera/mobile/frame-0186.webp",
+      "original": "/frames/camera/original/frame-0186.png"
     },
     {
-      "source": "ezgif-frame-187.jpg",
-      "desktop": "/frames/original/frame-0187.jpg",
-      "mobile": "/frames/mobile/frame-0187.webp",
-      "original": "/frames/original/frame-0187.jpg"
+      "source": "ezgif-frame-187.png",
+      "desktop": "/frames/camera/desktop/frame-0187.webp",
+      "mobile": "/frames/camera/mobile/frame-0187.webp",
+      "original": "/frames/camera/original/frame-0187.png"
     },
     {
-      "source": "ezgif-frame-188.jpg",
-      "desktop": "/frames/original/frame-0188.jpg",
-      "mobile": "/frames/mobile/frame-0188.webp",
-      "original": "/frames/original/frame-0188.jpg"
+      "source": "ezgif-frame-188.png",
+      "desktop": "/frames/camera/desktop/frame-0188.webp",
+      "mobile": "/frames/camera/mobile/frame-0188.webp",
+      "original": "/frames/camera/original/frame-0188.png"
     },
     {
-      "source": "ezgif-frame-189.jpg",
-      "desktop": "/frames/original/frame-0189.jpg",
-      "mobile": "/frames/mobile/frame-0189.webp",
-      "original": "/frames/original/frame-0189.jpg"
+      "source": "ezgif-frame-189.png",
+      "desktop": "/frames/camera/desktop/frame-0189.webp",
+      "mobile": "/frames/camera/mobile/frame-0189.webp",
+      "original": "/frames/camera/original/frame-0189.png"
     },
     {
-      "source": "ezgif-frame-190.jpg",
-      "desktop": "/frames/original/frame-0190.jpg",
-      "mobile": "/frames/mobile/frame-0190.webp",
-      "original": "/frames/original/frame-0190.jpg"
+      "source": "ezgif-frame-190.png",
+      "desktop": "/frames/camera/desktop/frame-0190.webp",
+      "mobile": "/frames/camera/mobile/frame-0190.webp",
+      "original": "/frames/camera/original/frame-0190.png"
     },
     {
-      "source": "ezgif-frame-191.jpg",
-      "desktop": "/frames/original/frame-0191.jpg",
-      "mobile": "/frames/mobile/frame-0191.webp",
-      "original": "/frames/original/frame-0191.jpg"
+      "source": "ezgif-frame-191.png",
+      "desktop": "/frames/camera/desktop/frame-0191.webp",
+      "mobile": "/frames/camera/mobile/frame-0191.webp",
+      "original": "/frames/camera/original/frame-0191.png"
     },
     {
-      "source": "ezgif-frame-192.jpg",
-      "desktop": "/frames/original/frame-0192.jpg",
-      "mobile": "/frames/mobile/frame-0192.webp",
-      "original": "/frames/original/frame-0192.jpg"
+      "source": "ezgif-frame-192.png",
+      "desktop": "/frames/camera/desktop/frame-0192.webp",
+      "mobile": "/frames/camera/mobile/frame-0192.webp",
+      "original": "/frames/camera/original/frame-0192.png"
     },
     {
-      "source": "ezgif-frame-193.jpg",
-      "desktop": "/frames/original/frame-0193.jpg",
-      "mobile": "/frames/mobile/frame-0193.webp",
-      "original": "/frames/original/frame-0193.jpg"
+      "source": "ezgif-frame-193.png",
+      "desktop": "/frames/camera/desktop/frame-0193.webp",
+      "mobile": "/frames/camera/mobile/frame-0193.webp",
+      "original": "/frames/camera/original/frame-0193.png"
     },
     {
-      "source": "ezgif-frame-194.jpg",
-      "desktop": "/frames/original/frame-0194.jpg",
-      "mobile": "/frames/mobile/frame-0194.webp",
-      "original": "/frames/original/frame-0194.jpg"
+      "source": "ezgif-frame-194.png",
+      "desktop": "/frames/camera/desktop/frame-0194.webp",
+      "mobile": "/frames/camera/mobile/frame-0194.webp",
+      "original": "/frames/camera/original/frame-0194.png"
     },
     {
-      "source": "ezgif-frame-195.jpg",
-      "desktop": "/frames/original/frame-0195.jpg",
-      "mobile": "/frames/mobile/frame-0195.webp",
-      "original": "/frames/original/frame-0195.jpg"
+      "source": "ezgif-frame-195.png",
+      "desktop": "/frames/camera/desktop/frame-0195.webp",
+      "mobile": "/frames/camera/mobile/frame-0195.webp",
+      "original": "/frames/camera/original/frame-0195.png"
     },
     {
-      "source": "ezgif-frame-196.jpg",
-      "desktop": "/frames/original/frame-0196.jpg",
-      "mobile": "/frames/mobile/frame-0196.webp",
-      "original": "/frames/original/frame-0196.jpg"
+      "source": "ezgif-frame-196.png",
+      "desktop": "/frames/camera/desktop/frame-0196.webp",
+      "mobile": "/frames/camera/mobile/frame-0196.webp",
+      "original": "/frames/camera/original/frame-0196.png"
     },
     {
-      "source": "ezgif-frame-197.jpg",
-      "desktop": "/frames/original/frame-0197.jpg",
-      "mobile": "/frames/mobile/frame-0197.webp",
-      "original": "/frames/original/frame-0197.jpg"
+      "source": "ezgif-frame-197.png",
+      "desktop": "/frames/camera/desktop/frame-0197.webp",
+      "mobile": "/frames/camera/mobile/frame-0197.webp",
+      "original": "/frames/camera/original/frame-0197.png"
     },
     {
-      "source": "ezgif-frame-198.jpg",
-      "desktop": "/frames/original/frame-0198.jpg",
-      "mobile": "/frames/mobile/frame-0198.webp",
-      "original": "/frames/original/frame-0198.jpg"
+      "source": "ezgif-frame-198.png",
+      "desktop": "/frames/camera/desktop/frame-0198.webp",
+      "mobile": "/frames/camera/mobile/frame-0198.webp",
+      "original": "/frames/camera/original/frame-0198.png"
     },
     {
-      "source": "ezgif-frame-199.jpg",
-      "desktop": "/frames/original/frame-0199.jpg",
-      "mobile": "/frames/mobile/frame-0199.webp",
-      "original": "/frames/original/frame-0199.jpg"
+      "source": "ezgif-frame-199.png",
+      "desktop": "/frames/camera/desktop/frame-0199.webp",
+      "mobile": "/frames/camera/mobile/frame-0199.webp",
+      "original": "/frames/camera/original/frame-0199.png"
     },
     {
-      "source": "ezgif-frame-200.jpg",
-      "desktop": "/frames/original/frame-0200.jpg",
-      "mobile": "/frames/mobile/frame-0200.webp",
-      "original": "/frames/original/frame-0200.jpg"
+      "source": "ezgif-frame-200.png",
+      "desktop": "/frames/camera/desktop/frame-0200.webp",
+      "mobile": "/frames/camera/mobile/frame-0200.webp",
+      "original": "/frames/camera/original/frame-0200.png"
     },
     {
-      "source": "ezgif-frame-201.jpg",
-      "desktop": "/frames/original/frame-0201.jpg",
-      "mobile": "/frames/mobile/frame-0201.webp",
-      "original": "/frames/original/frame-0201.jpg"
+      "source": "ezgif-frame-201.png",
+      "desktop": "/frames/camera/desktop/frame-0201.webp",
+      "mobile": "/frames/camera/mobile/frame-0201.webp",
+      "original": "/frames/camera/original/frame-0201.png"
     },
     {
-      "source": "ezgif-frame-202.jpg",
-      "desktop": "/frames/original/frame-0202.jpg",
-      "mobile": "/frames/mobile/frame-0202.webp",
-      "original": "/frames/original/frame-0202.jpg"
+      "source": "ezgif-frame-202.png",
+      "desktop": "/frames/camera/desktop/frame-0202.webp",
+      "mobile": "/frames/camera/mobile/frame-0202.webp",
+      "original": "/frames/camera/original/frame-0202.png"
     },
     {
-      "source": "ezgif-frame-203.jpg",
-      "desktop": "/frames/original/frame-0203.jpg",
-      "mobile": "/frames/mobile/frame-0203.webp",
-      "original": "/frames/original/frame-0203.jpg"
+      "source": "ezgif-frame-203.png",
+      "desktop": "/frames/camera/desktop/frame-0203.webp",
+      "mobile": "/frames/camera/mobile/frame-0203.webp",
+      "original": "/frames/camera/original/frame-0203.png"
     },
     {
-      "source": "ezgif-frame-204.jpg",
-      "desktop": "/frames/original/frame-0204.jpg",
-      "mobile": "/frames/mobile/frame-0204.webp",
-      "original": "/frames/original/frame-0204.jpg"
+      "source": "ezgif-frame-204.png",
+      "desktop": "/frames/camera/desktop/frame-0204.webp",
+      "mobile": "/frames/camera/mobile/frame-0204.webp",
+      "original": "/frames/camera/original/frame-0204.png"
     },
     {
-      "source": "ezgif-frame-205.jpg",
-      "desktop": "/frames/original/frame-0205.jpg",
-      "mobile": "/frames/mobile/frame-0205.webp",
-      "original": "/frames/original/frame-0205.jpg"
+      "source": "ezgif-frame-205.png",
+      "desktop": "/frames/camera/desktop/frame-0205.webp",
+      "mobile": "/frames/camera/mobile/frame-0205.webp",
+      "original": "/frames/camera/original/frame-0205.png"
     },
     {
-      "source": "ezgif-frame-206.jpg",
-      "desktop": "/frames/original/frame-0206.jpg",
-      "mobile": "/frames/mobile/frame-0206.webp",
-      "original": "/frames/original/frame-0206.jpg"
+      "source": "ezgif-frame-206.png",
+      "desktop": "/frames/camera/desktop/frame-0206.webp",
+      "mobile": "/frames/camera/mobile/frame-0206.webp",
+      "original": "/frames/camera/original/frame-0206.png"
     },
     {
-      "source": "ezgif-frame-207.jpg",
-      "desktop": "/frames/original/frame-0207.jpg",
-      "mobile": "/frames/mobile/frame-0207.webp",
-      "original": "/frames/original/frame-0207.jpg"
+      "source": "ezgif-frame-207.png",
+      "desktop": "/frames/camera/desktop/frame-0207.webp",
+      "mobile": "/frames/camera/mobile/frame-0207.webp",
+      "original": "/frames/camera/original/frame-0207.png"
     },
     {
-      "source": "ezgif-frame-208.jpg",
-      "desktop": "/frames/original/frame-0208.jpg",
-      "mobile": "/frames/mobile/frame-0208.webp",
-      "original": "/frames/original/frame-0208.jpg"
+      "source": "ezgif-frame-208.png",
+      "desktop": "/frames/camera/desktop/frame-0208.webp",
+      "mobile": "/frames/camera/mobile/frame-0208.webp",
+      "original": "/frames/camera/original/frame-0208.png"
     },
     {
-      "source": "ezgif-frame-209.jpg",
-      "desktop": "/frames/original/frame-0209.jpg",
-      "mobile": "/frames/mobile/frame-0209.webp",
-      "original": "/frames/original/frame-0209.jpg"
+      "source": "ezgif-frame-209.png",
+      "desktop": "/frames/camera/desktop/frame-0209.webp",
+      "mobile": "/frames/camera/mobile/frame-0209.webp",
+      "original": "/frames/camera/original/frame-0209.png"
     },
     {
-      "source": "ezgif-frame-210.jpg",
-      "desktop": "/frames/original/frame-0210.jpg",
-      "mobile": "/frames/mobile/frame-0210.webp",
-      "original": "/frames/original/frame-0210.jpg"
+      "source": "ezgif-frame-210.png",
+      "desktop": "/frames/camera/desktop/frame-0210.webp",
+      "mobile": "/frames/camera/mobile/frame-0210.webp",
+      "original": "/frames/camera/original/frame-0210.png"
     },
     {
-      "source": "ezgif-frame-211.jpg",
-      "desktop": "/frames/original/frame-0211.jpg",
-      "mobile": "/frames/mobile/frame-0211.webp",
-      "original": "/frames/original/frame-0211.jpg"
+      "source": "ezgif-frame-211.png",
+      "desktop": "/frames/camera/desktop/frame-0211.webp",
+      "mobile": "/frames/camera/mobile/frame-0211.webp",
+      "original": "/frames/camera/original/frame-0211.png"
     },
     {
-      "source": "ezgif-frame-212.jpg",
-      "desktop": "/frames/original/frame-0212.jpg",
-      "mobile": "/frames/mobile/frame-0212.webp",
-      "original": "/frames/original/frame-0212.jpg"
+      "source": "ezgif-frame-212.png",
+      "desktop": "/frames/camera/desktop/frame-0212.webp",
+      "mobile": "/frames/camera/mobile/frame-0212.webp",
+      "original": "/frames/camera/original/frame-0212.png"
     },
     {
-      "source": "ezgif-frame-213.jpg",
-      "desktop": "/frames/original/frame-0213.jpg",
-      "mobile": "/frames/mobile/frame-0213.webp",
-      "original": "/frames/original/frame-0213.jpg"
+      "source": "ezgif-frame-213.png",
+      "desktop": "/frames/camera/desktop/frame-0213.webp",
+      "mobile": "/frames/camera/mobile/frame-0213.webp",
+      "original": "/frames/camera/original/frame-0213.png"
     },
     {
-      "source": "ezgif-frame-214.jpg",
-      "desktop": "/frames/original/frame-0214.jpg",
-      "mobile": "/frames/mobile/frame-0214.webp",
-      "original": "/frames/original/frame-0214.jpg"
+      "source": "ezgif-frame-214.png",
+      "desktop": "/frames/camera/desktop/frame-0214.webp",
+      "mobile": "/frames/camera/mobile/frame-0214.webp",
+      "original": "/frames/camera/original/frame-0214.png"
     },
     {
-      "source": "ezgif-frame-215.jpg",
-      "desktop": "/frames/original/frame-0215.jpg",
-      "mobile": "/frames/mobile/frame-0215.webp",
-      "original": "/frames/original/frame-0215.jpg"
+      "source": "ezgif-frame-215.png",
+      "desktop": "/frames/camera/desktop/frame-0215.webp",
+      "mobile": "/frames/camera/mobile/frame-0215.webp",
+      "original": "/frames/camera/original/frame-0215.png"
     },
     {
-      "source": "ezgif-frame-216.jpg",
-      "desktop": "/frames/original/frame-0216.jpg",
-      "mobile": "/frames/mobile/frame-0216.webp",
-      "original": "/frames/original/frame-0216.jpg"
+      "source": "ezgif-frame-216.png",
+      "desktop": "/frames/camera/desktop/frame-0216.webp",
+      "mobile": "/frames/camera/mobile/frame-0216.webp",
+      "original": "/frames/camera/original/frame-0216.png"
     },
     {
-      "source": "ezgif-frame-217.jpg",
-      "desktop": "/frames/original/frame-0217.jpg",
-      "mobile": "/frames/mobile/frame-0217.webp",
-      "original": "/frames/original/frame-0217.jpg"
+      "source": "ezgif-frame-217.png",
+      "desktop": "/frames/camera/desktop/frame-0217.webp",
+      "mobile": "/frames/camera/mobile/frame-0217.webp",
+      "original": "/frames/camera/original/frame-0217.png"
     },
     {
-      "source": "ezgif-frame-218.jpg",
-      "desktop": "/frames/original/frame-0218.jpg",
-      "mobile": "/frames/mobile/frame-0218.webp",
-      "original": "/frames/original/frame-0218.jpg"
+      "source": "ezgif-frame-218.png",
+      "desktop": "/frames/camera/desktop/frame-0218.webp",
+      "mobile": "/frames/camera/mobile/frame-0218.webp",
+      "original": "/frames/camera/original/frame-0218.png"
     },
     {
-      "source": "ezgif-frame-219.jpg",
-      "desktop": "/frames/original/frame-0219.jpg",
-      "mobile": "/frames/mobile/frame-0219.webp",
-      "original": "/frames/original/frame-0219.jpg"
+      "source": "ezgif-frame-219.png",
+      "desktop": "/frames/camera/desktop/frame-0219.webp",
+      "mobile": "/frames/camera/mobile/frame-0219.webp",
+      "original": "/frames/camera/original/frame-0219.png"
     },
     {
-      "source": "ezgif-frame-220.jpg",
-      "desktop": "/frames/original/frame-0220.jpg",
-      "mobile": "/frames/mobile/frame-0220.webp",
-      "original": "/frames/original/frame-0220.jpg"
+      "source": "ezgif-frame-220.png",
+      "desktop": "/frames/camera/desktop/frame-0220.webp",
+      "mobile": "/frames/camera/mobile/frame-0220.webp",
+      "original": "/frames/camera/original/frame-0220.png"
     },
     {
-      "source": "ezgif-frame-221.jpg",
-      "desktop": "/frames/original/frame-0221.jpg",
-      "mobile": "/frames/mobile/frame-0221.webp",
-      "original": "/frames/original/frame-0221.jpg"
+      "source": "ezgif-frame-221.png",
+      "desktop": "/frames/camera/desktop/frame-0221.webp",
+      "mobile": "/frames/camera/mobile/frame-0221.webp",
+      "original": "/frames/camera/original/frame-0221.png"
     },
     {
-      "source": "ezgif-frame-222.jpg",
-      "desktop": "/frames/original/frame-0222.jpg",
-      "mobile": "/frames/mobile/frame-0222.webp",
-      "original": "/frames/original/frame-0222.jpg"
+      "source": "ezgif-frame-222.png",
+      "desktop": "/frames/camera/desktop/frame-0222.webp",
+      "mobile": "/frames/camera/mobile/frame-0222.webp",
+      "original": "/frames/camera/original/frame-0222.png"
     },
     {
-      "source": "ezgif-frame-223.jpg",
-      "desktop": "/frames/original/frame-0223.jpg",
-      "mobile": "/frames/mobile/frame-0223.webp",
-      "original": "/frames/original/frame-0223.jpg"
+      "source": "ezgif-frame-223.png",
+      "desktop": "/frames/camera/desktop/frame-0223.webp",
+      "mobile": "/frames/camera/mobile/frame-0223.webp",
+      "original": "/frames/camera/original/frame-0223.png"
     },
     {
-      "source": "ezgif-frame-224.jpg",
-      "desktop": "/frames/original/frame-0224.jpg",
-      "mobile": "/frames/mobile/frame-0224.webp",
-      "original": "/frames/original/frame-0224.jpg"
+      "source": "ezgif-frame-224.png",
+      "desktop": "/frames/camera/desktop/frame-0224.webp",
+      "mobile": "/frames/camera/mobile/frame-0224.webp",
+      "original": "/frames/camera/original/frame-0224.png"
     },
     {
-      "source": "ezgif-frame-225.jpg",
-      "desktop": "/frames/original/frame-0225.jpg",
-      "mobile": "/frames/mobile/frame-0225.webp",
-      "original": "/frames/original/frame-0225.jpg"
+      "source": "ezgif-frame-225.png",
+      "desktop": "/frames/camera/desktop/frame-0225.webp",
+      "mobile": "/frames/camera/mobile/frame-0225.webp",
+      "original": "/frames/camera/original/frame-0225.png"
     },
     {
-      "source": "ezgif-frame-226.jpg",
-      "desktop": "/frames/original/frame-0226.jpg",
-      "mobile": "/frames/mobile/frame-0226.webp",
-      "original": "/frames/original/frame-0226.jpg"
+      "source": "ezgif-frame-226.png",
+      "desktop": "/frames/camera/desktop/frame-0226.webp",
+      "mobile": "/frames/camera/mobile/frame-0226.webp",
+      "original": "/frames/camera/original/frame-0226.png"
     },
     {
-      "source": "ezgif-frame-227.jpg",
-      "desktop": "/frames/original/frame-0227.jpg",
-      "mobile": "/frames/mobile/frame-0227.webp",
-      "original": "/frames/original/frame-0227.jpg"
+      "source": "ezgif-frame-227.png",
+      "desktop": "/frames/camera/desktop/frame-0227.webp",
+      "mobile": "/frames/camera/mobile/frame-0227.webp",
+      "original": "/frames/camera/original/frame-0227.png"
     },
     {
-      "source": "ezgif-frame-228.jpg",
-      "desktop": "/frames/original/frame-0228.jpg",
-      "mobile": "/frames/mobile/frame-0228.webp",
-      "original": "/frames/original/frame-0228.jpg"
+      "source": "ezgif-frame-228.png",
+      "desktop": "/frames/camera/desktop/frame-0228.webp",
+      "mobile": "/frames/camera/mobile/frame-0228.webp",
+      "original": "/frames/camera/original/frame-0228.png"
     },
     {
-      "source": "ezgif-frame-229.jpg",
-      "desktop": "/frames/original/frame-0229.jpg",
-      "mobile": "/frames/mobile/frame-0229.webp",
-      "original": "/frames/original/frame-0229.jpg"
+      "source": "ezgif-frame-229.png",
+      "desktop": "/frames/camera/desktop/frame-0229.webp",
+      "mobile": "/frames/camera/mobile/frame-0229.webp",
+      "original": "/frames/camera/original/frame-0229.png"
     },
     {
-      "source": "ezgif-frame-230.jpg",
-      "desktop": "/frames/original/frame-0230.jpg",
-      "mobile": "/frames/mobile/frame-0230.webp",
-      "original": "/frames/original/frame-0230.jpg"
+      "source": "ezgif-frame-230.png",
+      "desktop": "/frames/camera/desktop/frame-0230.webp",
+      "mobile": "/frames/camera/mobile/frame-0230.webp",
+      "original": "/frames/camera/original/frame-0230.png"
     },
     {
-      "source": "ezgif-frame-231.jpg",
-      "desktop": "/frames/original/frame-0231.jpg",
-      "mobile": "/frames/mobile/frame-0231.webp",
-      "original": "/frames/original/frame-0231.jpg"
+      "source": "ezgif-frame-231.png",
+      "desktop": "/frames/camera/desktop/frame-0231.webp",
+      "mobile": "/frames/camera/mobile/frame-0231.webp",
+      "original": "/frames/camera/original/frame-0231.png"
     },
     {
-      "source": "ezgif-frame-232.jpg",
-      "desktop": "/frames/original/frame-0232.jpg",
-      "mobile": "/frames/mobile/frame-0232.webp",
-      "original": "/frames/original/frame-0232.jpg"
+      "source": "ezgif-frame-232.png",
+      "desktop": "/frames/camera/desktop/frame-0232.webp",
+      "mobile": "/frames/camera/mobile/frame-0232.webp",
+      "original": "/frames/camera/original/frame-0232.png"
     },
     {
-      "source": "ezgif-frame-233.jpg",
-      "desktop": "/frames/original/frame-0233.jpg",
-      "mobile": "/frames/mobile/frame-0233.webp",
-      "original": "/frames/original/frame-0233.jpg"
+      "source": "ezgif-frame-233.png",
+      "desktop": "/frames/camera/desktop/frame-0233.webp",
+      "mobile": "/frames/camera/mobile/frame-0233.webp",
+      "original": "/frames/camera/original/frame-0233.png"
     },
     {
-      "source": "ezgif-frame-234.jpg",
-      "desktop": "/frames/original/frame-0234.jpg",
-      "mobile": "/frames/mobile/frame-0234.webp",
-      "original": "/frames/original/frame-0234.jpg"
+      "source": "ezgif-frame-234.png",
+      "desktop": "/frames/camera/desktop/frame-0234.webp",
+      "mobile": "/frames/camera/mobile/frame-0234.webp",
+      "original": "/frames/camera/original/frame-0234.png"
     },
     {
-      "source": "ezgif-frame-235.jpg",
-      "desktop": "/frames/original/frame-0235.jpg",
-      "mobile": "/frames/mobile/frame-0235.webp",
-      "original": "/frames/original/frame-0235.jpg"
+      "source": "ezgif-frame-235.png",
+      "desktop": "/frames/camera/desktop/frame-0235.webp",
+      "mobile": "/frames/camera/mobile/frame-0235.webp",
+      "original": "/frames/camera/original/frame-0235.png"
     },
     {
-      "source": "ezgif-frame-236.jpg",
-      "desktop": "/frames/original/frame-0236.jpg",
-      "mobile": "/frames/mobile/frame-0236.webp",
-      "original": "/frames/original/frame-0236.jpg"
+      "source": "ezgif-frame-236.png",
+      "desktop": "/frames/camera/desktop/frame-0236.webp",
+      "mobile": "/frames/camera/mobile/frame-0236.webp",
+      "original": "/frames/camera/original/frame-0236.png"
     },
     {
-      "source": "ezgif-frame-237.jpg",
-      "desktop": "/frames/original/frame-0237.jpg",
-      "mobile": "/frames/mobile/frame-0237.webp",
-      "original": "/frames/original/frame-0237.jpg"
+      "source": "ezgif-frame-237.png",
+      "desktop": "/frames/camera/desktop/frame-0237.webp",
+      "mobile": "/frames/camera/mobile/frame-0237.webp",
+      "original": "/frames/camera/original/frame-0237.png"
     },
     {
-      "source": "ezgif-frame-238.jpg",
-      "desktop": "/frames/original/frame-0238.jpg",
-      "mobile": "/frames/mobile/frame-0238.webp",
-      "original": "/frames/original/frame-0238.jpg"
+      "source": "ezgif-frame-238.png",
+      "desktop": "/frames/camera/desktop/frame-0238.webp",
+      "mobile": "/frames/camera/mobile/frame-0238.webp",
+      "original": "/frames/camera/original/frame-0238.png"
     },
     {
-      "source": "ezgif-frame-239.jpg",
-      "desktop": "/frames/original/frame-0239.jpg",
-      "mobile": "/frames/mobile/frame-0239.webp",
-      "original": "/frames/original/frame-0239.jpg"
+      "source": "ezgif-frame-239.png",
+      "desktop": "/frames/camera/desktop/frame-0239.webp",
+      "mobile": "/frames/camera/mobile/frame-0239.webp",
+      "original": "/frames/camera/original/frame-0239.png"
     },
     {
-      "source": "ezgif-frame-240.jpg",
-      "desktop": "/frames/original/frame-0240.jpg",
-      "mobile": "/frames/mobile/frame-0240.webp",
-      "original": "/frames/original/frame-0240.jpg"
+      "source": "ezgif-frame-240.png",
+      "desktop": "/frames/camera/desktop/frame-0240.webp",
+      "mobile": "/frames/camera/mobile/frame-0240.webp",
+      "original": "/frames/camera/original/frame-0240.png"
     },
     {
-      "source": "ezgif-frame-241.jpg",
-      "desktop": "/frames/original/frame-0241.jpg",
-      "mobile": "/frames/mobile/frame-0241.webp",
-      "original": "/frames/original/frame-0241.jpg"
+      "source": "ezgif-frame-241.png",
+      "desktop": "/frames/camera/desktop/frame-0241.webp",
+      "mobile": "/frames/camera/mobile/frame-0241.webp",
+      "original": "/frames/camera/original/frame-0241.png"
     },
     {
-      "source": "ezgif-frame-242.jpg",
-      "desktop": "/frames/original/frame-0242.jpg",
-      "mobile": "/frames/mobile/frame-0242.webp",
-      "original": "/frames/original/frame-0242.jpg"
+      "source": "ezgif-frame-242.png",
+      "desktop": "/frames/camera/desktop/frame-0242.webp",
+      "mobile": "/frames/camera/mobile/frame-0242.webp",
+      "original": "/frames/camera/original/frame-0242.png"
     },
     {
-      "source": "ezgif-frame-243.jpg",
-      "desktop": "/frames/original/frame-0243.jpg",
-      "mobile": "/frames/mobile/frame-0243.webp",
-      "original": "/frames/original/frame-0243.jpg"
+      "source": "ezgif-frame-243.png",
+      "desktop": "/frames/camera/desktop/frame-0243.webp",
+      "mobile": "/frames/camera/mobile/frame-0243.webp",
+      "original": "/frames/camera/original/frame-0243.png"
     },
     {
-      "source": "ezgif-frame-244.jpg",
-      "desktop": "/frames/original/frame-0244.jpg",
-      "mobile": "/frames/mobile/frame-0244.webp",
-      "original": "/frames/original/frame-0244.jpg"
+      "source": "ezgif-frame-244.png",
+      "desktop": "/frames/camera/desktop/frame-0244.webp",
+      "mobile": "/frames/camera/mobile/frame-0244.webp",
+      "original": "/frames/camera/original/frame-0244.png"
     },
     {
-      "source": "ezgif-frame-245.jpg",
-      "desktop": "/frames/original/frame-0245.jpg",
-      "mobile": "/frames/mobile/frame-0245.webp",
-      "original": "/frames/original/frame-0245.jpg"
+      "source": "ezgif-frame-245.png",
+      "desktop": "/frames/camera/desktop/frame-0245.webp",
+      "mobile": "/frames/camera/mobile/frame-0245.webp",
+      "original": "/frames/camera/original/frame-0245.png"
     },
     {
-      "source": "ezgif-frame-246.jpg",
-      "desktop": "/frames/original/frame-0246.jpg",
-      "mobile": "/frames/mobile/frame-0246.webp",
-      "original": "/frames/original/frame-0246.jpg"
+      "source": "ezgif-frame-246.png",
+      "desktop": "/frames/camera/desktop/frame-0246.webp",
+      "mobile": "/frames/camera/mobile/frame-0246.webp",
+      "original": "/frames/camera/original/frame-0246.png"
     },
     {
-      "source": "ezgif-frame-247.jpg",
-      "desktop": "/frames/original/frame-0247.jpg",
-      "mobile": "/frames/mobile/frame-0247.webp",
-      "original": "/frames/original/frame-0247.jpg"
+      "source": "ezgif-frame-247.png",
+      "desktop": "/frames/camera/desktop/frame-0247.webp",
+      "mobile": "/frames/camera/mobile/frame-0247.webp",
+      "original": "/frames/camera/original/frame-0247.png"
     },
     {
-      "source": "ezgif-frame-248.jpg",
-      "desktop": "/frames/original/frame-0248.jpg",
-      "mobile": "/frames/mobile/frame-0248.webp",
-      "original": "/frames/original/frame-0248.jpg"
+      "source": "ezgif-frame-248.png",
+      "desktop": "/frames/camera/desktop/frame-0248.webp",
+      "mobile": "/frames/camera/mobile/frame-0248.webp",
+      "original": "/frames/camera/original/frame-0248.png"
     },
     {
-      "source": "ezgif-frame-249.jpg",
-      "desktop": "/frames/original/frame-0249.jpg",
-      "mobile": "/frames/mobile/frame-0249.webp",
-      "original": "/frames/original/frame-0249.jpg"
+      "source": "ezgif-frame-249.png",
+      "desktop": "/frames/camera/desktop/frame-0249.webp",
+      "mobile": "/frames/camera/mobile/frame-0249.webp",
+      "original": "/frames/camera/original/frame-0249.png"
     },
     {
-      "source": "ezgif-frame-250.jpg",
-      "desktop": "/frames/original/frame-0250.jpg",
-      "mobile": "/frames/mobile/frame-0250.webp",
-      "original": "/frames/original/frame-0250.jpg"
+      "source": "ezgif-frame-250.png",
+      "desktop": "/frames/camera/desktop/frame-0250.webp",
+      "mobile": "/frames/camera/mobile/frame-0250.webp",
+      "original": "/frames/camera/original/frame-0250.png"
     },
     {
-      "source": "ezgif-frame-251.jpg",
-      "desktop": "/frames/original/frame-0251.jpg",
-      "mobile": "/frames/mobile/frame-0251.webp",
-      "original": "/frames/original/frame-0251.jpg"
+      "source": "ezgif-frame-251.png",
+      "desktop": "/frames/camera/desktop/frame-0251.webp",
+      "mobile": "/frames/camera/mobile/frame-0251.webp",
+      "original": "/frames/camera/original/frame-0251.png"
     },
     {
-      "source": "ezgif-frame-252.jpg",
-      "desktop": "/frames/original/frame-0252.jpg",
-      "mobile": "/frames/mobile/frame-0252.webp",
-      "original": "/frames/original/frame-0252.jpg"
+      "source": "ezgif-frame-252.png",
+      "desktop": "/frames/camera/desktop/frame-0252.webp",
+      "mobile": "/frames/camera/mobile/frame-0252.webp",
+      "original": "/frames/camera/original/frame-0252.png"
     },
     {
-      "source": "ezgif-frame-253.jpg",
-      "desktop": "/frames/original/frame-0253.jpg",
-      "mobile": "/frames/mobile/frame-0253.webp",
-      "original": "/frames/original/frame-0253.jpg"
+      "source": "ezgif-frame-253.png",
+      "desktop": "/frames/camera/desktop/frame-0253.webp",
+      "mobile": "/frames/camera/mobile/frame-0253.webp",
+      "original": "/frames/camera/original/frame-0253.png"
     },
     {
-      "source": "ezgif-frame-254.jpg",
-      "desktop": "/frames/original/frame-0254.jpg",
-      "mobile": "/frames/mobile/frame-0254.webp",
-      "original": "/frames/original/frame-0254.jpg"
+      "source": "ezgif-frame-254.png",
+      "desktop": "/frames/camera/desktop/frame-0254.webp",
+      "mobile": "/frames/camera/mobile/frame-0254.webp",
+      "original": "/frames/camera/original/frame-0254.png"
     },
     {
-      "source": "ezgif-frame-255.jpg",
-      "desktop": "/frames/original/frame-0255.jpg",
-      "mobile": "/frames/mobile/frame-0255.webp",
-      "original": "/frames/original/frame-0255.jpg"
+      "source": "ezgif-frame-255.png",
+      "desktop": "/frames/camera/desktop/frame-0255.webp",
+      "mobile": "/frames/camera/mobile/frame-0255.webp",
+      "original": "/frames/camera/original/frame-0255.png"
     },
     {
-      "source": "ezgif-frame-256.jpg",
-      "desktop": "/frames/original/frame-0256.jpg",
-      "mobile": "/frames/mobile/frame-0256.webp",
-      "original": "/frames/original/frame-0256.jpg"
+      "source": "ezgif-frame-256.png",
+      "desktop": "/frames/camera/desktop/frame-0256.webp",
+      "mobile": "/frames/camera/mobile/frame-0256.webp",
+      "original": "/frames/camera/original/frame-0256.png"
     },
     {
-      "source": "ezgif-frame-257.jpg",
-      "desktop": "/frames/original/frame-0257.jpg",
-      "mobile": "/frames/mobile/frame-0257.webp",
-      "original": "/frames/original/frame-0257.jpg"
+      "source": "ezgif-frame-257.png",
+      "desktop": "/frames/camera/desktop/frame-0257.webp",
+      "mobile": "/frames/camera/mobile/frame-0257.webp",
+      "original": "/frames/camera/original/frame-0257.png"
     },
     {
-      "source": "ezgif-frame-258.jpg",
-      "desktop": "/frames/original/frame-0258.jpg",
-      "mobile": "/frames/mobile/frame-0258.webp",
-      "original": "/frames/original/frame-0258.jpg"
+      "source": "ezgif-frame-258.png",
+      "desktop": "/frames/camera/desktop/frame-0258.webp",
+      "mobile": "/frames/camera/mobile/frame-0258.webp",
+      "original": "/frames/camera/original/frame-0258.png"
     },
     {
-      "source": "ezgif-frame-259.jpg",
-      "desktop": "/frames/original/frame-0259.jpg",
-      "mobile": "/frames/mobile/frame-0259.webp",
-      "original": "/frames/original/frame-0259.jpg"
+      "source": "ezgif-frame-259.png",
+      "desktop": "/frames/camera/desktop/frame-0259.webp",
+      "mobile": "/frames/camera/mobile/frame-0259.webp",
+      "original": "/frames/camera/original/frame-0259.png"
     },
     {
-      "source": "ezgif-frame-260.jpg",
-      "desktop": "/frames/original/frame-0260.jpg",
-      "mobile": "/frames/mobile/frame-0260.webp",
-      "original": "/frames/original/frame-0260.jpg"
+      "source": "ezgif-frame-260.png",
+      "desktop": "/frames/camera/desktop/frame-0260.webp",
+      "mobile": "/frames/camera/mobile/frame-0260.webp",
+      "original": "/frames/camera/original/frame-0260.png"
     },
     {
-      "source": "ezgif-frame-261.jpg",
-      "desktop": "/frames/original/frame-0261.jpg",
-      "mobile": "/frames/mobile/frame-0261.webp",
-      "original": "/frames/original/frame-0261.jpg"
+      "source": "ezgif-frame-261.png",
+      "desktop": "/frames/camera/desktop/frame-0261.webp",
+      "mobile": "/frames/camera/mobile/frame-0261.webp",
+      "original": "/frames/camera/original/frame-0261.png"
     },
     {
-      "source": "ezgif-frame-262.jpg",
-      "desktop": "/frames/original/frame-0262.jpg",
-      "mobile": "/frames/mobile/frame-0262.webp",
-      "original": "/frames/original/frame-0262.jpg"
+      "source": "ezgif-frame-262.png",
+      "desktop": "/frames/camera/desktop/frame-0262.webp",
+      "mobile": "/frames/camera/mobile/frame-0262.webp",
+      "original": "/frames/camera/original/frame-0262.png"
     },
     {
-      "source": "ezgif-frame-263.jpg",
-      "desktop": "/frames/original/frame-0263.jpg",
-      "mobile": "/frames/mobile/frame-0263.webp",
-      "original": "/frames/original/frame-0263.jpg"
+      "source": "ezgif-frame-263.png",
+      "desktop": "/frames/camera/desktop/frame-0263.webp",
+      "mobile": "/frames/camera/mobile/frame-0263.webp",
+      "original": "/frames/camera/original/frame-0263.png"
     },
     {
-      "source": "ezgif-frame-264.jpg",
-      "desktop": "/frames/original/frame-0264.jpg",
-      "mobile": "/frames/mobile/frame-0264.webp",
-      "original": "/frames/original/frame-0264.jpg"
+      "source": "ezgif-frame-264.png",
+      "desktop": "/frames/camera/desktop/frame-0264.webp",
+      "mobile": "/frames/camera/mobile/frame-0264.webp",
+      "original": "/frames/camera/original/frame-0264.png"
     },
     {
-      "source": "ezgif-frame-265.jpg",
-      "desktop": "/frames/original/frame-0265.jpg",
-      "mobile": "/frames/mobile/frame-0265.webp",
-      "original": "/frames/original/frame-0265.jpg"
+      "source": "ezgif-frame-265.png",
+      "desktop": "/frames/camera/desktop/frame-0265.webp",
+      "mobile": "/frames/camera/mobile/frame-0265.webp",
+      "original": "/frames/camera/original/frame-0265.png"
     },
     {
-      "source": "ezgif-frame-266.jpg",
-      "desktop": "/frames/original/frame-0266.jpg",
-      "mobile": "/frames/mobile/frame-0266.webp",
-      "original": "/frames/original/frame-0266.jpg"
+      "source": "ezgif-frame-266.png",
+      "desktop": "/frames/camera/desktop/frame-0266.webp",
+      "mobile": "/frames/camera/mobile/frame-0266.webp",
+      "original": "/frames/camera/original/frame-0266.png"
     },
     {
-      "source": "ezgif-frame-267.jpg",
-      "desktop": "/frames/original/frame-0267.jpg",
-      "mobile": "/frames/mobile/frame-0267.webp",
-      "original": "/frames/original/frame-0267.jpg"
+      "source": "ezgif-frame-267.png",
+      "desktop": "/frames/camera/desktop/frame-0267.webp",
+      "mobile": "/frames/camera/mobile/frame-0267.webp",
+      "original": "/frames/camera/original/frame-0267.png"
     },
     {
-      "source": "ezgif-frame-268.jpg",
-      "desktop": "/frames/original/frame-0268.jpg",
-      "mobile": "/frames/mobile/frame-0268.webp",
-      "original": "/frames/original/frame-0268.jpg"
+      "source": "ezgif-frame-268.png",
+      "desktop": "/frames/camera/desktop/frame-0268.webp",
+      "mobile": "/frames/camera/mobile/frame-0268.webp",
+      "original": "/frames/camera/original/frame-0268.png"
     },
     {
-      "source": "ezgif-frame-269.jpg",
-      "desktop": "/frames/original/frame-0269.jpg",
-      "mobile": "/frames/mobile/frame-0269.webp",
-      "original": "/frames/original/frame-0269.jpg"
+      "source": "ezgif-frame-269.png",
+      "desktop": "/frames/camera/desktop/frame-0269.webp",
+      "mobile": "/frames/camera/mobile/frame-0269.webp",
+      "original": "/frames/camera/original/frame-0269.png"
     },
     {
-      "source": "ezgif-frame-270.jpg",
-      "desktop": "/frames/original/frame-0270.jpg",
-      "mobile": "/frames/mobile/frame-0270.webp",
-      "original": "/frames/original/frame-0270.jpg"
+      "source": "ezgif-frame-270.png",
+      "desktop": "/frames/camera/desktop/frame-0270.webp",
+      "mobile": "/frames/camera/mobile/frame-0270.webp",
+      "original": "/frames/camera/original/frame-0270.png"
     },
     {
-      "source": "ezgif-frame-271.jpg",
-      "desktop": "/frames/original/frame-0271.jpg",
-      "mobile": "/frames/mobile/frame-0271.webp",
-      "original": "/frames/original/frame-0271.jpg"
+      "source": "ezgif-frame-271.png",
+      "desktop": "/frames/camera/desktop/frame-0271.webp",
+      "mobile": "/frames/camera/mobile/frame-0271.webp",
+      "original": "/frames/camera/original/frame-0271.png"
     },
     {
-      "source": "ezgif-frame-272.jpg",
-      "desktop": "/frames/original/frame-0272.jpg",
-      "mobile": "/frames/mobile/frame-0272.webp",
-      "original": "/frames/original/frame-0272.jpg"
+      "source": "ezgif-frame-272.png",
+      "desktop": "/frames/camera/desktop/frame-0272.webp",
+      "mobile": "/frames/camera/mobile/frame-0272.webp",
+      "original": "/frames/camera/original/frame-0272.png"
     },
     {
-      "source": "ezgif-frame-273.jpg",
-      "desktop": "/frames/original/frame-0273.jpg",
-      "mobile": "/frames/mobile/frame-0273.webp",
-      "original": "/frames/original/frame-0273.jpg"
+      "source": "ezgif-frame-273.png",
+      "desktop": "/frames/camera/desktop/frame-0273.webp",
+      "mobile": "/frames/camera/mobile/frame-0273.webp",
+      "original": "/frames/camera/original/frame-0273.png"
     },
     {
-      "source": "ezgif-frame-274.jpg",
-      "desktop": "/frames/original/frame-0274.jpg",
-      "mobile": "/frames/mobile/frame-0274.webp",
-      "original": "/frames/original/frame-0274.jpg"
+      "source": "ezgif-frame-274.png",
+      "desktop": "/frames/camera/desktop/frame-0274.webp",
+      "mobile": "/frames/camera/mobile/frame-0274.webp",
+      "original": "/frames/camera/original/frame-0274.png"
     },
     {
-      "source": "ezgif-frame-275.jpg",
-      "desktop": "/frames/original/frame-0275.jpg",
-      "mobile": "/frames/mobile/frame-0275.webp",
-      "original": "/frames/original/frame-0275.jpg"
+      "source": "ezgif-frame-275.png",
+      "desktop": "/frames/camera/desktop/frame-0275.webp",
+      "mobile": "/frames/camera/mobile/frame-0275.webp",
+      "original": "/frames/camera/original/frame-0275.png"
     },
     {
-      "source": "ezgif-frame-276.jpg",
-      "desktop": "/frames/original/frame-0276.jpg",
-      "mobile": "/frames/mobile/frame-0276.webp",
-      "original": "/frames/original/frame-0276.jpg"
+      "source": "ezgif-frame-276.png",
+      "desktop": "/frames/camera/desktop/frame-0276.webp",
+      "mobile": "/frames/camera/mobile/frame-0276.webp",
+      "original": "/frames/camera/original/frame-0276.png"
     },
     {
-      "source": "ezgif-frame-277.jpg",
-      "desktop": "/frames/original/frame-0277.jpg",
-      "mobile": "/frames/mobile/frame-0277.webp",
-      "original": "/frames/original/frame-0277.jpg"
+      "source": "ezgif-frame-277.png",
+      "desktop": "/frames/camera/desktop/frame-0277.webp",
+      "mobile": "/frames/camera/mobile/frame-0277.webp",
+      "original": "/frames/camera/original/frame-0277.png"
     },
     {
-      "source": "ezgif-frame-278.jpg",
-      "desktop": "/frames/original/frame-0278.jpg",
-      "mobile": "/frames/mobile/frame-0278.webp",
-      "original": "/frames/original/frame-0278.jpg"
+      "source": "ezgif-frame-278.png",
+      "desktop": "/frames/camera/desktop/frame-0278.webp",
+      "mobile": "/frames/camera/mobile/frame-0278.webp",
+      "original": "/frames/camera/original/frame-0278.png"
     },
     {
-      "source": "ezgif-frame-279.jpg",
-      "desktop": "/frames/original/frame-0279.jpg",
-      "mobile": "/frames/mobile/frame-0279.webp",
-      "original": "/frames/original/frame-0279.jpg"
+      "source": "ezgif-frame-279.png",
+      "desktop": "/frames/camera/desktop/frame-0279.webp",
+      "mobile": "/frames/camera/mobile/frame-0279.webp",
+      "original": "/frames/camera/original/frame-0279.png"
     },
     {
-      "source": "ezgif-frame-280.jpg",
-      "desktop": "/frames/original/frame-0280.jpg",
-      "mobile": "/frames/mobile/frame-0280.webp",
-      "original": "/frames/original/frame-0280.jpg"
+      "source": "ezgif-frame-280.png",
+      "desktop": "/frames/camera/desktop/frame-0280.webp",
+      "mobile": "/frames/camera/mobile/frame-0280.webp",
+      "original": "/frames/camera/original/frame-0280.png"
     },
     {
-      "source": "ezgif-frame-281.jpg",
-      "desktop": "/frames/original/frame-0281.jpg",
-      "mobile": "/frames/mobile/frame-0281.webp",
-      "original": "/frames/original/frame-0281.jpg"
+      "source": "ezgif-frame-281.png",
+      "desktop": "/frames/camera/desktop/frame-0281.webp",
+      "mobile": "/frames/camera/mobile/frame-0281.webp",
+      "original": "/frames/camera/original/frame-0281.png"
     },
     {
-      "source": "ezgif-frame-282.jpg",
-      "desktop": "/frames/original/frame-0282.jpg",
-      "mobile": "/frames/mobile/frame-0282.webp",
-      "original": "/frames/original/frame-0282.jpg"
+      "source": "ezgif-frame-282.png",
+      "desktop": "/frames/camera/desktop/frame-0282.webp",
+      "mobile": "/frames/camera/mobile/frame-0282.webp",
+      "original": "/frames/camera/original/frame-0282.png"
     },
     {
-      "source": "ezgif-frame-283.jpg",
-      "desktop": "/frames/original/frame-0283.jpg",
-      "mobile": "/frames/mobile/frame-0283.webp",
-      "original": "/frames/original/frame-0283.jpg"
-    },
-    {
-      "source": "ezgif-frame-284.jpg",
-      "desktop": "/frames/original/frame-0284.jpg",
-      "mobile": "/frames/mobile/frame-0284.webp",
-      "original": "/frames/original/frame-0284.jpg"
-    },
-    {
-      "source": "ezgif-frame-285.jpg",
-      "desktop": "/frames/original/frame-0285.jpg",
-      "mobile": "/frames/mobile/frame-0285.webp",
-      "original": "/frames/original/frame-0285.jpg"
-    },
-    {
-      "source": "ezgif-frame-286.jpg",
-      "desktop": "/frames/original/frame-0286.jpg",
-      "mobile": "/frames/mobile/frame-0286.webp",
-      "original": "/frames/original/frame-0286.jpg"
-    },
-    {
-      "source": "ezgif-frame-287.jpg",
-      "desktop": "/frames/original/frame-0287.jpg",
-      "mobile": "/frames/mobile/frame-0287.webp",
-      "original": "/frames/original/frame-0287.jpg"
-    },
-    {
-      "source": "ezgif-frame-288.jpg",
-      "desktop": "/frames/original/frame-0288.jpg",
-      "mobile": "/frames/mobile/frame-0288.webp",
-      "original": "/frames/original/frame-0288.jpg"
-    },
-    {
-      "source": "ezgif-frame-289.jpg",
-      "desktop": "/frames/original/frame-0289.jpg",
-      "mobile": "/frames/mobile/frame-0289.webp",
-      "original": "/frames/original/frame-0289.jpg"
-    },
-    {
-      "source": "ezgif-frame-290.jpg",
-      "desktop": "/frames/original/frame-0290.jpg",
-      "mobile": "/frames/mobile/frame-0290.webp",
-      "original": "/frames/original/frame-0290.jpg"
-    },
-    {
-      "source": "ezgif-frame-291.jpg",
-      "desktop": "/frames/original/frame-0291.jpg",
-      "mobile": "/frames/mobile/frame-0291.webp",
-      "original": "/frames/original/frame-0291.jpg"
-    },
-    {
-      "source": "ezgif-frame-292.jpg",
-      "desktop": "/frames/original/frame-0292.jpg",
-      "mobile": "/frames/mobile/frame-0292.webp",
-      "original": "/frames/original/frame-0292.jpg"
-    },
-    {
-      "source": "ezgif-frame-293.jpg",
-      "desktop": "/frames/original/frame-0293.jpg",
-      "mobile": "/frames/mobile/frame-0293.webp",
-      "original": "/frames/original/frame-0293.jpg"
-    },
-    {
-      "source": "ezgif-frame-294.jpg",
-      "desktop": "/frames/original/frame-0294.jpg",
-      "mobile": "/frames/mobile/frame-0294.webp",
-      "original": "/frames/original/frame-0294.jpg"
-    },
-    {
-      "source": "ezgif-frame-295.jpg",
-      "desktop": "/frames/original/frame-0295.jpg",
-      "mobile": "/frames/mobile/frame-0295.webp",
-      "original": "/frames/original/frame-0295.jpg"
-    },
-    {
-      "source": "ezgif-frame-296.jpg",
-      "desktop": "/frames/original/frame-0296.jpg",
-      "mobile": "/frames/mobile/frame-0296.webp",
-      "original": "/frames/original/frame-0296.jpg"
-    },
-    {
-      "source": "ezgif-frame-297.jpg",
-      "desktop": "/frames/original/frame-0297.jpg",
-      "mobile": "/frames/mobile/frame-0297.webp",
-      "original": "/frames/original/frame-0297.jpg"
-    },
-    {
-      "source": "ezgif-frame-298.jpg",
-      "desktop": "/frames/original/frame-0298.jpg",
-      "mobile": "/frames/mobile/frame-0298.webp",
-      "original": "/frames/original/frame-0298.jpg"
-    },
-    {
-      "source": "ezgif-frame-299.jpg",
-      "desktop": "/frames/original/frame-0299.jpg",
-      "mobile": "/frames/mobile/frame-0299.webp",
-      "original": "/frames/original/frame-0299.jpg"
-    },
-    {
-      "source": "ezgif-frame-300.jpg",
-      "desktop": "/frames/original/frame-0300.jpg",
-      "mobile": "/frames/mobile/frame-0300.webp",
-      "original": "/frames/original/frame-0300.jpg"
+      "source": "ezgif-frame-283.png",
+      "desktop": "/frames/camera/desktop/frame-0283.webp",
+      "mobile": "/frames/camera/mobile/frame-0283.webp",
+      "original": "/frames/camera/original/frame-0283.png"
     }
   ]
 }

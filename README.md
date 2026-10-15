@@ -6,11 +6,11 @@ A working private website preview built from the supplied DOCX and the cinematic
 
 ## Run locally
 
-The opening scene now uses 300 supplied cinematic frames. It is pinned for 3.5 viewport heights of scrolling and never plays automatically. Desktop uses the smaller of each original JPG and its WebP version; mobile uses 960-pixel WebP frames. Decoded frame memory is limited to 64 MiB on desktop and 24 MiB on mobile, with four concurrent downloads and two concurrent decodes. Portrait layouts show the complete footage over a blurred background so the phone remains visible. Reduced-motion mode shows the final frame without pinning.
+The opening scene now uses 283 supplied cinematic frames at 3840 × 2160 (4K). It is pinned for 3.5 viewport heights of scrolling and never plays automatically. Desktop uses full-resolution WebP frames at quality 92 (or the original if smaller); mobile uses 960-pixel WebP frames at quality 88. Decoded frame memory is limited to 64 MiB on desktop and 24 MiB on mobile, with four concurrent downloads and two concurrent decodes. Portrait layouts show the complete footage over a blurred background so the phone remains visible. Reduced-motion mode shows the final frame without pinning.
 
 To restore the preserved 3D hero, change `heroMode` from `"sequence"` to `"3d"` in `src/content/hero-mode.ts`. Its code is in `src/features/scene-3d/`, and its assets are in `public/scene-3d/models/`. Other 3D illustrations remain in their original website sections. See [3D scene notes](src/features/scene-3d/README.md).
 
-To prepare a new extracted frame folder, run `node scripts/prepare-cinematic-frames.mjs "C:/path/to/frames"`. The script detects the frame count, sorts filenames numerically and preserves all source JPGs in `public/frames/original/`.
+To prepare a new extracted frame folder, run `node scripts/prepare-cinematic-frames.mjs "C:/path/to/frames"`. The script detects the frame count, sorts filenames numerically and accepts JPG, PNG and WebP, and preserves the source images in a separate `public/frames/<folder-name>/original/` directory.
 
 Requires Node.js 22.13+; verified with Node 24.14.0.
 
@@ -84,3 +84,5 @@ The original [handoff](docs/00-START-HERE.md), [requirements](docs/01-REQUIREMEN
 This build is not publicly deployed. Screenshot-derived prices and disputed timing/eligibility rules remain labelled preview details. No real client reels, testimonials, final logo or business contacts were supplied. Generated scenes are labelled illustrative.
 
 Public intake is disabled. Release requires approved business content, accurate policies, managed private storage, authenticated staff review and a notification provider/destination. The local outbox queues records; it does not send email or WhatsApp. The optional managed PostgreSQL adapter has not been tested against a live database. `RELEASE_APPROVED` alone does not enable production intake.
+
+The camera sequence's original PNG archive is retained locally and excluded from Git. GitHub includes every desktop 4K WebP and mobile WebP needed to run the website.

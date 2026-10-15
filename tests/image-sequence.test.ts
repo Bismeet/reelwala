@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { readFile, stat } from "node:fs/promises";
+import { stat } from "node:fs/promises";
 import sequence from "../src/content/cinematic-sequence.json";
 import {
   SequenceFrameCache,
@@ -13,19 +13,20 @@ const flush = async () => {
     await new Promise<void>((resolve) => setImmediate(resolve));
 };
 
-test("all 300 supplied frames are present, ordered and complete", async () => {
-  assert.equal(sequence.frames.length, 300);
-  assert.deepEqual([sequence.width, sequence.height], [1920, 1080]);
+test("all 283 supplied 4K frames are present, ordered and complete", async () => {
+  assert.equal(sequence.frames.length, 283);
+  assert.deepEqual([sequence.width, sequence.height], [3840, 2160]);
   for (const [i, frame] of sequence.frames.entries()) {
-    assert.equal(Number(frame.source.match(/(\d+)\.jpg$/)?.[1]), i + 1);
-    for (const path of [frame.original, frame.desktop, frame.mobile])
+    assert.equal(
+      Number(frame.source.match(/(\d+)\.(?:png|jpe?g|webp)$/i)?.[1]),
+      i + 1,
+    );
+    for (const path of [frame.desktop, frame.mobile])
       assert.ok(
         (await stat(`public${path}`)).size > 0,
         `Missing frame ${path}`,
       );
   }
-  const original = await readFile(`public${sequence.frames.at(-1)!.original}`);
-  assert.ok(original.length > 0, "retain the exact supplied final frame");
 });
 
 test("scroll maps exactly to the first, quarter, middle and final frames", () => {

@@ -38,7 +38,15 @@ async function decodeFrame(blob: Blob): Promise<SequenceImage> {
   }
 }
 
-export default function ScrollImageSequence({ frames }: { frames: Frame[] }) {
+export default function ScrollImageSequence({
+  frames,
+  width,
+  height,
+}: {
+  frames: Frame[];
+  width: number;
+  height: number;
+}) {
   const root = useRef<HTMLDivElement>(null);
   const viewport = useRef<HTMLDivElement>(null);
   const canvas = useRef<HTMLCanvasElement>(null);
@@ -258,8 +266,8 @@ export default function ScrollImageSequence({ frames }: { frames: Frame[] }) {
           <img
             src={first.desktop}
             alt="A celebration being recorded on a phone."
-            width="1920"
-            height="1080"
+            width={width}
+            height={height}
             fetchPriority="high"
           />
         </picture>
