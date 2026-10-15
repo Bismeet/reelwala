@@ -5,16 +5,22 @@
 @import "@fontsource/cormorant-garamond/400.css";
 
 :root {
-  --amber: #f59e0b;
-  --turquoise: #0bf5e2;
-  --brown: #af8c51;
-  --teal: #07ac9f;
-  --deep-teal: #075e57;
-  --ink: #151916;
-  --forest: #102b27;
-  --paper: #fff9ef;
-  --muted: #5a625c;
-  --line: #d9ddcf;
+  --amber: #d95012;
+  --turquoise: #f47b28;
+  --brown: #b95a2e;
+  --teal: #d95012;
+  --deep-teal: #b6400d;
+  --ink: #30231e;
+  --forest: #38271f;
+  --paper: #fffcf9;
+  --muted: #756258;
+  --line: #ecddd4;
+  --clay:
+    12px 12px 32px #99552c12, -8px -8px 22px #ffffff, inset 2px 2px 3px #ffffff,
+    inset -3px -3px 8px #bd7b4a10;
+  --clay-orange:
+    6px 8px 20px #bd470d24, inset 2px 2px 4px #ffa966,
+    inset -3px -4px 7px #a43716;
   --sans: "Manrope", "Segoe UI", sans-serif;
   --serif: "Cormorant Garamond", Georgia, serif;
 }
@@ -52,9 +58,7 @@ html body:has([data-hero-stage]) #smooth-content {
 @media (prefers-reduced-motion: no-preference) {
   body:has([data-hero-stage]:not([data-hero-phase="3"])):not(
       :has([data-hero-stage] [data-scene-ready="fallback"])
-    ):not(
-      :has([data-hero-stage][data-scene-ready="fallback"])
-    )
+    ):not(:has([data-hero-stage][data-scene-ready="fallback"]))
     [data-site-header] {
     transform: translateY(-110%);
     opacity: 0;
@@ -157,7 +161,7 @@ dialog::backdrop {
   background: #071612b3;
 }
 dialog {
-  color: var(--paper);
+  color: var(--ink);
 }
 @media (prefers-reduced-motion: reduce) {
   html {

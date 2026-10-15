@@ -86,3 +86,5 @@ This build is not publicly deployed. Screenshot-derived prices and disputed timi
 Public intake is disabled. Release requires approved business content, accurate policies, managed private storage, authenticated staff review and a notification provider/destination. The local outbox queues records; it does not send email or WhatsApp. The optional managed PostgreSQL adapter has not been tested against a live database. `RELEASE_APPROVED` alone does not enable production intake.
 
 The camera sequence's original PNG archive is retained locally and excluded from Git. GitHub includes every desktop 4K WebP and mobile WebP needed to run the website.
+
+The active camera hero uses native sticky positioning and native scroll progress, independent of ScrollSmoother setup. Ready frames are drawn while the requested 4K frame decodes; reduced-motion visitors receive a static final frame. The active site theme uses warm white, orange accents, and clay-style surfaces.

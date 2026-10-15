@@ -1293,3 +1293,80 @@
     bottom: 0;
   }
 }
+
+.captureSection,
+.editSection {
+  background: #fff3e9;
+  color: var(--ink);
+  padding-top: 64px;
+  padding-bottom: 56px;
+}
+.sectionTop,
+.captureFooter,
+.editFooter {
+  border-color: var(--line);
+}
+.captureHeading em,
+.editHeading em,
+.editFinished em,
+.captureAnnotation,
+.captureAnnotationRight {
+  color: var(--deep-teal);
+}
+.captureHeading p,
+.editHeading p,
+.captureFooter p,
+.editFooter p,
+.editStageTop,
+.editTimeline {
+  color: var(--muted);
+}
+.serviceArt,
+.serviceCorporate .serviceArt,
+.serviceCultural .serviceArt {
+  background: #fff0e3;
+  border-radius: 30px;
+  box-shadow: var(--clay);
+  margin: 20px;
+}
+.serviceCorporate .serviceArt {
+  background: #ffe6d2;
+}
+.serviceCultural .serviceArt {
+  background: #ffdabd;
+}
+.serviceChapter {
+  border-color: var(--line);
+}
+.serviceList li {
+  border-color: var(--line);
+}
+.primaryButton {
+  background: var(--amber);
+  color: white;
+  border-radius: 17px;
+  box-shadow: var(--clay-orange);
+}
+.invitation {
+  background: #fffaf5;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+.captureArt,
+.editWorld,
+.serviceWorld {
+  filter: sepia(1) saturate(1.5) hue-rotate(-20deg);
+}
+.focusFrame {
+  color: var(--deep-teal);
+  opacity: 1;
+}
+.focusFrame i {
+  border-color: var(--deep-teal);
+}
+@media (max-width: 650px) {
+  .serviceArt {
+    margin: 12px;
+    border-radius: 24px;
+  }
+}

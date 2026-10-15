@@ -1558,3 +1558,158 @@
     gap: 8px;
   }
 }
+
+/* Warm porcelain surfaces and softly sculpted orange controls. */
+.header {
+  background: #fffcf9f5;
+  border-color: var(--line);
+  box-shadow: 0 6px 24px #99552c08;
+}
+.logoIcon {
+  border-radius: 13px;
+  background: #fff0e3;
+  box-shadow: var(--clay);
+}
+.button,
+.buttonDark {
+  background: var(--amber);
+  color: white;
+  border-radius: 17px;
+  box-shadow: var(--clay-orange);
+}
+.button:hover,
+.buttonDark:hover {
+  background: #bd470d;
+}
+.buttonOutline {
+  background: white;
+  color: var(--deep-teal);
+  border-color: var(--line);
+  box-shadow: var(--clay);
+}
+.darkSection,
+.pageHero,
+.footer,
+.hero,
+.menu {
+  background: #fff3e9;
+  color: var(--ink);
+}
+.darkSection .sectionDescription,
+.pageHero .sectionDescription,
+.heroDescription,
+.footerCopy,
+.footerBottom,
+.step p,
+.darkSection .workEmpty p {
+  color: var(--muted);
+}
+.menuClose {
+  color: var(--ink);
+  border-color: var(--line);
+  background: white;
+}
+.menuLinks a,
+.footerBottom {
+  border-color: var(--line);
+}
+.package,
+.step,
+.emptyState,
+.addon,
+.statusItem,
+.disclosure {
+  border: 1px solid #fff;
+  border-radius: 28px;
+  background: #fffaf5;
+  box-shadow: var(--clay);
+}
+.package {
+  padding: 34px;
+}
+.packageAccent {
+  background: #ffe8d6;
+  color: var(--ink);
+  border-color: #ffc99f;
+}
+.packageAccent .packageDescription,
+.packageAccent .priceLabel {
+  color: var(--muted);
+}
+.packageAccent .packageIndex,
+.packageAccent .packageList svg {
+  color: var(--deep-teal);
+}
+.packageAccent .packageList {
+  border-color: #e8c2a7;
+}
+.step {
+  padding: 28px;
+}
+.steps {
+  gap: 24px;
+}
+.stepNumber {
+  display: inline-grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  background: #fff0e3;
+  border-radius: 20px;
+  box-shadow: var(--clay);
+  color: var(--deep-teal);
+}
+.emptyState {
+  padding: 64px 24px;
+}
+.addon,
+.previewNotice {
+  background: #fff0e3;
+  border-radius: 22px;
+}
+.disclosure {
+  padding: 0 24px;
+}
+.statusItem {
+  padding: 24px;
+}
+.previewBadge {
+  border-radius: 14px;
+  border-color: #fff;
+  box-shadow: var(--clay);
+  bottom: 16px;
+  right: 16px;
+}
+.previewDot {
+  background: var(--amber);
+}
+.ctaSection {
+  background: #ffe5d1;
+}
+.servicePhoto,
+.storyImage,
+.formIntroImage {
+  border-radius: 28px;
+}
+.circleArrow {
+  background: white;
+  border-color: white;
+  box-shadow: var(--clay);
+  color: var(--deep-teal);
+}
+.footer {
+  border-top: 1px solid var(--line);
+}
+@media (max-width: 650px) {
+  .package {
+    padding: 26px;
+  }
+  .step {
+    padding: 24px;
+  }
+  .previewBadge {
+    bottom: 12px;
+    right: 12px;
+    font-size: 9px;
+  }
+}

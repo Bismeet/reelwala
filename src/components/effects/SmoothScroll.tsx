@@ -33,7 +33,8 @@ export default function SmoothScroll({ children }: { children: ReactNode }) {
       cleanup?.();
       cleanup = undefined;
       if (closed) return;
-      if (!media.matches) {
+      // The image sequence uses native sticky positioning and native scroll progress.
+      if (!media.matches || inner.querySelector("[data-image-sequence]")) {
         signalReady();
         return;
       }

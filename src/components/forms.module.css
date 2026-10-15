@@ -266,3 +266,28 @@
     min-height: 44px;
   }
 }
+
+.form {
+  border-radius: 30px;
+  border-color: white;
+  background: #fffaf5;
+  box-shadow: var(--clay);
+}
+.field input,
+.field select {
+  border-radius: 14px;
+  border-color: var(--line);
+  background: #fffcf9;
+  box-shadow:
+    inset 3px 3px 7px #99552c0d,
+    inset -3px -3px 7px white;
+}
+.submit {
+  border-radius: 16px;
+  background: var(--amber);
+  color: white;
+  box-shadow: var(--clay-orange);
+}
+.submit:hover {
+  background: #bd470d;
+}

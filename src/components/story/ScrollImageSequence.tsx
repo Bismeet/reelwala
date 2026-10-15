@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 import {
   SequenceFrameCache,
   sequenceFrameIndex,
+  sequenceScrollProgress,
   type SequenceImage,
 } from "@/lib/sequence-frame-cache";
 import s from "./sequence.module.css";
@@ -69,10 +70,7 @@ export default function ScrollImageSequence({
     let lastDrawn = -1,
       width = 0,
       height = 0;
-    let hasPainted = false,
-      resizing = false;
-    let cleanupMotion: (() => void) | undefined;
-    let setupMotion: (() => void) | undefined;
+    let hasPainted = false;
     const requestDraw = () => {
       if (!disposed && !raf) raf = requestAnimationFrame(draw);
     };
@@ -105,10 +103,8 @@ export default function ScrollImageSequence({
     function draw() {
       raf = 0;
       if (disposed || !ctx || !stage || !surface) return;
-      // Hold the visible frame until the exact requested frame has decoded.
-      const available =
-        cache.get(requested) ??
-        (hasPainted && resizing ? cache.nearest(requested) : undefined);
+      // Keep moving through ready frames while a full-resolution frame decodes.
+      const available = cache.get(requested) ?? cache.nearest(requested);
       if (!available || !width || !height) return;
       const { image, index } = available;
       if (index === lastDrawn) return;
@@ -117,7 +113,10 @@ export default function ScrollImageSequence({
       // Portrait screens retain the whole scene over a defocused, full-bleed fill.
       // A cover crop alone would cut off the landscape phone in the final frames.
       if (width / height < 1) {
-        ctx.filter = "blur(22px) brightness(0.45)";
+        ctx.fillStyle = "#fff3e9";
+        ctx.fillRect(0, 0, width, height);
+        ctx.globalAlpha = 0.16;
+        ctx.filter = "blur(22px)";
         ctx.drawImage(
           source,
           (width - iw * cover) / 2 - 30,
@@ -126,6 +125,7 @@ export default function ScrollImageSequence({
           ih * cover + 60,
         );
         ctx.filter = "none";
+        ctx.globalAlpha = 1;
         const contain = Math.min(width / iw, height / ih);
         ctx.drawImage(
           source,
@@ -146,7 +146,6 @@ export default function ScrollImageSequence({
       }
       lastDrawn = index;
       hasPainted = true;
-      resizing = false;
       stage.dataset.frameIndex = String(index);
       if (stage.dataset.sceneReady !== "true")
         stage.dataset.sceneReady = "true";
@@ -162,7 +161,6 @@ export default function ScrollImageSequence({
       surface.height = Math.round(height * dpr);
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       lastDrawn = -1;
-      resizing = true;
       requestDraw();
     };
     const observe = new ResizeObserver(resize);
@@ -179,59 +177,29 @@ export default function ScrollImageSequence({
       cache.setTarget(requested);
       requestDraw();
     };
-    const ready = () => setupMotion?.();
-    window.addEventListener("reelwala:scroll-ready", ready);
-    void Promise.all([import("gsap"), import("gsap/ScrollTrigger")])
-      .then(([{ gsap }, { ScrollTrigger }]) => {
-        if (disposed) return;
-        gsap.registerPlugin(ScrollTrigger);
-        setupMotion = () => {
-          cleanupMotion?.();
-          const media = gsap.matchMedia();
-          media.add(
-            "(prefers-reduced-motion: no-preference)",
-            () => {
-              section.dataset.enhanced = "true";
-              const trigger = ScrollTrigger.create({
-                id: "cinematic-sequence",
-                trigger: section,
-                start: "top top",
-                end: () => `+=${innerHeight * 3.5}`,
-                pin: stage,
-                scrub: true,
-                invalidateOnRefresh: true,
-                anticipatePin: 1,
-                onUpdate: (self) => progress(self.progress),
-                onRefresh: (self) => progress(self.progress),
-              });
-              trigger.update();
-              progress(trigger.progress);
-              return () => {
-                delete section.dataset.enhanced;
-              };
-            },
-            section,
-          );
-          cleanupMotion = () => media.revert();
-          if (reduced.matches) progress(1);
-          ScrollTrigger.refresh();
-          window.dispatchEvent(new Event("reelwala:story-ready"));
-        };
-        if (document.documentElement.dataset.scrollReady === "true")
-          setupMotion();
-      })
-      .catch(() => {
-        stage.dataset.sceneReady = "fallback";
-      });
+    const updateProgress = () => {
+      progress(
+        reduced.matches
+          ? 1
+          : sequenceScrollProgress(
+              section.getBoundingClientRect().top,
+              section.offsetHeight,
+              stage.offsetHeight,
+            ),
+      );
+    };
+    window.addEventListener("scroll", updateProgress, { passive: true });
+    window.addEventListener("resize", updateProgress);
+    updateProgress();
     const changeMotion = () => {
       cache.setProgressive(!reduced.matches);
-      if (reduced.matches) progress(1);
+      updateProgress();
     };
     reduced.addEventListener("change", changeMotion);
     return () => {
       disposed = true;
-      cleanupMotion?.();
-      window.removeEventListener("reelwala:scroll-ready", ready);
+      window.removeEventListener("scroll", updateProgress);
+      window.removeEventListener("resize", updateProgress);
       reduced.removeEventListener("change", changeMotion);
       observe.disconnect();
       cancelAnimationFrame(raf);
@@ -265,7 +233,7 @@ export default function ScrollImageSequence({
           {/* The initial frame is a native priority image; it must not wait for hydration. */}
           <img
             src={first.desktop}
-            alt="A celebration being recorded on a phone."
+            alt="An orange camera floating above a sculpted pedestal."
             width={width}
             height={height}
             fetchPriority="high"

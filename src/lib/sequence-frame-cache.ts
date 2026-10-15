@@ -4,6 +4,17 @@ export function sequenceFrameIndex(progress: number, count: number) {
   );
 }
 
+export function sequenceScrollProgress(
+  top: number,
+  sectionHeight: number,
+  viewportHeight: number,
+) {
+  return Math.max(
+    0,
+    Math.min(1, -top / Math.max(1, sectionHeight - viewportHeight)),
+  );
+}
+
 export type SequenceImage = {
   source: CanvasImageSource;
   width: number;

@@ -1,17 +1,18 @@
 .sequence {
   position: relative;
-  background: #071b20;
+  background: #f47b28;
+  height: 450svh;
 }
 .sequence[data-enhanced="true"] {
   height: auto;
 }
 .viewport {
-  position: relative;
+  position: sticky;
   top: 0;
   width: 100%;
   height: 100svh;
   overflow: hidden;
-  background: #071b20;
+  background: #f47b28;
   color: var(--paper);
 }
 .canvas,
@@ -52,7 +53,14 @@
 }
 .hint {
   bottom: 32px;
-  text-shadow: 0 1px 12px #000;
+  margin: 0 auto;
+  max-width: 340px;
+  padding: 15px 10px;
+  color: var(--ink);
+  background: #fffcf9ed;
+  border: 1px solid #fff;
+  border-radius: 16px;
+  box-shadow: var(--clay);
 }
 .hint span {
   margin-left: 12px;
@@ -61,8 +69,8 @@
   opacity: 0;
 }
 .introduction {
-  background: #071b20;
-  color: var(--paper);
+  background: var(--paper);
+  color: var(--ink);
   padding: clamp(72px, 10vw, 144px) 24px;
   text-align: center;
 }
@@ -74,12 +82,12 @@
 }
 .introduction h1 em {
   font-family: var(--serif);
-  color: #f0bb70;
+  color: var(--deep-teal);
 }
 .introduction p {
   margin: 24px auto 32px;
   max-width: 440px;
-  color: #c5d0ce;
+  color: var(--muted);
   line-height: 1.8;
   font-size: 14px;
 }
@@ -90,17 +98,23 @@
   padding: 17px 26px;
   min-height: 52px;
   background: var(--amber);
-  color: var(--ink);
+  color: white;
+  border-radius: 18px;
+  box-shadow: var(--clay-orange);
   font-size: 13px;
 }
 .book:hover {
-  background: #f9b635;
+  background: #bd470d;
 }
 .book:focus-visible {
   outline: 2px solid var(--paper);
   outline-offset: 5px;
 }
 @media (max-aspect-ratio: 1/1) {
+  .hint {
+    bottom: 76px;
+    font-size: 9px;
+  }
   .poster img {
     object-fit: contain;
   }

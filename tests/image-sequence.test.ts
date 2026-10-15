@@ -5,6 +5,7 @@ import sequence from "../src/content/cinematic-sequence.json";
 import {
   SequenceFrameCache,
   sequenceFrameIndex,
+  sequenceScrollProgress,
   type SequenceImage,
 } from "../src/lib/sequence-frame-cache";
 
@@ -12,6 +13,19 @@ const flush = async () => {
   for (let i = 0; i < 12; i++)
     await new Promise<void>((resolve) => setImmediate(resolve));
 };
+
+test("native scroll reaches the final frame before the sticky hero releases and reverses on mobile", () => {
+  for (const viewport of [800, 844, 900, 1024]) {
+    const section = viewport * 4.5;
+    const distance = section - viewport;
+    assert.deepEqual(
+      [100, 0, -distance / 2, -distance, -section, -distance / 4].map((top) =>
+        sequenceFrameIndex(sequenceScrollProgress(top, section, viewport), 283),
+      ),
+      [0, 0, 141, 282, 282, 71],
+    );
+  }
+});
 
 test("all 283 supplied 4K frames are present, ordered and complete", async () => {
   assert.equal(sequence.frames.length, 283);
